@@ -43,7 +43,7 @@ export function VocabCard({ word, meaning }: VocabCardProps) {
         </div>
       </div>
       
-      <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
+      <div className="mt-4">
         <p className="text-slate-600 dark:text-slate-300 font-medium text-lg">{meaning}</p>
       </div>
     </div>
