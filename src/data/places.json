@@ -75,5 +75,110 @@
     "vi": "Tây Môn Đình (Ximending)",
     "category": "Khu mua sắm",
     "timestamp": 1712010011
+  },
+  {
+    "id": "1712010012",
+    "zh": "淡水",
+    "vi": "Đạm Thủy (Tamsui)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010012
+  },
+  {
+    "id": "1712010013",
+    "zh": "台北101",
+    "vi": "Tháp Đài Bắc 101 (Taipei 101)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010013
+  },
+  {
+    "id": "1712010014",
+    "zh": "太魯閣",
+    "vi": "Hẻm núi Thái Lỗ Các (Taroko Gorge)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010014
+  },
+  {
+    "id": "1712010015",
+    "zh": "阿里山",
+    "vi": "Khu bảo tồn A Lý Sơn (Alishan)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010015
+  },
+  {
+    "id": "1712010016",
+    "zh": "逢甲夜市",
+    "vi": "Chợ đêm Phùng Giáp (Fengjia)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010016
+  },
+  {
+    "id": "1712010017",
+    "zh": "瑞豐夜市",
+    "vi": "Chợ đêm Thụy Phong (Ruifeng)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010017
+  },
+  {
+    "id": "1712010018",
+    "zh": "龍山寺",
+    "vi": "Chùa Long Sơn (Longshan Temple)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010018
+  },
+  {
+    "id": "1712010019",
+    "zh": "中正紀念堂",
+    "vi": "Đài tưởng niệm Tưởng Giới Thạch (Chiang Kai-shek Memorial Hall)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010019
+  },
+  {
+    "id": "1712010020",
+    "zh": "國立故宮博物院",
+    "vi": "Bảo tàng Cố cung Quốc gia (National Palace Museum)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010020
+  },
+  {
+    "id": "1712010021",
+    "zh": "台南",
+    "vi": "Đài Nam (Tainan)",
+    "category": "Thành phố",
+    "timestamp": 1712010021
+  },
+  {
+    "id": "1712010022",
+    "zh": "花蓮",
+    "vi": "Hoa Liên (Hualien)",
+    "category": "Thành phố",
+    "timestamp": 1712010022
+  },
+  {
+    "id": "1712010023",
+    "zh": "野柳",
+    "vi": "Công viên địa chất Dã Liễu (Yehliu)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010023
+  },
+  {
+    "id": "1712010024",
+    "zh": "高雄車站",
+    "vi": "Ga Cao Hùng (Kaohsiung Station)",
+    "category": "Nhà ga",
+    "timestamp": 1712010024
+  },
+  {
+    "id": "1712010025",
+    "zh": "台中車站",
+    "vi": "Ga Đài Trung (Taichung Station)",
+    "category": "Nhà ga",
+    "timestamp": 1712010025
+  },
+  {
+    "id": "1712010026",
+    "zh": "信義區",
+    "vi": "Khu Tín Nghĩa (Xinyi District)",
+    "category": "Khu mua sắm",
+    "timestamp": 1712010026
   }
 ]
