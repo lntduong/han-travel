@@ -30,6 +30,32 @@
         "sentence": "不客氣！",
         "translation": "Không có gì!"
       }
+    ],
+    "vocabulary": [
+      {
+        "word": "請問",
+        "meaning": "Xin hỏi"
+      },
+      {
+        "word": "附近",
+        "meaning": "Gần đây"
+      },
+      {
+        "word": "捷運站",
+        "meaning": "Trạm MRT"
+      },
+      {
+        "word": "往前走",
+        "meaning": "Đi thẳng về phía trước"
+      },
+      {
+        "word": "右轉",
+        "meaning": "Rẽ phải"
+      },
+      {
+        "word": "悠遊卡",
+        "meaning": "Thẻ EasyCard"
+      }
     ]
   },
   {
@@ -67,6 +93,90 @@
         "sentence": "儲值只能用現金喔！",
         "pinyin": "Chǔzhí zhǐ néng yòng xiànjīn o!",
         "translation": "Tiền nạp thẻ thì chỉ dùng tiền mặt được thôi ạ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "儲值",
+        "meaning": "Nạp tiền"
+      },
+      {
+        "word": "超商",
+        "meaning": "Cửa hàng tiện lợi"
+      },
+      {
+        "word": "機台",
+        "meaning": "Máy tự động"
+      }
+    ]
+  },
+  {
+    "id": "lesson-3",
+    "title": "Gọi trà sữa trân châu và chọn độ ngọt, độ đá",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "我要一杯珍珠奶茶，微糖微冰。",
+      "pinyin": "Wǒ yào yì bēi zhēnzhū nǎichá, wēi táng wēi bīng.",
+      "translation": "Cho tôi một ly trà sữa trân châu, ít đường ít đá."
+    },
+    "usage": "Dùng khi bạn đặt đồ uống tại các tiệm trà sữa ở Đài Loan và muốn tùy chỉnh lượng đường, lượng đá theo ý thích.",
+    "note": "Mức độ ngọt (甜度) ở Đài Loan: 正常糖 (100%), 少糖 (70%), 半糖 (50%), 微糖 (30%), 無糖 (0%). Mức độ đá (冰塊): 正常冰 (đá thường), 少冰 (ít đá), 微冰 (rất ít đá), 去冰 (không đá). Sau khi nhận order, nhân viên thường hỏi thêm '內用還是外帶？' (Dùng tại chỗ hay mang đi?).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我要一杯珍珠奶茶。",
+        "pinyin": "Nǐ hǎo, wǒ yào yì bēi zhēnzhū nǎichá.",
+        "translation": "Xin chào, cho tôi một ly trà sữa trân châu."
+      },
+      {
+        "speaker": "B (Nhân viên)",
+        "sentence": "好的，請問甜度冰塊要怎麼做？",
+        "pinyin": "Hǎo de, qǐngwèn tiándù bīngkuài yào zěnme zuò?",
+        "translation": "Được ạ, cho hỏi độ ngọt và độ đá chọn thế nào ạ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "微糖微冰，大杯的，謝謝。",
+        "pinyin": "Wēi táng wēi bīng, dà bēi de, xièxie.",
+        "translation": "Ít đường ít đá (30% đường, 30% đá), ly lớn nhé, cảm ơn."
+      },
+      {
+        "speaker": "B (Nhân viên)",
+        "sentence": "好的，內用還是外帶？",
+        "pinyin": "Hǎo de, nèiyòng háishì wàidài?",
+        "translation": "Được ạ, dùng tại chỗ hay mang đi ạ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "外帶，謝謝！",
+        "pinyin": "Wàidài, xièxie!",
+        "translation": "Mang đi, cảm ơn!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "珍珠奶茶",
+        "meaning": "Trà sữa trân châu"
+      },
+      {
+        "word": "微糖",
+        "meaning": "Ít đường (30% đường)"
+      },
+      {
+        "word": "微冰",
+        "meaning": "Rất ít đá (30% đá)"
+      },
+      {
+        "word": "大杯",
+        "meaning": "Ly lớn (Size L)"
+      },
+      {
+        "word": "內用",
+        "meaning": "Dùng tại chỗ"
+      },
+      {
+        "word": "外帶",
+        "meaning": "Mang đi"
       }
     ]
   }
