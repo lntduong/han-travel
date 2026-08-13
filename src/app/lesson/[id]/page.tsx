@@ -8,6 +8,9 @@ import { Button } from "@/components/ui/button";
 import { Volume2, Info, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { Header } from "@/components/Header";
+import { PinyinText } from "@/components/PinyinText";
+import { VocabCard } from "@/components/VocabCard";
 
 export default function LessonDetail() {
   const params = useParams();
@@ -30,7 +33,7 @@ export default function LessonDetail() {
         setIsLoading(false);
       }
     };
-    
+
     if (id) {
       fetchLesson();
     }
@@ -54,27 +57,20 @@ export default function LessonDetail() {
   return (
     <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200">
       {/* Navbar with Back Button */}
-      <nav className="sticky top-0 z-50 w-full h-16 bg-[#FAF7F2]/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-[#E2D8CE] dark:border-slate-800 flex items-center px-4 md:px-8 gap-4">
-        <Link href="/">
-          <Button variant="ghost" size="icon" className="rounded-full text-slate-500 hover:bg-slate-200/50 dark:hover:bg-slate-800">
-            <ArrowLeft className="w-5 h-5" />
-          </Button>
-        </Link>
-        <span className="text-lg font-medium text-slate-900 dark:text-slate-100 truncate flex-1">
-          {lesson.title}
-        </span>
-      </nav>
+      <Header title={lesson.title} backUrl="/" />
 
       {/* Main Content */}
       <section className="max-w-4xl mx-auto px-4 py-8 md:py-12 space-y-12">
         <Card className="overflow-visible border-[#E2D8CE]/50 dark:border-slate-800 shadow-sm rounded-[2rem] bg-white dark:bg-slate-900 pt-0 relative">
           <CardHeader className="pt-8 pb-6 border-b border-slate-100 dark:border-slate-800">
-            <div className="mb-4 inline-flex px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-xs font-semibold rounded-full">
-              {lesson.category || "Cơ bản"}
+            <div className="flex justify-between items-start gap-4">
+              <CardTitle className="text-3xl md:text-4xl text-[#1e293b] dark:text-slate-100 font-bold leading-tight">
+                {lesson.title}
+              </CardTitle>
+              <div className="inline-flex px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-xs font-semibold rounded-full shrink-0">
+                {lesson.category || "Cơ bản"}
+              </div>
             </div>
-            <CardTitle className="text-3xl md:text-4xl text-[#1e293b] dark:text-slate-100 font-bold leading-tight">
-              {lesson.title}
-            </CardTitle>
             <CardDescription className="text-lg mt-4 text-slate-500">
               {lesson.usage}
             </CardDescription>
@@ -85,12 +81,7 @@ export default function LessonDetail() {
             <div className="bg-[#FAF7F2] dark:bg-slate-950/50 p-6 md:p-8 rounded-3xl border border-[#E2D8CE]/60 dark:border-slate-800/80">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                 <div className="space-y-3">
-                  <div className="text-3xl md:text-4xl font-semibold text-[#1e293b] dark:text-slate-200 tracking-wide">
-                    {lesson.mainSentence.sentence}
-                  </div>
-                  <div className="text-lg text-slate-500 dark:text-slate-400 font-normal">
-                    {lesson.mainSentence.pinyin}
-                  </div>
+                  <PinyinText text={lesson.mainSentence.sentence} size="lg" />
                   <div className="text-xl text-[#1e293b] dark:text-slate-300 font-medium pt-2">
                     {lesson.mainSentence.translation}
                   </div>
@@ -121,31 +112,30 @@ export default function LessonDetail() {
                 <div className="space-y-4 pt-6 pb-2 px-2 md:px-6 bg-slate-50/50 dark:bg-slate-900/20 rounded-3xl">
                   {lesson.dialogues.map((dialogue, index) => {
                     const isSelf = dialogue.speaker.includes("Bạn");
-                    
+
                     return (
                       <div key={index} className={`flex flex-col ${isSelf ? 'items-end' : 'items-start'} mb-6`}>
                         <span className="text-sm font-medium text-slate-400 mb-2 px-2">
                           {dialogue.speaker}
                         </span>
-                        
-                        <div className={`relative max-w-[95%] md:max-w-[85%] rounded-3xl p-5 md:p-6 shadow-sm transition-transform hover:-translate-y-0.5 ${
-                          isSelf 
-                            ? 'bg-[#E86C3F] text-white rounded-tr-sm' 
+
+                        <div className={`relative max-w-[95%] md:max-w-[85%] rounded-3xl p-5 md:p-6 shadow-sm transition-transform hover:-translate-y-0.5 ${isSelf
+                            ? 'bg-[#E86C3F] text-white rounded-tr-sm'
                             : 'bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-tl-sm text-[#1e293b] dark:text-slate-100 shadow-[0_4px_20px_-8px_rgba(0,0,0,0.08)]'
-                        }`}>
+                          }`}>
                           <div className="flex justify-between items-start gap-4">
-                            <div className="space-y-1.5 flex-1">
-                              <p className="text-xl md:text-2xl font-medium tracking-wide">
-                                {dialogue.sentence}
-                              </p>
-                              <p className={`text-sm md:text-base ${isSelf ? 'text-orange-100/90' : 'text-slate-500 dark:text-slate-400'}`}>
-                                {dialogue.pinyin}
-                              </p>
-                              <p className={`mt-2.5 pt-2.5 border-t text-sm md:text-base font-medium ${isSelf ? 'border-orange-400/40 text-white' : 'border-slate-100 dark:border-slate-700 text-slate-700 dark:text-slate-300'}`}>
+                            <div className="space-y-1 flex-1">
+                              <PinyinText 
+                                text={dialogue.sentence} 
+                                size="md" 
+                                inheritColor={isSelf} 
+                                className={isSelf ? "text-white" : ""}
+                              />
+                              <p className={`mt-2 pt-2 border-t text-sm font-medium ${isSelf ? 'border-orange-400/40 text-white' : 'border-slate-100 dark:border-slate-700 text-slate-700 dark:text-slate-300'}`}>
                                 {dialogue.translation}
                               </p>
                             </div>
-                            
+
                             <Button
                               variant="ghost"
                               size="icon"
@@ -162,15 +152,23 @@ export default function LessonDetail() {
                 </div>
               </div>
             )}
+
+            {/* Từ vựng trong bài */}
+            {lesson.vocabulary && lesson.vocabulary.length > 0 && (
+              <div className="pt-8 border-t border-slate-100 dark:border-slate-800">
+                <h3 className="text-xl font-bold text-[#1e293b] dark:text-slate-100 mb-6 px-2">Từ vựng trong bài</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {lesson.vocabulary.map((vocab, index) => (
+                    <VocabCard key={index} word={vocab.word} meaning={vocab.meaning} />
+                  ))}
+                </div>
+              </div>
+            )}
           </CardContent>
         </Card>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#1e293b] text-slate-400 py-12 text-center text-sm mt-12">
-        <p>© 2026 HanTravel - Học tiếng Trung Đài Loan.</p>
-        <p className="mt-2">Giao diện lấy cảm hứng từ XieHanzi.</p>
-      </footer>
+
     </main>
   );
 }

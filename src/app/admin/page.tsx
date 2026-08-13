@@ -10,11 +10,41 @@ export default function AdminPage() {
   const [jsonText, setJsonText] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [mode, setMode] = useState<"editAll" | "addNew">("editAll");
+  const [newLessonJson, setNewLessonJson] = useState("");
 
   // Tải dữ liệu JSON hiện tại khi mở trang
   useEffect(() => {
     setJsonText(JSON.stringify(lessonsData, null, 2));
   }, []);
+
+  const handleAppendNewLesson = () => {
+    try {
+      if (!newLessonJson.trim()) throw new Error("Vui lòng nhập JSON bài học mới.");
+      const newLesson = JSON.parse(newLessonJson);
+      
+      if (!newLesson.id || !newLesson.title) {
+        throw new Error("JSON thiếu trường bắt buộc: 'id' hoặc 'title'.");
+      }
+
+      const currentData = JSON.parse(jsonText);
+      currentData.push(newLesson);
+      
+      setJsonText(JSON.stringify(currentData, null, 2));
+      setNewLessonJson("");
+      setMode("editAll");
+      
+      setStatus("success");
+      setMessage("Đã thêm bài học vào danh sách. Vui lòng bấm 'Lưu Hệ Thống' để lưu lên máy chủ.");
+      setTimeout(() => {
+        setStatus("idle");
+        setMessage("");
+      }, 5000);
+    } catch (e: any) {
+      setStatus("error");
+      setMessage("Lỗi JSON: " + e.message);
+    }
+  };
 
   const handleSave = async () => {
     try {
@@ -116,19 +146,57 @@ export default function AdminPage() {
         )}
 
         {/* Trình soạn thảo JSON */}
-        <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col h-[70vh]">
-          <div className="bg-slate-100 dark:bg-slate-800 px-4 py-2 border-b border-slate-200 dark:border-slate-700 rounded-t-2xl flex justify-between items-center text-sm font-medium text-slate-500">
-            <span>src/data/lessons.json</span>
-            <span className="text-xs">Chỉ chấp nhận dữ liệu Array JSON</span>
-          </div>
-          <textarea
-            value={jsonText}
-            onChange={(e) => setJsonText(e.target.value)}
-            className="flex-1 w-full p-4 bg-transparent resize-none outline-none font-mono text-sm text-slate-700 dark:text-slate-300 focus:ring-2 focus:ring-orange-500/50 rounded-b-2xl transition-all"
-            spellCheck="false"
-            placeholder="Paste array JSON của bạn vào đây..."
-          />
+        <div className="flex gap-2 mb-2">
+          <Button 
+            variant={mode === "editAll" ? "default" : "outline"} 
+            onClick={() => setMode("editAll")}
+            className={mode === "editAll" ? "bg-slate-800 hover:bg-slate-900 text-white" : ""}
+          >
+            Chỉnh sửa toàn bộ
+          </Button>
+          <Button 
+            variant={mode === "addNew" ? "default" : "outline"} 
+            onClick={() => setMode("addNew")}
+            className={mode === "addNew" ? "bg-slate-800 hover:bg-slate-900 text-white" : ""}
+          >
+            + Thêm bài mới nhanh
+          </Button>
         </div>
+
+        {mode === "editAll" ? (
+          <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col h-[65vh]">
+            <div className="bg-slate-100 dark:bg-slate-800 px-4 py-2 border-b border-slate-200 dark:border-slate-700 rounded-t-2xl flex justify-between items-center text-sm font-medium text-slate-500">
+              <span>src/data/lessons.json</span>
+              <span className="text-xs">Chỉ chấp nhận dữ liệu Array JSON</span>
+            </div>
+            <textarea
+              value={jsonText}
+              onChange={(e) => setJsonText(e.target.value)}
+              className="flex-1 w-full p-4 bg-transparent resize-none outline-none font-mono text-sm text-slate-700 dark:text-slate-300 focus:ring-2 focus:ring-orange-500/50 rounded-b-2xl transition-all"
+              spellCheck="false"
+              placeholder="Paste array JSON của bạn vào đây..."
+            />
+          </div>
+        ) : (
+          <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col h-[65vh]">
+            <div className="bg-orange-50 dark:bg-slate-800 px-4 py-2 border-b border-orange-100 dark:border-slate-700 rounded-t-2xl flex justify-between items-center text-sm font-medium text-orange-600 dark:text-orange-400">
+              <span>Thêm 1 bài học mới</span>
+              <span className="text-xs">Chỉ dán (paste) Object JSON của 1 bài học</span>
+            </div>
+            <textarea
+              value={newLessonJson}
+              onChange={(e) => setNewLessonJson(e.target.value)}
+              className="flex-1 w-full p-4 bg-transparent resize-none outline-none font-mono text-sm text-slate-700 dark:text-slate-300 focus:ring-2 focus:ring-orange-500/50 transition-all"
+              spellCheck="false"
+              placeholder="{\n  &quot;id&quot;: &quot;lesson-new&quot;,\n  &quot;title&quot;: &quot;Tiêu đề bài học...&quot;\n  ...\n}"
+            />
+            <div className="p-4 border-t border-slate-100 dark:border-slate-800 flex justify-end bg-slate-50 dark:bg-slate-950/50 rounded-b-2xl">
+              <Button onClick={handleAppendNewLesson} className="bg-orange-600 hover:bg-orange-700 text-white">
+                Thêm vào danh sách hiện tại
+              </Button>
+            </div>
+          </div>
+        )}
       </div>
     </main>
   );

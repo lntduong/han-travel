@@ -17,4 +17,8 @@ export interface Lesson {
   usage: string;
   note?: string;
   dialogues: Dialogue[];
+  vocabulary?: {
+    word: string;
+    meaning: string;
+  }[];
 }

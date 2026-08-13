@@ -30,6 +30,32 @@
         "sentence": "不客氣！",
         "translation": "Không có gì!"
       }
+    ],
+    "vocabulary": [
+      {
+        "word": "請問",
+        "meaning": "Xin hỏi"
+      },
+      {
+        "word": "附近",
+        "meaning": "Gần đây"
+      },
+      {
+        "word": "捷運站",
+        "meaning": "Trạm MRT"
+      },
+      {
+        "word": "往前走",
+        "meaning": "Đi thẳng về phía trước"
+      },
+      {
+        "word": "右轉",
+        "meaning": "Rẽ phải"
+      },
+      {
+        "word": "悠遊卡",
+        "meaning": "Thẻ EasyCard"
+      }
     ]
   },
   {
@@ -67,6 +93,20 @@
         "sentence": "儲值只能用現金喔！",
         "pinyin": "Chǔzhí zhǐ néng yòng xiànjīn o!",
         "translation": "Tiền nạp thẻ thì chỉ dùng tiền mặt được thôi ạ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "儲值",
+        "meaning": "Nạp tiền"
+      },
+      {
+        "word": "超商",
+        "meaning": "Cửa hàng tiện lợi"
+      },
+      {
+        "word": "機台",
+        "meaning": "Máy tự động"
       }
     ]
   }
