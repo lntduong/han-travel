@@ -197,42 +197,35 @@ export default function SurvivalPage() {
             return filteredItems.map((item) => (
               <div 
                 key={item.id} 
-                className="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-[#E2D8CE] dark:border-slate-700 transition-all hover:shadow-md group relative"
+                className="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-[#E2D8CE] dark:border-slate-700 transition-all hover:shadow-md group relative flex justify-between items-center gap-4"
               >
-                <div className="pr-12 space-y-4">
-                  {/* Chinese & Pinyin */}
-                  <div className="pt-2">
-                    <PinyinText text={item.zh} size="xl" />
-                  </div>
-                  
-                  {/* Vietnamese */}
-                  <div className="text-slate-600 dark:text-slate-400 font-medium pb-1">
+                <div className="flex-1">
+                  <PinyinText text={item.zh} size="lg" />
+                  <div className="text-slate-600 dark:text-slate-400 font-medium mt-2">
                     {item.vi}
                   </div>
                 </div>
 
                 {/* Actions */}
-                <div className="absolute right-4 top-4 bottom-4 flex flex-col justify-between items-end">
-                  <div className="flex flex-col gap-1">
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => speak(item.zh)}
-                      className="w-10 h-10 rounded-full text-orange-500 hover:text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-500/10"
-                      title="Phát âm bình thường"
-                    >
-                      <Volume2 className="w-5 h-5" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => speak(item.zh, "zh-TW", true)}
-                      className="w-8 h-8 rounded-full text-emerald-500 hover:text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-500/10 mr-1 self-end"
-                      title="Phát âm chậm"
-                    >
-                      <Snail className="w-4 h-4" />
-                    </Button>
-                  </div>
+                <div className="flex flex-col gap-2 shrink-0 items-center">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => speak(item.zh)}
+                    className="w-10 h-10 rounded-full text-orange-500 hover:text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-500/10"
+                    title="Phát âm bình thường"
+                  >
+                    <Volume2 className="w-5 h-5" />
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => speak(item.zh, "zh-TW", true)}
+                    className="w-8 h-8 rounded-full text-emerald-500 hover:text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-500/10"
+                    title="Phát âm chậm"
+                  >
+                    <Snail className="w-4 h-4" />
+                  </Button>
 
                   {isAuthenticated && (
                     <Button

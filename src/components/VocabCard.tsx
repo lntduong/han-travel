@@ -17,9 +17,12 @@ export function VocabCard({ word, meaning }: VocabCardProps) {
     >
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-400 to-amber-400 opacity-0 group-hover:opacity-100 transition-opacity" />
       
-      <div className="flex justify-between items-start gap-4">
-        <PinyinText text={word} size="lg" />
-        <div className="flex flex-col gap-1 items-center justify-center shrink-0">
+      <div className="flex justify-between items-center gap-4">
+        <div>
+          <PinyinText text={word} size="lg" />
+          <p className="text-slate-600 dark:text-slate-400 font-medium mt-2 text-[17px]">{meaning}</p>
+        </div>
+        <div className="flex flex-col gap-2 shrink-0">
           <button 
             onClick={(e) => {
               e.stopPropagation();
@@ -41,10 +44,6 @@ export function VocabCard({ word, meaning }: VocabCardProps) {
             <Snail className="w-4 h-4" />
           </button>
         </div>
-      </div>
-      
-      <div className="mt-2">
-        <p className="text-slate-600 dark:text-slate-300 font-medium text-[17px]">{meaning}</p>
       </div>
     </div>
   );
