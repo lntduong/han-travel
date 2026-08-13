@@ -206,7 +206,7 @@ export default function SurvivalPage() {
                   </div>
                   
                   {/* Vietnamese */}
-                  <div className="text-slate-600 dark:text-slate-400 font-medium pb-1 border-b border-dashed border-slate-200 dark:border-slate-700">
+                  <div className="text-slate-600 dark:text-slate-400 font-medium pb-1">
                     {item.vi}
                   </div>
                 </div>
