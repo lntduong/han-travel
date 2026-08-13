@@ -64,6 +64,12 @@ export function Header({ title, backUrl }: HeaderProps) {
             Sổ tay
           </Link>
           <Link 
+            href="/places" 
+            className={`hover:text-orange-600 dark:hover:text-orange-400 transition-colors ${pathname === "/places" ? "text-orange-600 dark:text-orange-400 font-bold" : ""}`}
+          >
+            Cẩm nang
+          </Link>
+          <Link 
             href="/admin" 
             className={`hover:text-orange-600 dark:hover:text-orange-400 transition-colors ${pathname === "/admin" ? "text-orange-600 dark:text-orange-400 font-bold" : ""}`}
           >
@@ -125,6 +131,14 @@ export function Header({ title, backUrl }: HeaderProps) {
             className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/survival" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
           >
             🎒 Sổ tay
+          </Link>
+          
+          <Link 
+            href="/places" 
+            onClick={() => setIsMobileMenuOpen(false)}
+            className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/places" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
+          >
+            🗺️ Cẩm nang
           </Link>
           
           <div className="h-px bg-[#E2D8CE] dark:bg-slate-800 my-2" />

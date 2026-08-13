@@ -7,9 +7,10 @@ import { useTTS } from "@/hooks/useTTS";
 interface VocabCardProps {
   word: string;
   meaning: string;
+  actionButtons?: React.ReactNode;
 }
 
-export function VocabCard({ word, meaning }: VocabCardProps) {
+export function VocabCard({ word, meaning, actionButtons }: VocabCardProps) {
   const { speak } = useTTS();
 
   return (
@@ -43,6 +44,7 @@ export function VocabCard({ word, meaning }: VocabCardProps) {
           >
             <Snail className="w-4 h-4" />
           </button>
+          {actionButtons}
         </div>
       </div>
     </div>

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1712010001",
+    "zh": "台北",
+    "vi": "Đài Bắc (Taipei)",
+    "category": "Thành phố",
+    "timestamp": 1712010001
+  },
+  {
+    "id": "1712010002",
+    "zh": "高雄",
+    "vi": "Cao Hùng (Kaohsiung)",
+    "category": "Thành phố",
+    "timestamp": 1712010002
+  },
+  {
+    "id": "1712010003",
+    "zh": "台中",
+    "vi": "Đài Trung (Taichung)",
+    "category": "Thành phố",
+    "timestamp": 1712010003
+  },
+  {
+    "id": "1712010004",
+    "zh": "士林夜市",
+    "vi": "Chợ đêm Sĩ Lâm (Shilin)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010004
+  },
+  {
+    "id": "1712010005",
+    "zh": "饒河街觀光夜市",
+    "vi": "Chợ đêm Nhiêu Hà (Raohe)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010005
+  },
+  {
+    "id": "1712010006",
+    "zh": "六合夜市",
+    "vi": "Chợ đêm Lục Hợp (Liuhe)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010006
+  },
+  {
+    "id": "1712010007",
+    "zh": "九份",
+    "vi": "Làng cổ Cửu Phần (Jiufen)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010007
+  },
+  {
+    "id": "1712010008",
+    "zh": "十分",
+    "vi": "Thập Phần (Shifen)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010008
+  },
+  {
+    "id": "1712010009",
+    "zh": "日月潭",
+    "vi": "Hồ Nhật Nguyệt (Sun Moon Lake)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010009
+  },
+  {
+    "id": "1712010010",
+    "zh": "台北車站",
+    "vi": "Ga chính Đài Bắc (Taipei Main Station)",
+    "category": "Nhà ga",
+    "timestamp": 1712010010
+  },
+  {
+    "id": "1712010011",
+    "zh": "西門町",
+    "vi": "Tây Môn Đình (Ximending)",
+    "category": "Khu mua sắm",
+    "timestamp": 1712010011
+  }
+]
