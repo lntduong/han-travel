@@ -1,51 +1,58 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 
 export function useTTS() {
-  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  // Dọn dẹp audio khi component bị huỷ
   useEffect(() => {
-    const updateVoices = () => {
-      setVoices(window.speechSynthesis.getVoices());
-    };
-    
-    // Some browsers need this event to load voices
-    window.speechSynthesis.onvoiceschanged = updateVoices;
-    updateVoices();
-
     return () => {
-      window.speechSynthesis.onvoiceschanged = null;
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
     };
   }, []);
 
   const speak = useCallback((text: string, lang = "zh-TW") => {
-    if (!window.speechSynthesis) return;
-    
-    window.speechSynthesis.cancel(); // Stop any ongoing speech
-    
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = lang;
-    
-    // Try to find a specific voice for the language (preferably Taiwan Mandarin)
-    const voice = voices.find(v => v.lang === "zh-TW" || v.lang.includes("zh-"));
-    if (voice) {
-      utterance.voice = voice;
+    if (!text) return;
+
+    // Dừng âm thanh cũ nếu đang phát
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
     }
-    
-    utterance.rate = 0.85; // slightly slower for language learning
-    
-    utterance.onstart = () => setIsSpeaking(true);
-    utterance.onend = () => setIsSpeaking(false);
-    utterance.onerror = () => setIsSpeaking(false);
-    
-    window.speechSynthesis.speak(utterance);
-  }, [voices]);
+
+    try {
+      // Sử dụng Google Translate TTS API ngầm (client=tw-ob giúp bypass CORS/Blocks)
+      const encodedText = encodeURIComponent(text);
+      const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=${lang}&client=tw-ob&q=${encodedText}`;
+      
+      const audio = new Audio(url);
+      audioRef.current = audio;
+      
+      setIsSpeaking(true);
+      
+      audio.onended = () => setIsSpeaking(false);
+      audio.onerror = () => setIsSpeaking(false);
+      
+      // Bắt đầu phát
+      audio.play().catch(error => {
+        console.error("Lỗi phát âm thanh Google TTS:", error);
+        setIsSpeaking(false);
+      });
+    } catch (error) {
+      console.error("Lỗi khởi tạo âm thanh:", error);
+      setIsSpeaking(false);
+    }
+  }, []);
 
   const stop = useCallback(() => {
-    if (window.speechSynthesis) {
-      window.speechSynthesis.cancel();
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
       setIsSpeaking(false);
     }
   }, []);
