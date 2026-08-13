@@ -9,24 +9,32 @@ const beVietnamPro = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Học Tiếng Trung Đài Loan",
-  description: "Web lưu trữ các bài học tiếng Trung phồn thể của tôi",
+  title: "HanTravel - Học Tiếng Trung",
+  description: "Ứng dụng học tiếng Trung cấp tốc dành cho người đi du lịch Đài Loan.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "HanTravel",
+  },
 };
 
 import { Footer } from "@/components/Footer";
+import { AuthProvider } from "@/contexts/AuthContext";
 
-// @ts-expect-error
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="vi"
       className={`${beVietnamPro.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
-        <div className="flex-1 flex flex-col">
-          {children}
-        </div>
-        <Footer />
+        <AuthProvider>
+          <div className="flex-1 flex flex-col">
+            {children}
+          </div>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   );

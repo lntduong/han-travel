@@ -11,6 +11,8 @@ import { useParams } from "next/navigation";
 import { Header } from "@/components/Header";
 import { PinyinText } from "@/components/PinyinText";
 import { VocabCard } from "@/components/VocabCard";
+import { useAuth } from "@/contexts/AuthContext";
+import { LockedState } from "@/components/LockedState";
 
 export default function LessonDetail() {
   const params = useParams();
@@ -39,7 +41,9 @@ export default function LessonDetail() {
     }
   }, [id]);
 
-  if (isLoading) {
+  const { isAuthenticated, isLoading: isAuthLoading } = useAuth();
+
+  if (isLoading || isAuthLoading) {
     return <div className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 flex items-center justify-center text-slate-500">Đang tải bài học...</div>;
   }
 
@@ -55,12 +59,16 @@ export default function LessonDetail() {
   }
 
   return (
-    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200">
+    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200 flex flex-col">
       {/* Navbar with Back Button */}
       <Header title={lesson.title} backUrl="/" />
 
-      {/* Main Content */}
-      <section className="max-w-4xl mx-auto px-4 py-8 md:py-12 space-y-12">
+      {!isAuthenticated ? (
+        <LockedState />
+      ) : (
+        <>
+          {/* Main Content */}
+          <section className="w-full max-w-4xl mx-auto px-4 py-8 md:py-12 space-y-12">
         <Card className="overflow-visible border-[#E2D8CE]/50 dark:border-slate-800 shadow-sm rounded-[2rem] bg-white dark:bg-slate-900 pt-0 relative">
           <CardHeader className="pt-8 pb-6 border-b border-slate-100 dark:border-slate-800">
             <div className="flex justify-between items-start gap-4">
@@ -167,7 +175,8 @@ export default function LessonDetail() {
           </CardContent>
         </Card>
       </section>
-
+        </>
+      )}
 
     </main>
   );

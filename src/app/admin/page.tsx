@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Save, AlertCircle, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 import lessonsData from "@/data/lessons.json";
+import { useAuth } from "@/contexts/AuthContext";
+import { LockedState } from "@/components/LockedState";
+import { Header } from "@/components/Header";
 
 export default function AdminPage() {
   const [jsonText, setJsonText] = useState("");
@@ -93,11 +96,22 @@ export default function AdminPage() {
     }
   };
 
+  const { isAuthenticated, isLoading: isAuthLoading } = useAuth();
+
+  if (isAuthLoading) {
+    return <div className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 flex items-center justify-center text-slate-500">Đang tải...</div>;
+  }
+
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950 p-4 md:p-8 font-sans">
-      <div className="max-w-4xl mx-auto space-y-6">
-        
-        {/* Header */}
+    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200 flex flex-col">
+      <Header />
+      
+      {!isAuthenticated ? (
+        <LockedState />
+      ) : (
+        <div className="max-w-4xl mx-auto space-y-6 p-4 md:p-8 w-full">
+          
+          {/* Header */}
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">
@@ -198,6 +212,7 @@ export default function AdminPage() {
           </div>
         )}
       </div>
+      )}
     </main>
   );
 }

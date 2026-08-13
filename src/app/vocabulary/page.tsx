@@ -7,6 +7,8 @@ import { VocabCard } from "@/components/VocabCard";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { match } from "pinyin-pro";
+import { useAuth } from "@/contexts/AuthContext";
+import { LockedState } from "@/components/LockedState";
 
 interface VocabItem {
   word: string;
@@ -73,15 +75,21 @@ export default function VocabularyPage() {
     return matchesSearch && matchesCategory;
   });
 
-  if (isLoading) {
+  const { isAuthenticated, isLoading: isAuthLoading } = useAuth();
+
+  if (isLoading || isAuthLoading) {
     return <div className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 flex items-center justify-center text-slate-500">Đang tải dữ liệu...</div>;
   }
 
   return (
-    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200 pb-24">
+    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200 pb-24 flex flex-col">
       <Header />
       
-      <section className="max-w-5xl mx-auto px-4 pt-8 pb-4 md:pt-12 md:pb-8 text-center">
+      {!isAuthenticated ? (
+        <LockedState />
+      ) : (
+        <>
+          <section className="w-full max-w-5xl mx-auto px-4 pt-8 pb-4 md:pt-12 md:pb-8 text-center">
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-[#1e293b] dark:text-slate-100 mb-4">
           Từ vựng Du lịch
         </h1>
@@ -121,7 +129,7 @@ export default function VocabularyPage() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-4 mt-8">
+      <section className="w-full max-w-6xl mx-auto px-4 mt-8">
         {filteredVocab.length === 0 ? (
           <div className="text-center py-20 text-slate-500">
             Không tìm thấy từ vựng nào phù hợp.
@@ -139,6 +147,8 @@ export default function VocabularyPage() {
           </div>
         )}
       </section>
+        </>
+      )}
     </main>
   );
 }

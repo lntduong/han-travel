@@ -9,6 +9,8 @@ import { BookOpen, Search, Menu } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Header } from "@/components/Header";
 import { match } from "pinyin-pro";
+import { useAuth } from "@/contexts/AuthContext";
+import { LockedState } from "@/components/LockedState";
 
 export default function Home() {
   const [lessons, setLessons] = useState<Lesson[]>([]);
@@ -58,17 +60,23 @@ export default function Home() {
     return matchesSearch && matchesCategory;
   });
 
-  if (isLoading) {
+  const { isAuthenticated, isLoading: isAuthLoading } = useAuth();
+
+  if (isLoading || isAuthLoading) {
     return <div className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 flex items-center justify-center text-slate-500">Đang tải dữ liệu...</div>;
   }
 
   return (
-    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200">
+    <main className="min-h-screen bg-[#FAF7F2] dark:bg-slate-950 font-sans text-slate-800 dark:text-slate-200 flex flex-col">
       {/* Navbar */}
       <Header />
 
-      {/* Hero Section */}
-      <section className="max-w-5xl mx-auto px-4 pt-8 pb-4 md:pt-12 md:pb-8 text-center">
+      {!isAuthenticated ? (
+        <LockedState />
+      ) : (
+        <>
+          {/* Hero Section */}
+      <section className="w-full max-w-5xl mx-auto px-4 pt-8 pb-4 md:pt-12 md:pb-8 text-center">
 
         {/* Search Bar */}
         <div className="max-w-xl mx-auto relative mt-8">
@@ -102,7 +110,7 @@ export default function Home() {
       </section>
 
       {/* Main Content (Lessons Grid) */}
-      <section className="max-w-6xl mx-auto px-4 pb-24">
+      <section className="w-full max-w-6xl mx-auto px-4 pb-24">
         {filteredLessons.length === 0 ? (
           <div className="text-center py-20 text-slate-500">
             Không tìm thấy bài học nào phù hợp.
@@ -134,7 +142,8 @@ export default function Home() {
           </div>
         )}
       </section>
-
+        </>
+      )}
 
     </main>
   );
