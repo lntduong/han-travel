@@ -6,7 +6,7 @@ import { useTTS } from "@/hooks/useTTS";
 import { Header } from "@/components/Header";
 import { PinyinText } from "@/components/PinyinText";
 import { Button } from "@/components/ui/button";
-import { Volume2, Trash2, Send, Loader2, Book } from "lucide-react";
+import { Volume2, Trash2, Send, Loader2, Search } from "lucide-react";
 
 interface NotebookItem {
   id: string;
@@ -20,6 +20,7 @@ export default function SurvivalPage() {
   const { speak, isSpeaking } = useTTS();
   const [items, setItems] = useState<NotebookItem[]>([]);
   const [inputText, setInputText] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   const [isTranslating, setIsTranslating] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -101,22 +102,10 @@ export default function SurvivalPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1EA] dark:bg-slate-900 pb-24">
-      <Header title="Sổ tay Sinh tồn" />
+      <Header title="Sổ tay" />
 
       <main className="max-w-3xl mx-auto px-4 py-6 md:py-8 space-y-6">
-        {/* Intro */}
-        <div className="bg-white/80 dark:bg-slate-800/80 rounded-2xl p-4 md:p-6 shadow-sm border border-orange-100 dark:border-slate-700">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center">
-              <Book className="w-5 h-5 text-orange-600 dark:text-orange-400" />
-            </div>
-            <h2 className="text-lg font-bold text-slate-800 dark:text-slate-100">Bảo bối Giao tiếp</h2>
-          </div>
-          <p className="text-slate-600 dark:text-slate-400 text-sm">
-            Gõ tiếng Việt và nhấn Dịch. Web sẽ tạo câu tiếng Trung có Pinyin và lưu lại trên Cloud để bạn dùng khi đi đường.
-          </p>
-        </div>
-
+        
         {/* Input Form */}
         <form onSubmit={handleTranslateAndSave} className="relative">
           <input
@@ -162,19 +151,50 @@ export default function SurvivalPage() {
           </div>
         )}
 
+        {/* Khung tìm kiếm */}
+        <div className="relative">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <Search className="h-5 w-5 text-slate-400" />
+          </div>
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Tìm kiếm câu đã lưu..."
+            className="w-full pl-11 pr-4 py-3 rounded-xl border border-[#E2D8CE] dark:border-slate-700 bg-white/50 dark:bg-slate-800/50 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-orange-500/50 transition-all placeholder:text-slate-400 text-sm"
+          />
+        </div>
+
         {/* List */}
         <div className="space-y-4">
           {isLoading ? (
             <div className="py-12 flex justify-center">
               <Loader2 className="w-8 h-8 animate-spin text-orange-500" />
             </div>
-          ) : items.length === 0 ? (
-            <div className="text-center py-12 text-slate-500">
-              <p>Chưa có câu nào trong sổ tay.</p>
-              <p className="text-sm mt-1">Hãy dịch câu đầu tiên của bạn nhé!</p>
-            </div>
-          ) : (
-            items.map((item) => (
+          ) : (() => {
+            const filteredItems = items.filter(item => 
+              item.vi.toLowerCase().includes(searchTerm.toLowerCase()) || 
+              item.zh.includes(searchTerm)
+            );
+            
+            if (items.length === 0) {
+              return (
+                <div className="text-center py-12 text-slate-500">
+                  <p>Chưa có câu nào trong sổ tay.</p>
+                  <p className="text-sm mt-1">Hãy dịch câu đầu tiên của bạn nhé!</p>
+                </div>
+              );
+            }
+            
+            if (filteredItems.length === 0) {
+              return (
+                <div className="text-center py-12 text-slate-500">
+                  <p>Không tìm thấy kết quả phù hợp với "{searchTerm}"</p>
+                </div>
+              );
+            }
+
+            return filteredItems.map((item) => (
               <div 
                 key={item.id} 
                 className="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-[#E2D8CE] dark:border-slate-700 transition-all hover:shadow-md group relative"
@@ -214,8 +234,8 @@ export default function SurvivalPage() {
                   )}
                 </div>
               </div>
-            ))
-          )}
+            ));
+          })()}
         </div>
       </main>
     </div>

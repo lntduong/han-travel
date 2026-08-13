@@ -121,7 +121,7 @@ export function Header({ title, backUrl }: HeaderProps) {
             onClick={() => setIsMobileMenuOpen(false)}
             className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/survival" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
           >
-            🎒 Sổ tay sinh tồn
+            🎒 Sổ tay
           </Link>
 
           <Link 
