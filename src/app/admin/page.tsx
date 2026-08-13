@@ -112,30 +112,32 @@ export default function AdminPage() {
         <div className="max-w-4xl mx-auto space-y-6 p-4 md:p-8 w-full">
           
           {/* Header */}
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Link href="/">
-              <Button variant="outline" size="icon" className="rounded-full">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="flex items-start md:items-center gap-3 md:gap-4">
+            <Link href="/" className="shrink-0 mt-0.5 md:mt-0">
+              <Button variant="outline" size="icon" className="rounded-full shadow-sm">
                 <ArrowLeft className="w-4 h-4" />
               </Button>
             </Link>
-            <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-100">
-              Quản trị Dữ liệu Bài học (Git CMS)
+            <h1 className="text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-100 leading-tight">
+              Quản trị Dữ liệu Bài học
             </h1>
           </div>
           
-          <Button 
-            onClick={handleSave} 
-            disabled={status === "loading"}
-            className="bg-orange-600 hover:bg-orange-700 text-white min-w-[120px]"
-          >
-            {status === "loading" ? "Đang lưu..." : (
-              <>
-                <Save className="w-4 h-4 mr-2" />
-                Lưu Hệ Thống
-              </>
-            )}
-          </Button>
+          <div className="flex justify-end">
+            <Button 
+              onClick={handleSave} 
+              disabled={status === "loading"}
+              className="bg-orange-600 hover:bg-orange-700 text-white rounded-full px-6 shadow-sm min-w-[140px]"
+            >
+              {status === "loading" ? "Đang lưu..." : (
+                <>
+                  <Save className="w-4 h-4 mr-2" />
+                  Lưu Hệ Thống
+                </>
+              )}
+            </Button>
+          </div>
         </div>
 
         {/* Thông báo trạng thái */}
@@ -160,21 +162,19 @@ export default function AdminPage() {
         )}
 
         {/* Trình soạn thảo JSON */}
-        <div className="flex gap-2 mb-2">
-          <Button 
-            variant={mode === "editAll" ? "default" : "outline"} 
+        <div className="inline-flex bg-slate-200/50 dark:bg-slate-800/50 p-1 rounded-xl mb-2 w-full sm:w-auto">
+          <button 
             onClick={() => setMode("editAll")}
-            className={mode === "editAll" ? "bg-slate-800 hover:bg-slate-900 text-white" : ""}
+            className={`flex-1 sm:flex-none px-4 py-2.5 text-sm font-semibold rounded-lg transition-all ${mode === "editAll" ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm" : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200"}`}
           >
             Chỉnh sửa toàn bộ
-          </Button>
-          <Button 
-            variant={mode === "addNew" ? "default" : "outline"} 
+          </button>
+          <button 
             onClick={() => setMode("addNew")}
-            className={mode === "addNew" ? "bg-slate-800 hover:bg-slate-900 text-white" : ""}
+            className={`flex-1 sm:flex-none px-4 py-2.5 text-sm font-semibold rounded-lg transition-all ${mode === "addNew" ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm" : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200"}`}
           >
             + Thêm bài mới nhanh
-          </Button>
+          </button>
         </div>
 
         {mode === "editAll" ? (
