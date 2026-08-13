@@ -102,7 +102,7 @@ export default function SurvivalPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1EA] dark:bg-slate-900 pb-24">
-      <Header title="Sổ tay" />
+      <Header />
 
       <main className="max-w-3xl mx-auto px-4 py-6 md:py-8 space-y-6">
         
