@@ -26,9 +26,9 @@ export function useTTS() {
     }
 
     try {
-      // Sử dụng API mở của Google Translate (client=gtx) để không bị lỗi CORS/403
+      // Gọi qua proxy API của mình để trình duyệt không bị lỗi 404/403
       const encodedText = encodeURIComponent(text);
-      const url = `https://translate.googleapis.com/translate_tts?client=gtx&ie=UTF-8&tl=${lang}&q=${encodedText}`;
+      const url = `/api/tts?text=${encodedText}&lang=${lang}`;
       
       const audio = new Audio(url);
       audioRef.current = audio;
