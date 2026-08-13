@@ -39,10 +39,10 @@ export function Header({ title, backUrl }: HeaderProps) {
   return (
     <>
       <nav className="sticky top-0 z-50 w-full h-16 bg-[#FAF7F2]/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-[#E2D8CE] dark:border-slate-800 flex items-center justify-between px-4 md:px-8">
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <Image src="/logo.png" alt="HanTravel Logo" width={28} height={28} className="rounded-md" />
           <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100">HanTravel</span>
-        </div>
+        </Link>
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
           <Link 
             href="/" 
