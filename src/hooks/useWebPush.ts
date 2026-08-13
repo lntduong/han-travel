@@ -55,6 +55,13 @@ export function useWebPush() {
 
       const reg = await navigator.serviceWorker.ready;
       
+      // Khắc phục lỗi Android Chrome "push service error": 
+      // Xoá subscription cũ bị kẹt trước khi tạo mới
+      const existingSub = await reg.pushManager.getSubscription();
+      if (existingSub) {
+        await existingSub.unsubscribe().catch(() => {});
+      }
+      
       // 3. Thực hiện đăng ký Push
       const sub = await reg.pushManager.subscribe({
         userVisibleOnly: true,
