@@ -133,7 +133,7 @@ export default function Home() {
                     <div className="relative z-10 flex flex-col h-full">
                       {/* Top row */}
                       <div className="flex justify-between items-center mb-4">
-                        <div className="px-3 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-[10px] font-bold rounded-full uppercase tracking-wider">
+                        <div className="px-3 py-1 bg-orange-100/80 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 text-[10px] font-bold rounded-full uppercase tracking-wider">
                           {lesson.category || `BÀI ${displayIndex}`}
                         </div>
                         <span className="text-slate-400 group-hover:translate-x-1 transition-transform">
