@@ -8,6 +8,8 @@ import lessonsData from "@/data/lessons.json";
 import { useAuth } from "@/contexts/AuthContext";
 import { LockedState } from "@/components/LockedState";
 import { Header } from "@/components/Header";
+import { useWebPush } from "@/hooks/useWebPush";
+import { Bell, BellOff, Loader2 } from "lucide-react";
 
 export default function AdminPage() {
   const [jsonText, setJsonText] = useState("");
@@ -15,6 +17,19 @@ export default function AdminPage() {
   const [message, setMessage] = useState("");
   const [mode, setMode] = useState<"editAll" | "addNew">("editAll");
   const [newLessonJson, setNewLessonJson] = useState("");
+  
+  const { isSupported, isSubscribed, subscribe, unsubscribe } = useWebPush();
+  const [isPushLoading, setIsPushLoading] = useState(false);
+
+  const handleTogglePush = async () => {
+    setIsPushLoading(true);
+    if (isSubscribed) {
+      await unsubscribe();
+    } else {
+      await subscribe();
+    }
+    setIsPushLoading(false);
+  };
 
   // Tải dữ liệu JSON hiện tại khi mở trang
   useEffect(() => {
@@ -139,6 +154,27 @@ export default function AdminPage() {
             </Button>
           </div>
         </div>
+
+        {/* Cài đặt Thông báo */}
+        {isSupported && (
+          <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 shadow-sm border border-slate-200 dark:border-slate-800 flex items-center justify-between mt-2 mb-4">
+            <div>
+              <h3 className="font-semibold text-slate-800 dark:text-slate-100 flex items-center gap-2">
+                {isSubscribed ? <Bell className="w-5 h-5 text-orange-500" /> : <BellOff className="w-5 h-5 text-slate-400" />}
+                Nhắc nhở từ vựng Sổ tay
+              </h3>
+              <p className="text-sm text-slate-500 mt-1">Gửi 1 câu ngẫu nhiên lúc 8h, 12h, 20h mỗi ngày.</p>
+            </div>
+            <Button
+              onClick={handleTogglePush}
+              disabled={isPushLoading}
+              variant={isSubscribed ? "default" : "outline"}
+              className={isSubscribed ? "bg-orange-600 hover:bg-orange-700 text-white" : ""}
+            >
+              {isPushLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : (isSubscribed ? "Đang Bật" : "Đã Tắt")}
+            </Button>
+          </div>
+        )}
 
         {/* Thông báo trạng thái */}
         {status === "error" && (
