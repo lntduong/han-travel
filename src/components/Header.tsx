@@ -46,19 +46,25 @@ export function Header({ title, backUrl }: HeaderProps) {
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
           <Link 
             href="/" 
-            className={`transition-colors hover:text-orange-600 ${pathname === "/" ? "text-orange-600 font-semibold" : ""}`}
+            className={`hover:text-orange-600 dark:hover:text-orange-400 transition-colors ${pathname === "/" ? "text-orange-600 dark:text-orange-400 font-bold" : ""}`}
           >
             Bài học
           </Link>
           <Link 
             href="/vocabulary" 
-            className={`transition-colors hover:text-orange-600 ${pathname === "/vocabulary" ? "text-orange-600 font-semibold" : ""}`}
+            className={`hover:text-orange-600 dark:hover:text-orange-400 transition-colors ${pathname === "/vocabulary" ? "text-orange-600 dark:text-orange-400 font-bold" : ""}`}
           >
             Từ vựng
           </Link>
           <Link 
+            href="/survival" 
+            className={`hover:text-orange-600 dark:hover:text-orange-400 transition-colors ${pathname === "/survival" ? "text-orange-600 dark:text-orange-400 font-bold" : ""}`}
+          >
+            Sổ tay
+          </Link>
+          <Link 
             href="/admin" 
-            className={`transition-colors hover:text-orange-600 ${pathname === "/admin" ? "text-orange-600 font-semibold" : ""}`}
+            className={`hover:text-orange-600 dark:hover:text-orange-400 transition-colors ${pathname === "/admin" ? "text-orange-600 dark:text-orange-400 font-bold" : ""}`}
           >
             Quản lý
           </Link>
@@ -104,17 +110,26 @@ export function Header({ title, backUrl }: HeaderProps) {
           </Link>
           <Link 
             href="/vocabulary" 
-            className={`px-4 py-3 rounded-xl font-medium transition-colors ${pathname === "/vocabulary" ? "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900"}`}
             onClick={() => setIsMobileMenuOpen(false)}
+            className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/vocabulary" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
           >
-            Từ vựng
+            📚 Từ vựng
           </Link>
+          
+          <Link 
+            href="/survival" 
+            onClick={() => setIsMobileMenuOpen(false)}
+            className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/survival" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
+          >
+            🎒 Sổ tay sinh tồn
+          </Link>
+
           <Link 
             href="/admin" 
-            className={`px-4 py-3 rounded-xl font-medium transition-colors ${pathname === "/admin" ? "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900"}`}
             onClick={() => setIsMobileMenuOpen(false)}
+            className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/admin" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
           >
-            Quản lý
+            ⚙️ Quản lý (Git CMS)
           </Link>
           
           <div className="h-px bg-[#E2D8CE] dark:bg-slate-800 my-2" />
