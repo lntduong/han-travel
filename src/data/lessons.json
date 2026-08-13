@@ -1,0 +1,73 @@
+[
+  {
+    "id": "lesson-1",
+    "title": "Hỏi đường đến trạm xe điện ngầm (MRT)",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問，這附近有捷運站嗎？",
+      "translation": "Xin hỏi, gần đây có trạm xe điện ngầm (MRT) không?"
+    },
+    "usage": "Dùng khi bạn muốn tìm đường đến trạm MRT để di chuyển.",
+    "note": "Ở Đài Loan, tàu điện ngầm được gọi là 捷運 (Jiéyùn), thay vì 地鐵 (Dìtiě) như ở Trung Quốc đại lục.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問，這附近有捷運站嗎？",
+        "translation": "Xin chào, cho hỏi gần đây có trạm MRT không?"
+      },
+      {
+        "speaker": "B (Người qua đường)",
+        "sentence": "有啊，往前走兩百公尺，右轉就看到了。",
+        "translation": "Có chứ, đi thẳng khoảng 200 mét nữa, rẽ phải là thấy ngay."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，謝謝你！",
+        "translation": "Vâng, cảm ơn bạn!"
+      },
+      {
+        "speaker": "B (Người qua đường)",
+        "sentence": "不客氣！",
+        "translation": "Không có gì!"
+      }
+    ]
+  },
+  {
+    "id": "lesson-2",
+    "title": "Mua và nạp tiền thẻ EasyCard (悠遊卡)",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "我想買一張悠遊卡，順便儲值五百塊。",
+      "pinyin": "Wǒ xiǎng mǎi yì zhāng Yōuyóukǎ, shùnbiàn chǔzhí wǔbǎi kuài.",
+      "translation": "Tôi muốn mua một thẻ EasyCard, sẵn tiện nạp 500 tệ."
+    },
+    "usage": "Dùng khi bạn đến cửa hàng tiện lợi hoặc trạm MRT để mua thẻ EasyCard và nạp tiền.",
+    "note": "Ở Đài Loan, nạp tiền vào thẻ dùng từ 儲值 (chǔzhí). Thẻ EasyCard mua mới giá 100 TWD (chưa có tiền bên trong). Nạp tiền vào thẻ EasyCard tại cửa hàng tiện lợi bắt buộc dùng tiền mặt.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我想買一張悠遊卡，順便儲值五百塊。",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng mǎi yì zhāng Yōuyóukǎ, shùnbiàn chǔzhí wǔbǎi kuài.",
+        "translation": "Xin chào, tôi muốn mua một thẻ EasyCard, sẵn tiện nạp 500 tệ."
+      },
+      {
+        "speaker": "B (Nhân viên)",
+        "sentence": "好的，一張卡是一百塊，加上儲值五百，總共是六百塊。",
+        "pinyin": "Hǎo de, yì zhāng kǎ shì yìbǎi kuài, jiā shàng chǔzhí wǔbǎi, zǒnggòng shì liùbǎi kuài.",
+        "translation": "Được ạ, thẻ giá 100 tệ, cộng tiền nạp 500 tệ, tổng cộng là 600 tệ."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，給您六百塊。請問可以用信用卡付嗎？",
+        "pinyin": "Hǎo de, gěi nín liùbǎi kuài. Qǐngwèn kěyǐ yòng xìnyòngkǎ fù ma?",
+        "translation": "Vâng, gửi bạn 600 tệ. Cho hỏi có trả bằng thẻ tín dụng được không?"
+      },
+      {
+        "speaker": "B (Nhân viên)",
+        "sentence": "儲值只能用現金喔！",
+        "pinyin": "Chǔzhí zhǐ néng yòng xiànjīn o!",
+        "translation": "Tiền nạp thẻ thì chỉ dùng tiền mặt được thôi ạ!"
+      }
+    ]
+  }
+]
