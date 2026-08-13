@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, ArrowLeft, LogOut } from "lucide-react";
 import { Button } from "./ui/button";
+import { Menu, ArrowLeft, LogOut, X } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useState } from "react";
 import { LoginModal } from "./LoginModal";
@@ -18,6 +18,7 @@ interface HeaderProps {
 export function Header({ title, backUrl }: HeaderProps) {
   const { isAuthenticated, logout } = useAuth();
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
   if (title) {
@@ -80,11 +81,64 @@ export function Header({ title, backUrl }: HeaderProps) {
               Đăng nhập
             </Button>
           )}
-          <Button variant="ghost" size="icon" className="md:hidden rounded-full text-slate-500">
-            <Menu className="w-5 h-5" />
+          <Button 
+            variant="ghost" 
+            size="icon" 
+            className="md:hidden rounded-full text-slate-500"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </Button>
         </div>
       </nav>
+
+      {/* Mobile Menu Dropdown */}
+      {isMobileMenuOpen && (
+        <div className="fixed top-16 left-0 w-full bg-[#FAF7F2] dark:bg-slate-950 border-b border-[#E2D8CE] dark:border-slate-800 shadow-xl p-4 flex flex-col gap-3 z-40 md:hidden animate-in slide-in-from-top-2">
+          <Link 
+            href="/" 
+            className={`px-4 py-3 rounded-xl font-medium transition-colors ${pathname === "/" ? "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900"}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Bài học
+          </Link>
+          <Link 
+            href="/vocabulary" 
+            className={`px-4 py-3 rounded-xl font-medium transition-colors ${pathname === "/vocabulary" ? "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900"}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Từ vựng
+          </Link>
+          <Link 
+            href="/admin" 
+            className={`px-4 py-3 rounded-xl font-medium transition-colors ${pathname === "/admin" ? "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900"}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Quản lý
+          </Link>
+          
+          <div className="h-px bg-[#E2D8CE] dark:bg-slate-800 my-2" />
+          
+          {isAuthenticated ? (
+            <Button 
+              onClick={() => { logout(); setIsMobileMenuOpen(false); }} 
+              variant="outline" 
+              className="w-full justify-start rounded-xl px-4 py-6 text-slate-700 dark:text-slate-300 border-[#E2D8CE] dark:border-slate-700 bg-white dark:bg-slate-900"
+            >
+              <LogOut className="w-5 h-5 mr-3" />
+              Đăng xuất
+            </Button>
+          ) : (
+            <Button 
+              onClick={() => { setIsMobileMenuOpen(false); setIsLoginModalOpen(true); }}
+              className="w-full justify-center bg-orange-600 hover:bg-orange-700 text-white rounded-xl py-6 text-base shadow-sm"
+            >
+              Đăng nhập bằng mã PIN
+            </Button>
+          )}
+        </div>
+      )}
+
       <LoginModal isOpen={isLoginModalOpen} onClose={() => setIsLoginModalOpen(false)} />
     </>
   );
