@@ -39,12 +39,13 @@ export function useWebPush() {
     if (!isSupported) return false;
     try {
       // 1. Kiểm tra VAPID Key
-      const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+      let vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
       if (!vapidKey) {
         alert("Lỗi: Thiếu NEXT_PUBLIC_VAPID_PUBLIC_KEY trên máy chủ.");
         return false;
       }
-
+      vapidKey = vapidKey.trim(); // Loại bỏ khoảng trắng thừa
+      
       // 2. Yêu cầu quyền gửi thông báo trước
       const permission = await Notification.requestPermission();
       if (permission !== "granted") {
@@ -78,7 +79,9 @@ export function useWebPush() {
       return true;
     } catch (e: any) {
       console.error(e);
-      alert("Lỗi đăng ký Push: " + e.message);
+      const keyInfo = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY ? 
+        `Độ dài Key: ${process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY.length} ký tự. Bắt đầu bằng: ${process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY.substring(0, 10)}...` : 'Không có Key';
+      alert(`Lỗi đăng ký Push: ${e.message}\n\nThông tin Debug:\n${keyInfo}\n\nHãy đảm bảo Key copy vào Vercel đúng chính xác 87 ký tự và không có khoảng trắng thừa!`);
       return false;
     }
   };
