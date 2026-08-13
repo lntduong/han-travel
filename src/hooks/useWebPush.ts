@@ -38,26 +38,47 @@ export function useWebPush() {
   const subscribe = async () => {
     if (!isSupported) return false;
     try {
+      // 1. Kiểm tra VAPID Key
+      const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+      if (!vapidKey) {
+        alert("Lỗi: Thiếu NEXT_PUBLIC_VAPID_PUBLIC_KEY trên máy chủ.");
+        return false;
+      }
+
+      // 2. Yêu cầu quyền gửi thông báo trước
+      const permission = await Notification.requestPermission();
+      if (permission !== "granted") {
+        alert("Bạn đã từ chối cấp quyền thông báo. Vui lòng vào Cài đặt trình duyệt để mở lại.");
+        return false;
+      }
+
       const reg = await navigator.serviceWorker.ready;
+      
+      // 3. Thực hiện đăng ký Push
       const sub = await reg.pushManager.subscribe({
         userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(
-          process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY || ""
-        ),
+        applicationServerKey: urlBase64ToUint8Array(vapidKey),
       });
 
-      // Send sub to backend
-      await fetch("/api/subscribe", {
+      // 4. Gửi sub lên backend
+      const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(sub),
       });
 
+      if (!res.ok) {
+        const errorData = await res.json();
+        alert("Lỗi lưu đăng ký: " + (errorData.error || "Không xác định"));
+        return false;
+      }
+
       setIsSubscribed(true);
       setSubscription(sub);
       return true;
-    } catch (e) {
+    } catch (e: any) {
       console.error(e);
+      alert("Lỗi đăng ký Push: " + e.message);
       return false;
     }
   };
