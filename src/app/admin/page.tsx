@@ -156,25 +156,26 @@ export default function AdminPage() {
         </div>
 
         {/* Cài đặt Thông báo */}
-        {isSupported && (
-          <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 shadow-sm border border-slate-200 dark:border-slate-800 flex items-center justify-between mt-2 mb-4">
-            <div>
-              <h3 className="font-semibold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-                {isSubscribed ? <Bell className="w-5 h-5 text-orange-500" /> : <BellOff className="w-5 h-5 text-slate-400" />}
-                Nhắc nhở từ vựng Sổ tay
-              </h3>
-              <p className="text-sm text-slate-500 mt-1">Gửi 1 câu ngẫu nhiên lúc 8h, 12h, 20h mỗi ngày.</p>
-            </div>
-            <Button
-              onClick={handleTogglePush}
-              disabled={isPushLoading}
-              variant={isSubscribed ? "default" : "outline"}
-              className={isSubscribed ? "bg-orange-600 hover:bg-orange-700 text-white" : ""}
-            >
-              {isPushLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : (isSubscribed ? "Đang Bật" : "Đã Tắt")}
-            </Button>
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-2 mb-4">
+          <div>
+            <h3 className="font-semibold text-slate-800 dark:text-slate-100 flex items-center gap-2">
+              {isSubscribed ? <Bell className="w-5 h-5 text-orange-500" /> : <BellOff className="w-5 h-5 text-slate-400" />}
+              Nhắc nhở từ vựng Sổ tay
+            </h3>
+            <p className="text-sm text-slate-500 mt-1">Gửi 1 câu ngẫu nhiên lúc 8h, 12h, 20h mỗi ngày.</p>
+            {!isSupported && (
+              <p className="text-xs text-red-500 mt-1 mt-2 font-medium">⚠️ Trình duyệt của bạn chưa hỗ trợ nhận thông báo (Hãy dùng Chrome hoặc cài app ra màn hình chính trên iOS).</p>
+            )}
           </div>
-        )}
+          <Button
+            onClick={handleTogglePush}
+            disabled={isPushLoading || !isSupported}
+            variant={isSubscribed ? "default" : "outline"}
+            className={isSubscribed ? "bg-orange-600 hover:bg-orange-700 text-white" : ""}
+          >
+            {isPushLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : (isSubscribed ? "Đang Bật" : "Đã Tắt")}
+          </Button>
+        </div>
 
         {/* Thông báo trạng thái */}
         {status === "error" && (
