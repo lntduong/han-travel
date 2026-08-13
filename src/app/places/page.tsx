@@ -5,7 +5,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { Header } from "@/components/Header";
 import { VocabCard } from "@/components/VocabCard";
 import { Button } from "@/components/ui/button";
-import { Trash2, Send, Loader2, MapPin } from "lucide-react";
+import { Trash2, Send, Loader2, MapPin, Search } from "lucide-react";
 
 interface PlaceItem {
   id: string;
@@ -24,6 +24,7 @@ export default function PlacesPage() {
   const [zhText, setZhText] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Thành phố");
   const [filterCategory, setFilterCategory] = useState("Tất cả");
+  const [searchTerm, setSearchTerm] = useState("");
   const [isSaving, setIsSaving] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -87,7 +88,11 @@ export default function PlacesPage() {
     }
   };
 
-  const filteredItems = items.filter(item => filterCategory === "Tất cả" || item.category === filterCategory);
+  const filteredItems = items.filter(item => {
+    const matchesCategory = filterCategory === "Tất cả" || item.category === filterCategory;
+    const matchesSearch = item.vi.toLowerCase().includes(searchTerm.toLowerCase()) || item.zh.includes(searchTerm);
+    return matchesCategory && matchesSearch;
+  });
 
   return (
     <div className="min-h-screen bg-[#F5F1EA] dark:bg-slate-900 pb-24">
@@ -105,6 +110,20 @@ export default function PlacesPage() {
           <p className="text-slate-600 dark:text-slate-400 max-w-lg mx-auto">
             Tra cứu nhanh và nghe phát âm chuẩn tên các thành phố, chợ đêm, ga tàu nổi tiếng tại Đài Loan.
           </p>
+        </div>
+
+        {/* Search Form */}
+        <div className="relative max-w-lg mx-auto w-full">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <Search className="h-5 w-5 text-slate-400" />
+          </div>
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Tìm kiếm địa danh..."
+            className="w-full pl-11 pr-4 py-3 rounded-xl border border-[#E2D8CE] dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-orange-500 shadow-sm transition-all placeholder:text-slate-400 text-base"
+          />
         </div>
 
         {/* Filter Categories */}
@@ -176,7 +195,7 @@ export default function PlacesPage() {
           <>
             {filteredItems.length === 0 ? (
               <div className="text-center py-12 text-slate-500 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
-                <p>Không có địa danh nào trong danh mục này.</p>
+                <p>Không tìm thấy địa danh nào phù hợp.</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
