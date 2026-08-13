@@ -103,11 +103,12 @@ export function Header({ title, backUrl }: HeaderProps) {
         <div className="fixed top-16 left-0 w-full bg-[#FAF7F2] dark:bg-slate-950 border-b border-[#E2D8CE] dark:border-slate-800 shadow-xl p-4 flex flex-col gap-3 z-40 md:hidden animate-in slide-in-from-top-2">
           <Link 
             href="/" 
-            className={`px-4 py-3 rounded-xl font-medium transition-colors ${pathname === "/" ? "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900"}`}
+            className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Bài học
+            📖 Bài học
           </Link>
+          
           <Link 
             href="/vocabulary" 
             onClick={() => setIsMobileMenuOpen(false)}
@@ -123,16 +124,16 @@ export function Header({ title, backUrl }: HeaderProps) {
           >
             🎒 Sổ tay
           </Link>
-
+          
+          <div className="h-px bg-[#E2D8CE] dark:bg-slate-800 my-2" />
+          
           <Link 
             href="/admin" 
             onClick={() => setIsMobileMenuOpen(false)}
             className={`p-4 rounded-xl font-medium transition-colors ${pathname === "/admin" ? "bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400" : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"}`}
           >
-            ⚙️ Quản lý (Git CMS)
+            ⚙️ Quản lý
           </Link>
-          
-          <div className="h-px bg-[#E2D8CE] dark:bg-slate-800 my-2" />
           
           {isAuthenticated ? (
             <Button 
