@@ -6,7 +6,7 @@ import { useTTS } from "@/hooks/useTTS";
 import { Header } from "@/components/Header";
 import { PinyinText } from "@/components/PinyinText";
 import { Button } from "@/components/ui/button";
-import { Volume2, Trash2, Send, Loader2, Search } from "lucide-react";
+import { Volume2, Trash2, Send, Loader2, Search, Snail } from "lucide-react";
 
 interface NotebookItem {
   id: string;
@@ -213,14 +213,26 @@ export default function SurvivalPage() {
 
                 {/* Actions */}
                 <div className="absolute right-4 top-4 bottom-4 flex flex-col justify-between items-end">
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => speak(item.zh)}
-                    className="w-10 h-10 rounded-full text-orange-500 hover:text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-500/10"
-                  >
-                    <Volume2 className="w-5 h-5" />
-                  </Button>
+                  <div className="flex flex-col gap-1">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => speak(item.zh)}
+                      className="w-10 h-10 rounded-full text-orange-500 hover:text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-500/10"
+                      title="Phát âm bình thường"
+                    >
+                      <Volume2 className="w-5 h-5" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => speak(item.zh, "zh-TW", true)}
+                      className="w-8 h-8 rounded-full text-emerald-500 hover:text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-500/10 mr-1 self-end"
+                      title="Phát âm chậm"
+                    >
+                      <Snail className="w-4 h-4" />
+                    </Button>
+                  </div>
 
                   {isAuthenticated && (
                     <Button

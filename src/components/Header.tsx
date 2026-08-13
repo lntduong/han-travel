@@ -7,6 +7,7 @@ import { Menu, ArrowLeft, LogOut, X } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useState } from "react";
 import { LoginModal } from "./LoginModal";
+import { ThemeToggle } from "./ThemeToggle";
 
 import { usePathname } from "next/navigation";
 
@@ -69,7 +70,8 @@ export function Header({ title, backUrl }: HeaderProps) {
             Quản lý
           </Link>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 md:gap-4">
+          <ThemeToggle />
           {isAuthenticated ? (
             <Button 
               onClick={logout} 

@@ -21,20 +21,24 @@ export const metadata: Metadata = {
 
 import { Footer } from "@/components/Footer";
 import { AuthProvider } from "@/contexts/AuthContext";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="vi"
       className={`${beVietnamPro.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans">
-        <AuthProvider>
-          <div className="flex-1 flex flex-col">
-            {children}
-          </div>
-          <Footer />
-        </AuthProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <AuthProvider>
+            <div className="flex-1 flex flex-col">
+              {children}
+            </div>
+            <Footer />
+          </AuthProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

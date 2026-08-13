@@ -5,7 +5,7 @@ import { Lesson } from "@/types/lesson";
 import { useTTS } from "@/hooks/useTTS";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Volume2, Info, ArrowLeft } from "lucide-react";
+import { Volume2, Info, ArrowLeft, Snail } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { Header } from "@/components/Header";
@@ -144,14 +144,26 @@ export default function LessonDetail() {
                               </p>
                             </div>
 
-                            <Button
-                              variant="ghost"
-                              size="icon"
-                              className={`h-10 w-10 shrink-0 rounded-full hover:bg-black/10 transition-colors ${isSelf ? 'text-white' : 'text-slate-400 hover:text-slate-600'}`}
-                              onClick={() => speak(dialogue.sentence)}
-                            >
-                              <Volume2 className="w-5 h-5" />
-                            </Button>
+                            <div className="flex flex-col gap-1 items-center justify-center">
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                className={`h-9 w-9 shrink-0 rounded-full hover:bg-black/10 transition-colors ${isSelf ? 'text-white' : 'text-slate-400 hover:text-slate-600'}`}
+                                onClick={() => speak(dialogue.sentence)}
+                                title="Đọc bình thường"
+                              >
+                                <Volume2 className="w-5 h-5" />
+                              </Button>
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                className={`h-7 w-7 shrink-0 rounded-full hover:bg-black/10 transition-colors ${isSelf ? 'text-white/80' : 'text-slate-300 hover:text-slate-500'}`}
+                                onClick={() => speak(dialogue.sentence, "zh-TW", true)}
+                                title="Đọc chậm"
+                              >
+                                <Snail className="w-4 h-4" />
+                              </Button>
+                            </div>
                           </div>
                         </div>
                       </div>

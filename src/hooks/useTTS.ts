@@ -16,7 +16,7 @@ export function useTTS() {
     };
   }, []);
 
-  const speak = useCallback((text: string, lang = "zh-TW") => {
+  const speak = useCallback((text: string, lang = "zh-TW", slow = false) => {
     if (!text) return;
 
     // Dừng âm thanh cũ nếu đang phát
@@ -31,6 +31,10 @@ export function useTTS() {
       const url = `/api/tts?text=${encodedText}&lang=${lang}`;
       
       const audio = new Audio(url);
+      if (slow) {
+        audio.playbackRate = 0.6; // Giảm tốc độ xuống 60%
+        audio.preservesPitch = true; // Cố gắng giữ nguyên tông giọng
+      }
       audioRef.current = audio;
       
       setIsSpeaking(true);

@@ -1,6 +1,6 @@
 "use client";
 
-import { Volume2 } from "lucide-react";
+import { Volume2, Snail } from "lucide-react";
 import { PinyinText } from "./PinyinText";
 import { useTTS } from "@/hooks/useTTS";
 
@@ -19,16 +19,28 @@ export function VocabCard({ word, meaning }: VocabCardProps) {
       
       <div className="flex justify-between items-start gap-4">
         <PinyinText text={word} size="lg" />
-        <button 
-          onClick={(e) => {
-            e.stopPropagation();
-            speak(word);
-          }}
-          className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800 flex items-center justify-center text-slate-400 group-hover:text-orange-500 group-hover:bg-orange-50 dark:group-hover:bg-orange-950/30 transition-colors shrink-0"
-          title="Nghe cả từ"
-        >
-          <Volume2 className="w-5 h-5" />
-        </button>
+        <div className="flex flex-col gap-1 items-center justify-center shrink-0">
+          <button 
+            onClick={(e) => {
+              e.stopPropagation();
+              speak(word);
+            }}
+            className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800 flex items-center justify-center text-slate-400 hover:text-orange-500 hover:bg-orange-50 dark:hover:bg-orange-950/30 transition-colors"
+            title="Nghe tốc độ thường"
+          >
+            <Volume2 className="w-5 h-5" />
+          </button>
+          <button 
+            onClick={(e) => {
+              e.stopPropagation();
+              speak(word, "zh-TW", true);
+            }}
+            className="w-7 h-7 rounded-full bg-slate-50 dark:bg-slate-800/50 flex items-center justify-center text-slate-300 hover:text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-950/30 transition-colors"
+            title="Nghe chậm"
+          >
+            <Snail className="w-4 h-4" />
+          </button>
+        </div>
       </div>
       
       <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
