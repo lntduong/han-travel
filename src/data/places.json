@@ -180,5 +180,96 @@
     "vi": "Khu Tín Nghĩa (Xinyi District)",
     "category": "Khu mua sắm",
     "timestamp": 1712010026
+  },
+  {
+    "id": "1712010027",
+    "zh": "陽明山",
+    "vi": "Công viên Dương Minh Sơn (Yangmingshan)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010027
+  },
+  {
+    "id": "1712010028",
+    "zh": "墾丁國家公園",
+    "vi": "Vườn Quốc gia Khẩn Đinh (Kenting)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010028
+  },
+  {
+    "id": "1712010029",
+    "zh": "佛光山",
+    "vi": "Phật Quang Sơn (Fo Guang Shan)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010029
+  },
+  {
+    "id": "1712010030",
+    "zh": "基隆廟口夜市",
+    "vi": "Chợ đêm Cơ Long (Keelung Miaokou)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010030
+  },
+  {
+    "id": "1712010031",
+    "zh": "寧夏夜市",
+    "vi": "Chợ đêm Ninh Hạ (Ningxia)",
+    "category": "Chợ đêm",
+    "timestamp": 1712010031
+  },
+  {
+    "id": "1712010032",
+    "zh": "臺北市立動物園",
+    "vi": "Sở thú Đài Bắc (Taipei Zoo)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010032
+  },
+  {
+    "id": "1712010033",
+    "zh": "文武廟",
+    "vi": "Văn Võ Miếu (Wenwu Temple)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010033
+  },
+  {
+    "id": "1712010034",
+    "zh": "小琉球",
+    "vi": "Đảo Tiểu Lưu Cầu (Xiaoliuqiu)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010034
+  },
+  {
+    "id": "1712010035",
+    "zh": "彩虹眷村",
+    "vi": "Làng Cầu Vồng (Rainbow Village)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010035
+  },
+  {
+    "id": "1712010036",
+    "zh": "蓮池潭",
+    "vi": "Đầm Liên Trì (Lotus Pond)",
+    "category": "Điểm du lịch",
+    "timestamp": 1712010036
+  },
+  {
+    "id": "1712010037",
+    "zh": "高鐵台北站",
+    "vi": "Ga Cao tốc Đài Bắc (THSR Taipei)",
+    "category": "Nhà ga",
+    "timestamp": 1712010037
+  },
+  {
+    "id": "1712010038",
+    "zh": "桃園國際機場",
+    "vi": "Sân bay quốc tế Đào Viên (Taoyuan Airport)",
+    "category": "Nhà ga",
+    "timestamp": 1712010038
+  },
+  {
+    "id": "1712010039",
+    "zh": "淡水老街",
+    "vi": "Phố cổ Đạm Thủy (Tamsui Old Street)",
+    "category": "Khu mua sắm",
+    "timestamp": 1712010039
   }
 ]
