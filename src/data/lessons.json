@@ -179,5 +179,69 @@
         "meaning": "Mang đi"
       }
     ]
+  },
+  {
+    "id": "lesson-4",
+    "title": "Mua đồ ăn vặt ở chợ đêm (Gà rán Đài Loan)",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我要一份大雞排，小辣，不要切。",
+      "pinyin": "Lǎobǎn, wǒ yào yí fèn dà jīpái, xiǎo là, bú yào qiē.",
+      "translation": "Ông chủ ơi, cho tôi một phần gà rán lớn, cay ít, không cắt nhé."
+    },
+    "usage": "Dùng khi bạn gọi món tại các quầy ăn vặt chợ đêm Đài Loan và muốn chọn mức độ cay hoặc yêu cầu để nguyên miếng.",
+    "note": "Ở chợ đêm Đài Loan, chủ quán thường hỏi 2 câu quen thuộc: '要辣嗎？' (Ăn cay không?) và '要切嗎？' (Có cắt không?). Túi nilon (塑膠袋) thường tính phí riêng 1-2 TWD.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，請問一份雞排多少錢？",
+        "pinyin": "Lǎobǎn, qǐngwèn yí fèn jīpái duōshao qián?",
+        "translation": "Ông chủ ơi, cho hỏi một phần gà rán bao nhiêu tiền?"
+      },
+      {
+        "speaker": "B (Chủ quán)",
+        "sentence": "一份九十塊。要辣嗎？要不要切？",
+        "pinyin": "Yí fèn jiǔshí kuài. Yào là ma? Yào bu yào qiē?",
+        "translation": "Một phần 90 tệ. Có ăn cay không? Có cần cắt ra không?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我要小辣，不要切。另外要買一個塑膠袋。",
+        "pinyin": "Wǒ yào xiǎo là, bú yào qiē. Lìngwài yào mǎi yí ge sùjiāodài.",
+        "translation": "Cho tôi cay ít, không cắt nhé. Với lại tôi mua thêm một cái túi nilon."
+      },
+      {
+        "speaker": "B (Chủ quán)",
+        "sentence": "好，總共九十二塊，號碼牌拿好，等三分鐘喔！",
+        "pinyin": "Hǎo, zǒnggòng jiǔshí'èr kuài, hàomǎpái ná hǎo, děng sān fēnzhōng o!",
+        "translation": "Được rồi, tổng cộng 92 tệ, bạn cầm lấy thẻ số, đợi khoảng 3 phút nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "老闆",
+        "meaning": "Ông chủ / Chủ quán"
+      },
+      {
+        "word": "雞排",
+        "meaning": "Gà rán phi lê (món đặc sản chợ đêm)"
+      },
+      {
+        "word": "小辣",
+        "meaning": "Cay ít"
+      },
+      {
+        "word": "不要切",
+        "meaning": "Không cắt (để nguyên miếng)"
+      },
+      {
+        "word": "塑膠袋",
+        "meaning": "Túi nilon"
+      },
+      {
+        "word": "號碼牌",
+        "meaning": "Thẻ số thứ tự"
+      }
+    ]
   }
 ]
