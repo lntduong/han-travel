@@ -243,5 +243,69 @@
         "meaning": "Thẻ số thứ tự"
       }
     ]
+  },
+  {
+    "id": "lesson-5",
+    "title": "Gửi hành lý tại khách sạn trước giờ nhận phòng",
+    "category": "Khách sạn & Lưu trú",
+    "mainSentence": {
+      "sentence": "你好，我還不能入住，請問可以先寄放行李嗎？",
+      "pinyin": "Nǐ hǎo, wǒ hái bù néng rùzhù, qǐngwèn kěyǐ xiān jìfàng xínglǐ ma?",
+      "translation": "Xin chào, tôi chưa đến giờ nhận phòng, cho hỏi tôi có thể gửi hành lý trước được không?"
+    },
+    "usage": "Dùng khi đến khách sạn trước giờ check-in hoặc sau khi check-out mà muốn gửi lại vali để đi tham quan.",
+    "note": "Ở Đài Loan, dịch vụ gửi hành lý gọi là 寄放行李 (jìfàng xínglǐ). Lễ tân sẽ phát 行李牌 (xínglǐpái - thẻ nhận hành lý) để bạn xuất trình khi lấy lại đồ.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我今天有預訂房間，但還沒到入住時間，可以先寄放行李嗎？",
+        "pinyin": "Nǐ hǎo, wǒ jīntiān yǒu yùdìng fángjiān, dàn hái méi dào rùzhù shíjiān, kěyǐ xiān jìfàng xínglǐ ma?",
+        "translation": "Xin chào, tôi có đặt phòng hôm nay, nhưng chưa đến giờ nhận phòng, tôi có thể gửi hành lý trước được không?"
+      },
+      {
+        "speaker": "B (Lễ tân)",
+        "sentence": "沒問題，請問您的大名是？有幾件行李呢？",
+        "pinyin": "Méi wèntí, qǐngwèn nín de dàmíng shì? Yǒu jǐ jiàn xínglǐ ne?",
+        "translation": "Không vấn đề gì ạ, cho hỏi quý danh của bạn là gì? Bạn có mấy kiện hành lý ạ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我姓黎，總共兩件大行李箱。",
+        "pinyin": "Wǒ xìng Lí, zǒnggòng liǎng jiàn dà xínglǐxiāng.",
+        "translation": "Tôi họ Lê, tổng cộng có 2 vali lớn."
+      },
+      {
+        "speaker": "B (Lễ tân)",
+        "sentence": "好的，這是您的行李牌，下午三點後憑牌子取件並辦理入住喔！",
+        "pinyin": "Hǎo de, zhè shì nín de xínglǐpái, xiàwǔ sān diǎn hòu píng páizi qǔ jiàn bìng bànlǐ rùzhù o!",
+        "translation": "Vâng ạ, đây là thẻ giữ hành lý của bạn, sau 3 giờ chiều bạn dùng thẻ này để lấy lại đồ và làm thủ tục nhận phòng nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "寄放行李",
+        "meaning": "Gửi hành lý"
+      },
+      {
+        "word": "入住",
+        "meaning": "Nhận phòng (Check-in)"
+      },
+      {
+        "word": "退房",
+        "meaning": "Trả phòng (Check-out)"
+      },
+      {
+        "word": "預訂",
+        "meaning": "Đặt phòng / Đặt chỗ trước"
+      },
+      {
+        "word": "行李箱",
+        "meaning": "Vali hành lý"
+      },
+      {
+        "word": "行李牌",
+        "meaning": "Thẻ nhận hành lý"
+      }
+    ]
   }
 ]
