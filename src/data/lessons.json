@@ -307,5 +307,69 @@
         "meaning": "Thẻ nhận hành lý"
       }
     ]
+  },
+  {
+    "id": "lesson-7",
+    "title": "Làm thủ tục hoàn thuế khi mua sắm (退稅)",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "你好，我想辦理退稅，這是我的護照和發票。",
+      "pinyin": "Nǐ hǎo, wǒ xiǎng bànlǐ tuìshuì, zhè shì wǒ de hùzhào hé fāpiào.",
+      "translation": "Xin chào, tôi muốn làm thủ tục hoàn thuế, đây là hộ chiếu và hóa đơn của tôi."
+    },
+    "usage": "Dùng khi mua sắm tại các trung tâm thương mại hoặc cửa hàng có gắn biểu tượng 'Taiwan Tax Refund' và muốn xin hoàn thuế VAT.",
+    "note": "Du khách nước ngoài mua sắm từ 2.000 TWD trở lên trong cùng ngày tại một cửa hàng hợp lệ có thể xin hoàn thuế. Bạn cần xuất trình hộ chiếu gốc và hóa đơn (發票). Nhiều nơi hỗ trợ nhận lại tiền hoàn thuế bằng tiền mặt ngay tại quầy dịch vụ.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問在這裡買滿兩千塊可以辦理退稅嗎？",
+        "pinyin": "Nǐ hǎo, qǐngwèn zài zhèlǐ mǎi mǎn liǎng qiān kuài kěyǐ bànlǐ tuìshuì ma?",
+        "translation": "Xin chào, cho hỏi mua đủ 2.000 tệ ở đây có thể làm thủ tục hoàn thuế không?"
+      },
+      {
+        "speaker": "B (Nhân viên thu ngân)",
+        "sentence": "可以的，請您拿著發票、明細和護照，到五樓的服務台辦理。",
+        "pinyin": "Kěyǐ de, qǐng nín názhe fāpiào, míngxì hé hùzhào, dào wǔ lóu de fúwùtái bànlǐ.",
+        "translation": "Được ạ, phiền bạn mang theo hóa đơn, phiếu chi tiết và hộ chiếu lên quầy dịch vụ tầng 5 để làm thủ tục nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的。到了服務台需要填寫什麼表格嗎？",
+        "pinyin": "Hǎo de. Dào le fúwùtái xūyào tiánxiě shénme biǎogé ma?",
+        "translation": "Vâng. Đến quầy dịch vụ có cần điền mẫu đơn gì không?"
+      },
+      {
+        "speaker": "B (Nhân viên thu ngân)",
+        "sentence": "不用，工作人員會直接幫您處理，還可以退現金給您喔！",
+        "pinyin": "Bú yòng, gōngzuò rényuán huì zhíjiē bāng nín chǔlǐ, hái kěyǐ tuì xiànjīn gěi nín o!",
+        "translation": "Không cần đâu ạ, nhân viên sẽ trực tiếp xử lý giúp bạn, và có thể hoàn tiền mặt lại cho bạn luôn đấy!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "退稅",
+        "meaning": "Hoàn thuế (Tax Refund)"
+      },
+      {
+        "word": "辦理",
+        "meaning": "Làm thủ tục / Xử lý"
+      },
+      {
+        "word": "護照",
+        "meaning": "Hộ chiếu (Passport)"
+      },
+      {
+        "word": "發票",
+        "meaning": "Hóa đơn"
+      },
+      {
+        "word": "服務台",
+        "meaning": "Quầy dịch vụ / Quầy chăm sóc khách hàng"
+      },
+      {
+        "word": "現金",
+        "meaning": "Tiền mặt"
+      }
+    ]
   }
 ]
