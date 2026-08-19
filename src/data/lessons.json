@@ -371,5 +371,69 @@
         "meaning": "Tiền mặt"
       }
     ]
+  },
+  {
+    "id": "lesson-8",
+    "title": "Mua bánh dứa đặc sản và xin nếm thử",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問這個鳳梨酥可以試吃嗎？保存期限是多久？",
+      "pinyin": "Qǐngwèn zhè ge fènglísū kěyǐ shìchī ma? Bǎocún qíxiàn shì duōjiǔ?",
+      "translation": "Cho hỏi bánh dứa này có được nếm thử không? Hạn sử dụng là bao lâu?"
+    },
+    "usage": "Dùng khi mua quà đặc sản bánh kẹo tại Đài Loan để nếm thử và kiểm tra hạn sử dụng trước khi mua biếu.",
+    "note": "Ở Đài Loan, bánh dứa chia làm hai dòng chính: 傳統鳳梨酥 (bánh dứa truyền thống, vị ngọt) và 土鳳梨酥 (bánh dứa chua tự nhiên 100% từ dứa tươi). Các tiệm đặc sản hầu như đều có quầy 試吃 (shìchī - nếm thử) miễn phí.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問土鳳梨酥和傳統鳳梨酥有什麼不同？可以試吃嗎？",
+        "pinyin": "Nǐ hǎo, qǐngwèn tǔ fènglísū hàn chuántǒng fènglísū yǒu shénme bùtóng? Kěyǐ shìchī ma?",
+        "translation": "Xin chào, cho hỏi bánh dứa chua và bánh dứa truyền thống khác nhau thế nào? Có thể nếm thử được không?"
+      },
+      {
+        "speaker": "B (Nhân viên cửa hàng)",
+        "sentence": "可以啊！土鳳梨酥口感比較微酸帶果肉，傳統的比較香甜。您試吃看看這兩塊。",
+        "pinyin": "Kěyǐ a! Tǔ fènglísū kǒugǎn bǐjiào wēisuān dài guǒròu, chuántǒng de bǐjiào xiāngtián. Nín shìchī kànkan zhè liǎng kuài.",
+        "translation": "Được chứ ạ! Bánh dứa chua có vị chua nhẹ và thấy rõ tép dứa, loại truyền thống thì thơm ngọt hơn. Bạn nếm thử hai miếng này xem nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "很好吃！我想買五盒禮盒裝的，請問保存期限是多久？",
+        "pinyin": "Hěn hǎochī! Wǒ xiǎng mǎi wǔ hé lǐhézhuāng de, qǐngwèn bǎocún qíxiàn shì duōjiǔ?",
+        "translation": "Ngon lắm! Tôi muốn mua 5 hộp loại đóng gói quà tặng, cho hỏi hạn sử dụng là bao lâu?"
+      },
+      {
+        "speaker": "B (Nhân viên cửa hàng)",
+        "sentence": "常溫可以保存三十天，我們也有提供精美提袋喔！",
+        "pinyin": "Chángwēn kěyǐ bǎocún sānshí tiān, wǒmen yě yǒu tígōng jīngměi tídài o!",
+        "translation": "Ở nhiệt độ phòng bảo quản được 30 ngày, bên mình có tặng kèm túi xách rất đẹp ạ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "鳳梨酥",
+        "meaning": "Bánh dứa Đài Loan"
+      },
+      {
+        "word": "試吃",
+        "meaning": "Nếm thử / Ăn thử"
+      },
+      {
+        "word": "保存期限",
+        "meaning": "Hạn sử dụng / Thời hạn bảo quản"
+      },
+      {
+        "word": "土鳳梨酥",
+        "meaning": "Bánh dứa chua (100% thịt dứa nguyên chất)"
+      },
+      {
+        "word": "禮盒",
+        "meaning": "Hộp quà biếu / Hộp đóng gói trang trọng"
+      },
+      {
+        "word": "常溫",
+        "meaning": "Nhiệt độ phòng (nhiệt độ thường)"
+      }
+    ]
   }
 ]
