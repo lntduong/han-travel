@@ -435,5 +435,69 @@
         "meaning": "Nhiệt độ phòng (nhiệt độ thường)"
       }
     ]
+  },
+  {
+    "id": "lesson-9",
+    "title": "Mua vé tàu cao tốc (高鐵 - THSR)",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "我想買兩張今天去台中的高鐵票，對號座。",
+      "pinyin": "Wǒ xiǎng mǎi liǎng zhāng jīntiān qù Táizhōng de gāotiě piào, duìhàozuò.",
+      "translation": "Tôi muốn mua hai vé tàu cao tốc đi Đài Trung hôm nay, loại ghế có số cố định."
+    },
+    "usage": "Dùng khi mua vé tàu cao tốc tại quầy vé hoặc máy tự động để di chuyển giữa các thành phố ở Đài Loan.",
+    "note": "Ở Đài Loan, tàu cao tốc gọi là 高鐵 (Gāotiě). Khi mua vé cần chọn giữa 對號座 (duìhàozuò - ghế cố định số) và 自由座 (zìyóuzuò - ghế tự do không giữ chỗ trước).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我想買兩張今天下午去台中的高鐵票，要對號座。",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng mǎi liǎng zhāng jīntiān xiàwǔ qù Táizhōng de gāotiě piào, yào duìhàozuò.",
+        "translation": "Xin chào, tôi muốn mua 2 vé tàu cao tốc đi Đài Trung chiều nay, lấy loại ghế có số cố định."
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "好的，一點半有一班車，靠窗還是靠走道呢？",
+        "pinyin": "Hǎo de, yì diǎn bàn yǒu yì bān chē, kàochuāng háishì kào zǒudào ne?",
+        "translation": "Được ạ, có chuyến lúc 1 giờ 30 chiều, bạn muốn ghế cạnh cửa sổ hay cạnh lối đi?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "兩個座位請幫我們安排在一起，靠窗最好。請問可以用信用卡付款嗎？",
+        "pinyin": "Liǎng ge zuòwèi qǐng bāng wǒmen ānpái zài yìqǐ, kàochuāng zuìhǎo. Qǐngwèn kěyǐ yòng xìnyòngkǎ fùkuǎn ma?",
+        "translation": "Hai chỗ xin xếp cạnh nhau giúp chúng tôi, cạnh cửa sổ là tốt nhất. Cho hỏi có thể thanh toán bằng thẻ tín dụng không?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "沒問題，總共一千四百元。請插卡，這是您的車票和明細。",
+        "pinyin": "Méi wèntí, zǒnggòng yìqiān sìbǎi yuán. Qǐng chākǎ, zhè shì nín de chēpiào hé míngxì.",
+        "translation": "Không vấn đề gì ạ, tổng cộng 1.400 tệ. Mời bạn cắm thẻ thanh toán, đây là vé tàu và hóa đơn của bạn."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "高鐵",
+        "meaning": "Tàu cao tốc (THSR)"
+      },
+      {
+        "word": "對號座",
+        "meaning": "Ghế có chỉ định số (chắc chắn có chỗ)"
+      },
+      {
+        "word": "自由座",
+        "meaning": "Ghế tự do (không chỉ định số ghế)"
+      },
+      {
+        "word": "靠窗",
+        "meaning": "Cạnh cửa sổ"
+      },
+      {
+        "word": "靠走道",
+        "meaning": "Cạnh lối đi"
+      },
+      {
+        "word": "車票",
+        "meaning": "Vé tàu / Vé xe"
+      }
+    ]
   }
 ]
