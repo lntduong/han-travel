@@ -499,5 +499,69 @@
         "meaning": "Vé tàu / Vé xe"
       }
     ]
+  },
+  {
+    "id": "lesson-10",
+    "title": "Gọi món mì bò Đài Loan (牛肉麵)",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我要一碗紅燒半筋半肉牛肉麵，選粗麵。",
+      "pinyin": "Lǎobǎn, wǒ yào yì wǎn hóngshāo bànjīnbànròu niúròumiàn, xuǎn cūmiàn.",
+      "translation": "Ông chủ ơi, cho tôi một tô mì bò nửa nạc nửa gân sốt cay đậm đà, chọn sợi mì to."
+    },
+    "usage": "Dùng khi vào các quán mì bò truyền thống tại Đài Loan để gọi món theo từng khẩu vị nước dùng, phần thịt và sợi mì.",
+    "note": "Mì bò Đài Loan chia làm 2 loại nước chính: 紅燒 (hóngshāo - vị đậm đà, hơi cay) và 清燉 (qīngdùn - vị thanh ngọt). Thịt gồm có: 牛肉 (thịt bò), 牛筋 (gân bò), 半筋半肉 (nửa gân nửa thịt). Quán luôn có dưa cải chua 酸菜 (suāncài) miễn phí trên bàn.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，兩位內用。請問這張單子要怎麼點？",
+        "pinyin": "Nǐ hǎo, liǎng wèi nèiyòng. Qǐngwèn zhè zhāng dānzi yào zěnme diǎn?",
+        "translation": "Xin chào, hai người ăn tại chỗ. Cho hỏi phiếu gọi món này điền thế nào ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quán)",
+        "sentence": "請先找位子坐，在菜單上劃好餐點，選好湯頭和麵條粗細，再拿到櫃檯結帳。",
+        "pinyin": "Qǐng xiān zhǎo wèizi zuò, zài càidān shàng huà hǎo cāndiǎn, xuǎn hǎo tāngtóu hé miàntiáo cūxì, zài ná dào guìtái jiézhàng.",
+        "translation": "Mời bạn tìm bàn ngồi trước, gạch chọn món trên menu, chọn nước dùng và độ to nhỏ của sợi mì, rồi mang ra quầy thanh toán nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，我們要一碗紅燒半筋半肉麵和一碗清燉牛肉麵，都選粗麵。",
+        "pinyin": "Hǎo de, wǒmen yào yì wǎn hóngshāo bànjīnbànròu miàn hàn yì wǎn qīngdùn niúròumiàn, dōu xuǎn cūmiàn.",
+        "translation": "Vâng, chúng tôi lấy một tô mì nửa gân nửa thịt nước sốt đậm đà và một tô mì thịt bò nước trong, đều chọn sợi to nhé."
+      },
+      {
+        "speaker": "B (Nhân viên quán)",
+        "sentence": "好的！桌上有酸菜和辣椒醬，可以自己加喔！",
+        "pinyin": "Hǎo de! Zhuō shàng yǒu suāncài hé làjiāojiàng, kěyǐ zìjǐ jiā o!",
+        "translation": "Được ạ! Trên bàn có sẵn dưa chua và ớt sa tế, các bạn có thể tự thêm tùy ý nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "牛肉麵",
+        "meaning": "Mì bò"
+      },
+      {
+        "word": "紅燒",
+        "meaning": "Nước sốt đậm đà / hầm tương đỏ (hơi cay nhẹ)"
+      },
+      {
+        "word": "清燉",
+        "meaning": "Nước dùng hầm trong thanh ngọt"
+      },
+      {
+        "word": "半筋半肉",
+        "meaning": "Nửa thịt nửa gân"
+      },
+      {
+        "word": "粗麵",
+        "meaning": "Mì sợi to bản dày"
+      },
+      {
+        "word": "酸菜",
+        "meaning": "Dưa cải chua ăn kèm"
+      }
+    ]
   }
 ]
