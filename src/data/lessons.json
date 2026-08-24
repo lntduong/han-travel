@@ -563,5 +563,209 @@
         "meaning": "Dưa cải chua ăn kèm"
       }
     ]
+  },
+  {
+    "id": "lesson-11",
+    "title": "Hâm nóng đồ ăn tại cửa hàng tiện lợi (超商微波)",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "這款便當麻煩幫我微波加熱，謝謝！",
+      "pinyin": "Zhè kuǎn biàndāng máfán bāng wǒ wéibō jiārè, xièxie!",
+      "translation": "Hộp cơm này phiền bạn hâm nóng bằng lò vi sóng giúp tôi, cảm ơn!"
+    },
+    "usage": "Dùng khi mua đồ ăn chín tại các chuỗi cửa hàng tiện lợi (7-Eleven, FamilyMart,...) ở Đài Loan và yêu cầu nhân viên quay lò vi sóng hâm nóng.",
+    "note": "Ở Đài Loan, cửa hàng tiện lợi được gọi tắt là 超商 (chāoshāng). Nhân viên thường hỏi '需要微波嗎？' (Có cần hâm nóng không?) và tặng kèm 提網 (tíwǎng - túi lưới cách nhiệt) để khách cầm đồ nóng mà không bị bỏng.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，結帳！這款便當麻煩幫我微波加熱。",
+        "pinyin": "Nǐ hǎo, jiézhàng! Zhè kuǎn biàndāng máfán bāng wǒ wéibō jiārè.",
+        "translation": "Xin chào, tính tiền giúp tôi! Hộp cơm này phiền bạn hâm nóng bằng lò vi sóng nhé."
+      },
+      {
+        "speaker": "B (Nhân viên thu ngân)",
+        "sentence": "好的！請問需要提網嗎？",
+        "pinyin": "Hǎo de! Qǐngwèn xūyào tíwǎng ma?",
+        "translation": "Vâng ạ! Cho hỏi bạn có cần túi lưới xách đồ không ạ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "需要，請給我一個提網，謝謝。",
+        "pinyin": "Xūyào, qǐng gěi wǒ yí ge tíwǎng, xièxie.",
+        "translation": "Có ạ, cho tôi xin một cái túi lưới, cảm ơn bạn."
+      },
+      {
+        "speaker": "B (Nhân viên thu ngân)",
+        "sentence": "微波大約一分鐘。總共一百零九元，請問有會員嗎？",
+        "pinyin": "Wéibō dàyuē yì fēnzhōng. Zǒnggòng yìbǎi líng jiǔ yuán, qǐngwèn yǒu huìyuán ma?",
+        "translation": "Hâm nóng mất khoảng 1 phút. Tổng cộng là 109 tệ, cho hỏi bạn có thẻ tích điểm hội viên không?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "沒有，我用悠遊卡結帳，謝謝！",
+        "pinyin": "Méiyǒu, wǒ yòng Yōuyóukǎ jiézhàng, xièxie!",
+        "translation": "Tôi không có, tôi thanh toán bằng thẻ EasyCard nhé, cảm ơn!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "超商",
+        "meaning": "Cửa hàng tiện lợi"
+      },
+      {
+        "word": "微波",
+        "meaning": "Hâm nóng bằng lò vi sóng"
+      },
+      {
+        "word": "便當",
+        "meaning": "Hộp cơm phần (Bento)"
+      },
+      {
+        "word": "提網",
+        "meaning": "Túi lưới đựng đồ ăn nóng"
+      },
+      {
+        "word": "結帳",
+        "meaning": "Tính tiền / Thanh toán"
+      },
+      {
+        "word": "會員",
+        "meaning": "Thẻ hội viên / Khách hàng thân thiết"
+      }
+    ]
+  },
+  {
+    "id": "lesson-12",
+    "title": "Mua thuốc say xe và thuốc tiêu hóa tại hiệu thuốc",
+    "category": "Khẩn cấp & Y tế",
+    "mainSentence": {
+      "sentence": "你好，請問有賣暈車藥和腸胃藥嗎？",
+      "pinyin": "Nǐ hǎo, qǐngwèn yǒu mài yùnchē yào hàn chángwèi yào ma?",
+      "translation": "Xin chào, cho hỏi ở đây có bán thuốc say xe và thuốc tiêu hóa không?"
+    },
+    "usage": "Dùng khi đến hiệu thuốc hoặc cửa hàng dược mỹ phẩm ở Đài Loan để mua thuốc chống say xe đường đèo hoặc thuốc tiêu hóa khi ăn chợ đêm.",
+    "note": "Ở Đài Loan, hiệu thuốc gọi là 藥局 (yàojú), cửa hàng dược mỹ phẩm gọi là 藥妝店 (yàozhuāngdiàn). Thuốc say xe 暈車藥 (yùnchē yào) thường uống trước khi khởi hành 30 phút. Thuốc ít gây buồn ngủ thường ghi chú là 不會嗜睡 (bú huì shìshuì).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問有賣暈車藥嗎？我明天要去九份玩。",
+        "pinyin": "Nǐ hǎo, qǐngwèn yǒu mài yùnchē yào ma? Wǒ míngtiān yào qù Jiǔfèn wán.",
+        "translation": "Xin chào, cho hỏi ở đây có bán thuốc say xe không? Ngày mai tôi định đi Cửu Phần chơi."
+      },
+      {
+        "speaker": "B (Dược sĩ)",
+        "sentence": "有的，這款是長效型的，比較不會嗜睡。",
+        "pinyin": "Yǒu de, zhè kuǎn shì chángxiào xíng de, bǐjiào bú huì shìshuì.",
+        "translation": "Có ạ, loại này là dạng tác dụng kéo dài, uống vào tương đối ít gây buồn ngủ."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問這個要怎麼吃呢？",
+        "pinyin": "Qǐngwèn zhè ge yào zěnme chī ne?",
+        "translation": "Cho hỏi loại này uống như thế nào vậy ạ?"
+      },
+      {
+        "speaker": "B (Dược sĩ)",
+        "sentence": "上車前半小時吃一顆就可以了。如果有需要腸胃藥，這盒也很有效喔。",
+        "pinyin": "Shàngchē qián bàn xiǎoshí chī yì kē jiù kěyǐ le. Rúguǒ yǒu xūyào chángwèi yào, zhè hé yě hěn yǒuxiào o.",
+        "translation": "Uống 1 viên trước khi lên xe nửa tiếng là được rồi. Nếu bạn có cần thuốc tiêu hóa thì hộp này cũng rất hiệu nghiệm nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了，那兩樣我都各拿一盒，謝謝！",
+        "pinyin": "Tài hǎo le, nà liǎng yàng wǒ dōu gè ná yì hé, xièxie!",
+        "translation": "Tốt quá, vậy mỗi loại cho tôi lấy một hộp nhé, cảm ơn bạn!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "藥局",
+        "meaning": "Hiệu thuốc / Nhà thuốc tây"
+      },
+      {
+        "word": "暈車藥",
+        "meaning": "Thuốc chống say xe"
+      },
+      {
+        "word": "腸胃藥",
+        "meaning": "Thuốc đường ruột / Tiêu hóa"
+      },
+      {
+        "word": "嗜睡",
+        "meaning": "Gây buồn ngủ / Buồn ngủ"
+      },
+      {
+        "word": "半小時",
+        "meaning": "Nửa tiếng (30 phút)"
+      },
+      {
+        "word": "飯後",
+        "meaning": "Sau bữa ăn"
+      }
+    ]
+  },
+  {
+    "id": "lesson-13",
+    "title": "Thuê xe đạp công cộng YouBike (微笑單車)",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問這台YouBike可以用信用卡借嗎？要怎麼解鎖？",
+      "pinyin": "Qǐngwèn zhè tái YouBike kěyǐ yòng xìnyòngkǎ jiè ma? Yào zěnme jiěsuǒ?",
+      "translation": "Cho hỏi chiếc xe YouBike này có thể mượn bằng thẻ tín dụng không? Phải mở khóa như thế nào?"
+    },
+    "usage": "Dùng khi muốn thuê xe đạp YouBike 2.0 để di chuyển và tham quan thành phố tại Đài Loan.",
+    "note": "Hệ thống xe đạp công cộng Đài Loan gọi là YouBike hoặc 微笑單車 (wéixiào dānchē). Du khách có thể dùng thẻ tín dụng quốc tế thuê xe qua tính năng 單次租車 (dāncì zūchē - thuê chuyến lẻ) trên ứng dụng YouBike.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我是外國遊客，請問沒有台灣手機號碼也可以借YouBike嗎？",
+        "pinyin": "Nǐ hǎo, wǒ shì wàiguó yóukè, qǐngwèn méiyǒu Táiwān shǒujī hàomǎ yě kěyǐ jiè YouBike ma?",
+        "translation": "Xin chào, tôi là khách du lịch nước ngoài, cho hỏi không có số điện thoại Đài Loan thì có mượn được xe YouBike không?"
+      },
+      {
+        "speaker": "B (Người dân bản địa)",
+        "sentence": "可以喔！你下載YouBike App，選擇「單次租車」，綁定信用卡掃描螢幕上的QR Code就可以了。",
+        "pinyin": "Kěyǐ o! Nǐ xiàzài YouBike App, xuǎnzé \"dāncì zūchē\", bǎngdìng xìnyòngkǎ sǎomiáo yíngmù shàng de QR Code jiù kěyǐ le.",
+        "translation": "Được nhé! Bạn tải app YouBike, chọn \"Thuê chuyến lẻ\", liên kết thẻ tín dụng rồi quét mã QR trên màn hình đầu xe là mở khóa được ngay."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太方便了！請問騎完之後，隨便一個YouBike 2.0站點都可以還車嗎？",
+        "pinyin": "Tài fāngbiàn le! Qǐngwèn qí wán zhīhòu, suíbiàn yí ge YouBike èr-líng zhàndiǎn dōu kěyǐ huánchē ma?",
+        "translation": "Tiện lợi quá! Cho hỏi sau khi đạp xong, bất kỳ trạm YouBike 2.0 nào cũng có thể trả xe được đúng không?"
+      },
+      {
+        "speaker": "B (Người dân bản địa)",
+        "sentence": "對，只要有空的車柱，插進去聽到嗶一聲就代表還車成功了！",
+        "pinyin": "Duì, zhǐyào yǒu kōng de chēzhù, chā jìnqù tīng dào bī yì shēng jiù dàibiǎo huánchē chénggōng le!",
+        "translation": "Đúng rồi, chỉ cần có cọc trống, đẩy chốt vào nghe tiếng bíp một cái là đã trả xe thành công rồi!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "微笑單車",
+        "meaning": "Xe đạp công cộng YouBike"
+      },
+      {
+        "word": "借車",
+        "meaning": "Mượn xe / Thuê xe"
+      },
+      {
+        "word": "還車",
+        "meaning": "Trả xe"
+      },
+      {
+        "word": "解鎖",
+        "meaning": "Mở khóa xe"
+      },
+      {
+        "word": "單次租車",
+        "meaning": "Thuê theo chuyến lẻ (cho du khách)"
+      },
+      {
+        "word": "掃描",
+        "meaning": "Quét mã (QR Code)"
+      }
+    ]
   }
 ]
