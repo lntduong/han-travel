@@ -767,5 +767,133 @@
         "meaning": "Quét mã (QR Code)"
       }
     ]
+  },
+  {
+    "id": "lesson-14",
+    "title": "Lấy số thứ tự và chờ bàn tại nhà hàng đông khách",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "你好，我們有四位，請問要抽號碼牌嗎？大概要等多久？",
+      "pinyin": "Nǐ hǎo, wǒmen yǒu sì wèi, qǐngwèn yào chōu hàomǎpái ma? Dàgài yào děng duōjiǔ?",
+      "translation": "Xin chào, chúng tôi có 4 người, cho hỏi có cần lấy số thứ tự không? Khoảng bao lâu thì có bàn?"
+    },
+    "usage": "Dùng khi đến các quán ăn, nhà hàng nổi tiếng tại Đài Loan vào giờ cao điểm để lấy số thứ tự và nhận menu gọi món trước.",
+    "note": "Tại Đài Loan, các nhà hàng đông khách thường yêu cầu 抽號碼牌 (chōu hàomǎpái - lấy số thứ tự) và chờ xếp bàn 候位 (hòuwèi). Bạn có thể xin menu để 劃單 (huà dān - gạch chọn món trước) giúp tiết kiệm thời gian khi vào bàn.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我們有四位，內用。請問需要抽號碼牌嗎？",
+        "pinyin": "Nǐ hǎo, wǒmen yǒu sì wèi, nèiyòng. Qǐngwèn xūyào chōu hàomǎpái ma?",
+        "translation": "Xin chào, chúng tôi có 4 người, dùng bữa tại chỗ. Cho hỏi có cần lấy số thứ tự không ạ?"
+      },
+      {
+        "speaker": "B (Lễ tân nhà hàng)",
+        "sentence": "要喔！這是您的號碼牌，目前前面還有五組客人，大約要等二十分鐘。",
+        "pinyin": "Yào o! Zhè shì nín de hàomǎpái, mùqián qiánmiàn hái yǒu wǔ zǔ kèrén, dàyuē yào děng èrshí fēnzhōng.",
+        "translation": "Có ạ! Đây là thẻ số của bạn, hiện tại phía trước còn 5 nhóm khách, khoảng 20 phút nữa nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，我們可以先拿菜單劃單嗎？",
+        "pinyin": "Hǎo de, wǒmen kěyǐ xiān ná càidān huà dān ma?",
+        "translation": "Vâng, chúng tôi có thể lấy trước menu để chọn món trước được không?"
+      },
+      {
+        "speaker": "B (Lễ tân nhà hàng)",
+        "sentence": "沒問題，這是菜單和鉛筆。叫到您的號碼時，請把劃好的單子給服務生喔！",
+        "pinyin": "Méi wèntí, zhè shì càidān hé qiānbǐ. Jiào dào nín de hàomǎ shí, qǐng bǎ huà hǎo de dānzi gěi fúwùshēng o!",
+        "translation": "Không vấn đề gì, đây là menu và bút chì. Khi được gọi đến số, bạn đưa phiếu đã chọn món cho nhân viên phục vụ nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "號碼牌",
+        "meaning": "Thẻ số thứ tự"
+      },
+      {
+        "word": "候位",
+        "meaning": "Chờ xếp chỗ / Chờ xếp bàn"
+      },
+      {
+        "word": "劃單",
+        "meaning": "Gạch chọn món trên menu giấy"
+      },
+      {
+        "word": "組",
+        "meaning": "Nhóm / Tốpx (lượng từ chỉ nhóm khách)"
+      },
+      {
+        "word": "過號",
+        "meaning": "Lỡ lượt / Quá số thứ tự"
+      },
+      {
+        "word": "服務生",
+        "meaning": "Nhân viên phục vụ"
+      }
+    ]
+  },
+  {
+    "id": "lesson-15",
+    "title": "Thả đèn trời cầu may tại Thập Phần",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "老闆，我們要一個四色天燈，請問可以幫我們拍照和錄影嗎？",
+      "pinyin": "Lǎobǎn, wǒmen yào yí ge sìsè tiāndēng, qǐngwèn kěyǐ bāng wǒmen pāizhào hàn lùyǐng ma?",
+      "translation": "Ông chủ ơi, chúng tôi muốn lấy một chiếc đèn trời 4 màu, cho hỏi có thể giúp chúng tôi chụp ảnh và quay video được không?"
+    },
+    "usage": "Dùng khi mua và thả đèn trời cầu may mắn tại phố cổ Thập Phần (十分) hoặc Bình Khê (平溪) và nhờ chụp ảnh, quay video lưu niệm.",
+    "note": "Ở Thập Phần, du khách thường chọn 四色天燈 (sìsè tiāndēng - đèn 4 màu) tượng trưng cho 4 ước nguyện: bình an (đỏ), tài lộc (vàng), sự nghiệp (xanh), tình duyên (hồng). Người bán sẽ hướng dẫn đứng trên đường ray 鐵軌 (tiěguǐ) để thả đèn.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，我們要一個四色天燈。請問每種顏色代表什麼意思呢？",
+        "pinyin": "Lǎobǎn, wǒmen yào yí ge sìsè tiāndēng. Qǐngwèn měi zhǒng yánsè dàibiǎo shénme yìsi ne?",
+        "translation": "Ông chủ ơi, chúng tôi muốn lấy một chiếc đèn trời 4 màu. Cho hỏi mỗi màu mang ý nghĩa gì vậy ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán Thập Phần)",
+        "sentence": "紅色是平安，黃色是發財，藍色是事業，粉色是感情。選好後請拿毛筆在四面寫上願望喔！",
+        "pinyin": "Hóngsè shì píng'ān, huángsè shì fācái, lánsè shì shìyè, fěnsè shì gǎnqíng. Xuǎn hǎo hòu qǐng ná máobǐ zài sì miàn xiě shàng yuànwàng o!",
+        "translation": "Màu đỏ là bình an, màu vàng là tài lộc, màu xanh là sự nghiệp, màu hồng là tình cảm. Chọn xong bạn lấy bút lông viết điều ước lên 4 mặt nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我們寫好了！待會兒放天燈時，可以幫我們用手機拍照和錄影嗎？",
+        "pinyin": "Wǒmen xiě hǎo le! Dàihuǐ'er fàng tiāndēng shí, kěyǐ bāng wǒmen yòng shǒujī pāizhào hàn lùyǐng ma?",
+        "translation": "Chúng tôi viết xong rồi! Lát nữa lúc thả đèn, có thể giúp chúng tôi dùng điện thoại để chụp ảnh và quay video không ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán Thập Phần)",
+        "sentence": "沒問題，交給我！請跟我到鐵軌中間，我喊一二三再一起放手喔！",
+        "pinyin": "Méi wèntí, jiāo gěi wǒ! Qǐng gēn wǒ dào tiěguǐ zhōngjiān, wǒ hǎn yī èr sān zài yìqǐ fàngshǒu o!",
+        "translation": "Không vấn đề gì, cứ giao cho tôi! Mời đi theo tôi ra giữa đường ray, tôi đếm một hai ba thì cùng buông tay nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "天燈",
+        "meaning": "Đèn trời / Đèn Khổng Minh"
+      },
+      {
+        "word": "四色",
+        "meaning": "Bốn màu"
+      },
+      {
+        "word": "願望",
+        "meaning": "Điều ước / Nguyện vọng"
+      },
+      {
+        "word": "毛筆",
+        "meaning": "Bút lông"
+      },
+      {
+        "word": "鐵軌",
+        "meaning": "Đường ray xe lửa"
+      },
+      {
+        "word": "錄影",
+        "meaning": "Quay video / Ghi hình"
+      }
+    ]
   }
 ]
