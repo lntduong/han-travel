@@ -895,5 +895,69 @@
         "meaning": "Quay video / Ghi hình"
       }
     ]
+  },
+  {
+    "id": "lesson-16",
+    "title": "Trả phòng khách sạn và nhờ gọi taxi ra sân bay",
+    "category": "Khách sạn & Lưu trú",
+    "mainSentence": {
+      "sentence": "你好，我們要辦理退房，請問可以幫我們叫一台去桃園機場的計程車嗎？",
+      "pinyin": "Nǐ hǎo, wǒmen yào bànlǐ tuìfáng, qǐngwèn kěyǐ bāng wǒmen jiào yì tái qù Táoyuán Jīchǎng de jìchéngchē ma?",
+      "translation": "Xin chào, chúng tôi muốn làm thủ tục trả phòng, cho hỏi có thể giúp chúng tôi gọi một chiếc taxi đi sân bay Đào Viên được không?"
+    },
+    "usage": "Dùng khi làm thủ tục trả phòng (Check-out) tại khách sạn và nhờ nhân viên lễ tân gọi xe taxi đưa ra sân bay.",
+    "note": "Ở Đài Loan, sân bay quốc tế chính là 桃園機場 (Táoyuán Jīchǎng). Bạn cần nêu rõ nhà ga 第一航廈 (Terminal 1) hoặc 第二航廈 (Terminal 2) để tài xế trả khách đúng sảnh.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，802號房要辦理退房，這是我們的兩張房卡。",
+        "pinyin": "Nǐ hǎo, bā-líng-èr hào fáng yào bànlǐ tuìfáng, zhè shì wǒmen de liǎng zhāng fángkǎ.",
+        "translation": "Xin chào, phòng 802 làm thủ tục trả phòng, đây là 2 thẻ phòng của chúng tôi."
+      },
+      {
+        "speaker": "B (Lễ tân khách sạn)",
+        "sentence": "好的，已經幫您完成退房手續了。請問今天需要幫忙叫計程車嗎？",
+        "pinyin": "Hǎo de, yǐjīng bāng nín wánchéng tuìfáng shǒuxù le. Qǐngwèn jīntiān xūyào bāngmáng jiào jìchéngchē ma?",
+        "translation": "Vâng ạ, đã hoàn tất thủ tục trả phòng cho bạn rồi. Cho hỏi hôm nay bạn có cần giúp gọi taxi không ạ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "麻煩幫我們叫一台大計程車去桃園機場第一航廈，我們有四件大行李。",
+        "pinyin": "Máfán bāng wǒmen jiào yì tái dà jìchéngchē qù Táoyuán Jīchǎng dì-yī hángxià, wǒmen yǒu sì jiàn dà xínglǐ.",
+        "translation": "Phiền bạn gọi giúp chúng tôi một chiếc taxi lớn (xe 7 chỗ) đi Nhà ga số 1 sân bay Đào Viên nhé, chúng tôi có 4 kiện hành lý lớn."
+      },
+      {
+        "speaker": "B (Lễ tân khách sạn)",
+        "sentence": "好的，車子大約十分鐘後會抵達飯店門口，祝您旅途愉快、順風！",
+        "pinyin": "Hǎo de, chēzi dàyuē shí fēnzhōng hòu huì dǐdá fàndiàn ménkǒu, zhù nín lǚtú yúkuài, shùnfēng!",
+        "translation": "Được ạ, xe khoảng 10 phút nữa sẽ đến trước cửa khách sạn, chúc bạn chuyến đi vui vẻ, thượng lộ bình an!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "退房",
+        "meaning": "Trả phòng (Check-out)"
+      },
+      {
+        "word": "房卡",
+        "meaning": "Thẻ phòng"
+      },
+      {
+        "word": "桃園機場",
+        "meaning": "Sân bay quốc tế Đào Viên (Đài Bắc)"
+      },
+      {
+        "word": "航廈",
+        "meaning": "Nhà ga sân bay (Terminal)"
+      },
+      {
+        "word": "叫車",
+        "meaning": "Gọi xe / Đặt xe"
+      },
+      {
+        "word": "順風",
+        "meaning": "Thuận buồm xuôi gió / Thượng lộ bình an"
+      }
+    ]
   }
 ]
