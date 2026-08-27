@@ -959,5 +959,69 @@
         "meaning": "Thuận buồm xuôi gió / Thượng lộ bình an"
       }
     ]
+  },
+  {
+    "id": "lesson-17",
+    "title": "Trải nghiệm tắm suối nước nóng Bắc Đầu",
+    "category": "Khách sạn & Lưu trú",
+    "mainSentence": {
+      "sentence": "你好，請問雙人湯屋現在有空房嗎？使用時間是多久？",
+      "pinyin": "Nǐ hǎo, qǐngwèn shuāngrén tāngwū xiànzài yǒu kòngfáng ma? Shǐyòng shíjiān shì duōjiǔ?",
+      "translation": "Xin chào, cho hỏi phòng tắm suối nước nóng riêng cho hai người hiện tại có phòng trống không? Thời gian sử dụng là bao lâu?"
+    },
+    "usage": "Dùng khi đến các khu suối khoáng nóng nổi tiếng ở Đài Loan (Bắc Đầu, Ô Lai, Tiêu Khê) để thuê phòng tắm riêng ngâm suối nước nóng theo giờ.",
+    "note": "Ở Đài Loan, suối nước nóng gọi là 溫泉 (wēnquán). Phòng tắm riêng gọi là 湯屋 (tāngwū), bể tắm công cộng gọi là 大眾池 (dàzhòng chí). Nếu chọn 裸湯 (luǒtāng) sẽ tắm khỏa thân chia riêng nam nữ theo phong cách Nhật Bản.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問雙人湯屋現在有位子嗎？我們想泡溫泉。",
+        "pinyin": "Nǐ hǎo, qǐngwèn shuāngrén tāngwū xiànzài yǒu wèizi ma? Wǒmen xiǎng pào wēnquán.",
+        "translation": "Xin chào, cho hỏi phòng tắm riêng cho 2 người hiện tại có chỗ không? Chúng tôi muốn ngâm suối nước nóng."
+      },
+      {
+        "speaker": "B (Nhân viên suối nước nóng)",
+        "sentence": "目前有一間景觀湯屋，使用時間九十分鐘，費用是一千兩百元。",
+        "pinyin": "Mùqián yǒu yì jiān jǐngguān tāngwū, shǐyòng shíjiān jiǔshí fēnzhōng, fèiyòng shì yìqiān liǎngbǎi yuán.",
+        "translation": "Hiện tại đang có một phòng tắm riêng view cảnh quan, thời gian sử dụng 90 phút, chi phí là 1.200 tệ."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，請問裡面有附毛巾和礦泉水嗎？",
+        "pinyin": "Hǎo de, qǐngwèn lǐmiàn yǒu fù máojīn hàn kuàngquánshuǐ ma?",
+        "translation": "Vâng, cho hỏi bên trong có chuẩn bị sẵn khăn tắm và nước khoáng không?"
+      },
+      {
+        "speaker": "B (Nhân viên suối nước nóng)",
+        "sentence": "有的，洗沐用品和吹風機都有提供。時間結束前十分鐘會電話提醒您喔！",
+        "pinyin": "Yǒu de, xǐmù yòngpǐn hàn chuīfēngjī dōu yǒu tígōng. Shíjiān jiéshù qián shí fēnzhōng huì diànhuà tíxǐng nín o!",
+        "translation": "Có ạ, đồ tắm gội và máy sấy tóc đều có sẵn. Trước khi hết giờ 10 phút bên mình sẽ gọi điện thoại nhắc bạn nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "泡溫泉",
+        "meaning": "Ngâm / Tắm suối nước nóng"
+      },
+      {
+        "word": "湯屋",
+        "meaning": "Phòng tắm suối nước nóng riêng tư"
+      },
+      {
+        "word": "大眾池",
+        "meaning": "Bể tắm suối nước nóng công cộng"
+      },
+      {
+        "word": "裸湯",
+        "meaning": "Tắm suối nước nóng khỏa thân (phân khu nam/nữ riêng)"
+      },
+      {
+        "word": "毛巾",
+        "meaning": "Khăn tắm / Khăn mặt"
+      },
+      {
+        "word": "吹風機",
+        "meaning": "Máy sấy tóc"
+      }
+    ]
   }
 ]
