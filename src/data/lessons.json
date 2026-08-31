@@ -1023,5 +1023,267 @@
         "meaning": "Máy sấy tóc"
       }
     ]
+  },
+  {
+    "id": "lesson-18",
+    "title": "Thưởng thức lẩu Đài Loan và gọi thêm nước dùng",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "服務生，我們要一份鴛鴦鍋，麻辣拼昆布湯頭，另外請幫我們加湯。",
+      "pinyin": "Fúwùshēng, wǒmen yào yí fèn yuānyāngguō, málà pīn kūnbù tāngtóu, lìngwài qǐng bāng wǒmen jiā tāng.",
+      "translation": "Bạn phục vụ ơi, chúng tôi lấy một nồi lẩu uyên ương ghép vị cay tê Mala và vị tảo bẹ, tiện thể châm thêm nước lẩu giúp chúng tôi nhé."
+    },
+    "usage": "Dùng khi đi ăn tại các nhà hàng lẩu tại Đài Loan để chọn vị lẩu uyên ương 2 ngăn, châm thêm nước dùng và lấy thêm tiết vịt, đậu hũ.",
+    "note": "Ở Đài Loan, lẩu 2 ngăn gọi là 鴛鴦鍋 (yuānyāngguō). Món lẩu cay thường được miễn phí thêm không giới hạn 鴨血 (yāxiě - tiết vịt) và 豆腐 (dòufu - đậu phụ). Quán thường có 醬料區 (quầy tự pha nước sốt chấm) với sốt sa tế 沙茶醬.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "服務生，我們第一次來，請問湯頭要怎麼選呢？",
+        "pinyin": "Fúwùshēng, wǒmen dì-yī cì lái, qǐngwèn tāngtóu yào zěnme xuǎn ne?",
+        "translation": "Bạn phục vụ ơi, chúng tôi lần đầu đến đây, cho hỏi chọn nước lẩu như thế nào vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên phục vụ)",
+        "sentence": "推薦您點鴛鴦鍋，一邊是招牌麻辣，另一邊選清淡的昆布蔬菜湯。用餐時間是兩小時喔！",
+        "pinyin": "Tuījiàn nín diǎn yuānyāngguō, yìbiān shì zhāopái málà, lìng yìbiān xuǎn qīngdàn de kūnbù shūcài tāng. Yòngcān shíjiān shì liǎng xiǎoshí o!",
+        "translation": "Gợi ý bạn nên chọn lẩu uyên ương, một bên là lẩu cay tê đặc trưng, bên còn lại chọn nước dùng rau củ tảo bẹ thanh ngọt. Thời gian dùng bữa là 2 tiếng nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了，請幫我們上鴛鴦鍋。另外麻辣鍋裡面的鴨血和豆腐吃完可以續加嗎？",
+        "pinyin": "Tài hǎo le, qǐng bāng wǒmen shàng yuānyāngguō. Lìngwài málà guō lǐmiàn de yāxiě hàn dòufu chī wán kěyǐ xùjiā ma?",
+        "translation": "Tuyệt quá, làm cho chúng tôi nồi lẩu uyên ương nhé. Tiện thể tiết vịt và đậu phụ trong lẩu cay ăn hết có được lấy thêm không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên phục vụ)",
+        "sentence": "可以免費無限續加喔！後方有醬料區和冰淇淋可以自取，請慢用！",
+        "pinyin": "Kěyǐ miǎnfèi wúxiàn xùjiā o! Hòufāng yǒu jiàngliào qū hàn bīngqílín kěyǐ zìqǔ, qǐng mànyòng!",
+        "translation": "Được lấy thêm miễn phí không giới hạn nhé ạ! Phía sau có quầy pha nước chấm và kem tự phục vụ, chúc bạn ngon miệng!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "鴛鴦鍋",
+        "meaning": "Nồi lẩu uyên ương (lẩu 2 ngăn hương vị)"
+      },
+      {
+        "word": "麻辣鍋",
+        "meaning": "Lẩu cay tê vị Mala"
+      },
+      {
+        "word": "加湯",
+        "meaning": "Thêm nước dùng / Châm nước lẩu"
+      },
+      {
+        "word": "鴨血",
+        "meaning": "Tiết vịt hầm (đồ nhúng lẩu)"
+      },
+      {
+        "word": "續加",
+        "meaning": "Lấy thêm / Nạp thêm (refill)"
+      },
+      {
+        "word": "醬料區",
+        "meaning": "Quầy nước chấm / Quầy pha gia vị"
+      }
+    ]
+  },
+  {
+    "id": "lesson-19",
+    "title": "Nhờ người khác chụp ảnh hộ tại điểm du lịch",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "不好意思，請問可以幫我們拍一張合照嗎？請拍全身，直的跟橫的各一張。",
+      "pinyin": "Bù hǎoyìsi, qǐngwèn kěyǐ bāng wǒmen pāi yì zhāng hézhào ma? Qǐng pāi quánshēn, zhí de gēn héng de gè yì zhāng.",
+      "translation": "Xin lỗi làm phiền bạn, cho hỏi có thể giúp chúng tôi chụp một tấm ảnh chung được không? Nhờ bạn chụp lấy toàn thân, chụp dọc và chụp ngang mỗi kiểu một tấm nhé."
+    },
+    "usage": "Dùng khi đến các địa điểm du lịch check-in nổi tiếng ở Đài Loan và muốn nhờ người khác chụp ảnh kỷ niệm giúp.",
+    "note": "Người Đài Loan rất nhiệt tình khi được nhờ chụp ảnh. Các từ thường dùng: 合照 (hézhào - ảnh chụp chung), 全身 (quánshēn - toàn thân), 直的 (zhí de - ảnh dọc), 橫的 (héng de - ảnh ngang), 笑一個 (xiào yí ge - cười lên nào).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "不好意思，打擾一下，請問可以幫我們拍一張合照嗎？",
+        "pinyin": "Bù hǎoyìsi, dǎrǎo yíxià, qǐngwèn kěyǐ bāng wǒmen pāi yì zhāng hézhào ma?",
+        "translation": "Xin lỗi làm phiền bạn một chút, cho hỏi có thể giúp chúng tôi chụp một bức ảnh chung được không ạ?"
+      },
+      {
+        "speaker": "B (Người qua đường)",
+        "sentence": "好啊，沒問題！按螢幕中間這個鍵對吧？需要以台北101為背景嗎？",
+        "pinyin": "Hǎo a, méi wèntí! Àn yíngmù zhōngjiān zhè ge jiàn duì ba? Xūyào yǐ Táiběi Yī-Líng-Yī wéi bèijǐng ma?",
+        "translation": "Được chứ, không vấn đề gì! Bấm vào phím giữa màn hình này đúng không? Bạn có muốn lấy phông nền là tháp Taipei 101 không?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "對，麻煩幫我們把整棟101大樓和人都拍進去，直的跟橫的各拍一張，謝謝！",
+        "pinyin": "Duì, máfán bāng wǒmen bǎ zhěng dòng Yī-Líng-Yī dàlóu hàn rén dōu pāi jìnqù, zhí de gēn héng de gè pāi yì zhāng, xièxie!",
+        "translation": "Đúng rồi ạ, phiền bạn chụp lấy được cả tòa tháp 101 lẫn người nhé, chụp dọc và chụp ngang mỗi góc một tấm giúp tôi, cảm ơn bạn!"
+      },
+      {
+        "speaker": "B (Người qua đường)",
+        "sentence": "好，看鏡頭喔，一、二、三，笑一個！拍好了，你們看看滿不滿意？",
+        "pinyin": "Hǎo, kàn jìngtóu o, yī, èr, sān, xiào yí ge! Pāi hǎo le, nǐmen kànkan mǎn bù mǎnyì?",
+        "translation": "Được rồi, nhìn vào ống kính nhé, một, hai, ba, cười lên nào! Chụp xong rồi, các bạn xem thử có ưng ý không nhé?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "拍得太棒了，角度抓得很好，非常謝謝你！",
+        "pinyin": "Pāi de tài bàng le, jiǎodù zhuā de hěn hǎo, fēicháng xièxie nǐ!",
+        "translation": "Bạn chụp đẹp quá, căn góc rất chuẩn, cảm ơn bạn nhiều lắm!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "合照",
+        "meaning": "Ảnh chụp chung / Ảnh nhóm"
+      },
+      {
+        "word": "全身",
+        "meaning": "Toàn thân (chụp lấy cả người)"
+      },
+      {
+        "word": "直的",
+        "meaning": "Khung ảnh dọc"
+      },
+      {
+        "word": "橫的",
+        "meaning": "Khung ảnh ngang"
+      },
+      {
+        "word": "背景",
+        "meaning": "Hậu cảnh / Phông nền phía sau"
+      },
+      {
+        "word": "鏡頭",
+        "meaning": "Ống kính máy ảnh / camera"
+      }
+    ]
+  },
+  {
+    "id": "lesson-20",
+    "title": "Đi cáp treo Mèo Không và chọn cabin đáy kính",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問搭乘貓空纜車可以直接刷悠遊卡進站嗎？我們想排隊搭水晶車廂。",
+      "pinyin": "Qǐngwèn dāchéng Māokōng lǎnchē kěyǐ zhíjiē shuā Yōuyóukǎ jìnzhàn ma? Wǒmen xiǎng páiduì dā shuǐjīng chēxiāng.",
+      "translation": "Cho hỏi đi cáp treo Mèo Không có thể quẹt trực tiếp thẻ EasyCard vào cổng không? Chúng tôi muốn xếp hàng đi cabin đáy kính trong suốt."
+    },
+    "usage": "Dùng khi đến ga cáp treo Mèo Không (Maokong Gondola) ở Đài Bắc để chọn loại cabin và vào cổng bằng thẻ EasyCard.",
+    "note": "Cáp treo Mèo Không ở Đài Bắc có hai loại: 一般車廂 (yìbān chēxiāng - cabin thường) và 水晶車廂 (shuǐjīng chēxiāng - cabin pha lê đáy kính trong suốt nhìn xuống thung lũng). Giá vé như nhau (120 TWD) và có thể quẹt trực tiếp thẻ 悠遊卡 (EasyCard).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問搭貓空纜車需要先買票嗎？還是可以直接刷悠遊卡？",
+        "pinyin": "Nǐ hǎo, qǐngwèn dā Māokōng lǎnchē xūyào xiān mǎi piào ma? Háishì kěyǐ zhíjiē shuā Yōuyóukǎ?",
+        "translation": "Xin chào, cho hỏi đi cáp treo Mèo Không có cần mua vé trước không? Hay có thể quẹt trực tiếp thẻ EasyCard ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên trạm cáp treo)",
+        "sentence": "可以直接感應悠遊卡進站喔！請問你們要搭一般車廂還是水晶車廂？",
+        "pinyin": "Kěyǐ zhíjiē gǎnyìng Yōuyóukǎ jìnzhàn o! Qǐngwèn nǐmen yào dā yìbān chēxiāng háishì shuǐjīng chēxiāng?",
+        "translation": "Có thể chạm thẻ EasyCard trực tiếp vào cổng nhé! Cho hỏi các bạn muốn đi cabin thường hay cabin đáy kính trong suốt?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我們想搭水晶車廂，請問票價一樣嗎？要在哪裡排隊？",
+        "pinyin": "Wǒmen xiǎng dā shuǐjīng chēxiāng, qǐngwèn piàojià yíyàng ma? Yào zài nǎlǐ páiduì?",
+        "translation": "Chúng tôi muốn đi cabin đáy kính, cho hỏi giá vé có giống nhau không? Phải xếp hàng ở đâu vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên trạm cáp treo)",
+        "sentence": "票價都一樣是一百二十元。請走右邊的紅色通道排隊，水晶車廂地板是全透明的喔！",
+        "pinyin": "Piàojià dōu yíyàng shì yìbǎi èrshí yuán. Qǐng zǒu yòubiān de hóngsè tōngdào páiduì, shuǐjīng chēxiāng dìbǎn shì quán tòumíng de o!",
+        "translation": "Giá vé đều bằng nhau là 120 tệ. Mời bạn đi làn màu đỏ bên phải để xếp hàng, sàn của cabin đáy kính hoàn toàn trong suốt đấy nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "貓空纜車",
+        "meaning": "Cáp treo Mèo Không (Maokong Gondola)"
+      },
+      {
+        "word": "水晶車廂",
+        "meaning": "Cabin pha lê / Cabin đáy kính trong suốt"
+      },
+      {
+        "word": "一般車廂",
+        "meaning": "Cabin thường"
+      },
+      {
+        "word": "透明",
+        "meaning": "Trong suốt"
+      },
+      {
+        "word": "票價",
+        "meaning": "Giá vé"
+      },
+      {
+        "word": "通道",
+        "meaning": "Lối đi / Làn đường xếp hàng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-21",
+    "title": "Gửi hành lý tại tủ khóa tự động ở trạm tàu",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問這附近有大型行李置物櫃嗎？可以用悠遊卡付費嗎？",
+      "pinyin": "Qǐngwèn zhè fùjìn yǒu dàxíng xínglǐ zhìwùguì ma? Kěyǐ yòng Yōuyóukǎ fùfèi ma?",
+      "translation": "Cho hỏi gần đây có tủ khóa tự động đựng hành lý loại lớn không? Có thể thanh toán bằng thẻ EasyCard không?"
+    },
+    "usage": "Dùng khi cần tìm và gửi vali to tại các tủ khóa thông minh (Locker) ở trạm MRT hoặc ga tàu hỏa Đài Loan.",
+    "note": "Ở Đài Loan, tủ gửi đồ tự động gọi là 置物櫃 (zhìwùguì). Có các kích cỡ 小型 (nhỏ), 中型 (vừa) và 大型 (lớn). Bạn có thể thanh toán bằng thẻ 悠遊卡 (EasyCard). Nhớ giữ hoặc chụp ảnh lại 密碼單 (mìmǎ dān - phiếu mật khẩu) để lấy lại hành lý.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問捷運站哪裡有放得下二十八吋行李箱的置物櫃？",
+        "pinyin": "Nǐ hǎo, qǐngwèn jiéyùnzhàn nǎlǐ yǒu fàng de xià èrshíbā cùn xínglǐxiāng de zhìwùguì?",
+        "translation": "Xin chào, cho hỏi trong trạm MRT ở đâu có tủ khóa để vừa vali 28 inch ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga)",
+        "sentence": "請往地下二樓走，手扶梯旁邊有一整排電子置物櫃，有大型的空櫃喔！",
+        "pinyin": "Qǐng wǎng dìxià èr lóu zǒu, shǒufútī pángbiān yǒu yì zhěng pái diànzǐ zhìwùguì, yǒu dàxíng de kōngguì o!",
+        "translation": "Mời bạn đi xuống tầng hầm B2, bên cạnh thang cuốn có nguyên một dãy tủ khóa điện tử, có sẵn tủ lớn đang trống đấy ạ!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問要怎麼操作和付款呢？",
+        "pinyin": "Qǐngwèn yào zěnme cāozuò hàn fùkuǎn ne?",
+        "translation": "Cho hỏi thao tác sử dụng và thanh toán như thế nào vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga)",
+        "sentence": "把行李放進去關好門，在螢幕上選櫃號，感應悠遊卡付款後，記得拿密碼單喔！",
+        "pinyin": "Bǎ xínglǐ fàng jìnqù guān hǎo mén, zài yíngmù shàng xuǎn guìhào, gǎnyìng Yōuyóukǎ fùkuǎn hòu, jìde ná mìmǎ dān o!",
+        "translation": "Bạn cho hành lý vào đóng chặt cửa, chọn số tủ trên màn hình, chạm thẻ EasyCard thanh toán xong thì nhớ lấy phiếu mật khẩu nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "置物櫃",
+        "meaning": "Tủ gửi đồ tự động (Locker)"
+      },
+      {
+        "word": "大型",
+        "meaning": "Loại lớn / Cỡ lớn"
+      },
+      {
+        "word": "空櫃",
+        "meaning": "Tủ trống (chưa có người gửi)"
+      },
+      {
+        "word": "密碼單",
+        "meaning": "Phiếu in mã PIN mở tủ"
+      },
+      {
+        "word": "手扶梯",
+        "meaning": "Thang cuốn"
+      },
+      {
+        "word": "吋",
+        "meaning": "Inch (đơn vị đo kích thước vali)"
+      }
+    ]
   }
 ]
