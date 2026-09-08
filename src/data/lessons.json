@@ -1285,5 +1285,495 @@
         "meaning": "Inch (đơn vị đo kích thước vali)"
       }
     ]
+  },
+  {
+    "id": "lesson-22",
+    "title": "Gọi món đá bào xoài và chè tráng miệng Đài Loan",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我們要一份芒果雪花冰加煉乳，請問有低消限制嗎？",
+      "pinyin": "Lǎobǎn, wǒmen yào yí fèn mángguǒ xuěhuābīng jiā liànrǔ, qǐngwèn yǒu dīxiāo xiànzhì ma?",
+      "translation": "Ông chủ ơi, chúng tôi lấy một phần đá bào tuyết xoài thêm sữa đặc, cho hỏi quán có quy định mức chi tiêu tối thiểu không?"
+    },
+    "usage": "Dùng khi vào các tiệm đá bào, quán chè truyền thống tại Đài Loan để gọi món tráng miệng giải nhiệt và hỏi quy định mức tiêu dùng tối thiểu (低消).",
+    "note": "Ở Đài Loan, đá bào tuyết mịn gọi là 雪花冰 (xuěhuābīng). Các quán tráng miệng thường có quy định mức chi tiêu tối thiểu 低消 (dīxiāo). Các loại topping kinh điển gồm có: 芋圓 (yùyuán - khoai dẻo), 地瓜圓 (khoai lang dẻo), 仙草 (sương sáo), 煉乳 (sữa đặc).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我們有兩位，想吃芒果雪花冰，請問可以兩個人吃一碗嗎？",
+        "pinyin": "Nǐ hǎo, wǒmen yǒu liǎng wèi, xiǎng chī mángguǒ xuěhuābīng, qǐngwèn kěyǐ liǎng ge rén chī yì wǎn ma?",
+        "translation": "Xin chào, chúng tôi có 2 người, muốn ăn đá bào tuyết xoài, cho hỏi 2 người có thể ăn chung 1 tô được không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên tiệm đá bào)",
+        "sentence": "可以喔！我們店裡的低消是每人六十元，你們點一份大份芒果冰剛好符合低消。",
+        "pinyin": "Kěyǐ o! Wǒmen diàn lǐ de dīxiāo shì měi rén liùshí yuán, nǐmen diǎn yí fèn dà fèn mángguǒ bīng gānghǎo fúhé dīxiāo.",
+        "translation": "Được nhé! Quán chúng tôi có mức tiêu dùng tối thiểu là 60 tệ/người, các bạn gọi 1 tô đá bào xoài phần lớn là vừa đủ mức tối thiểu rồi ạ."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了！那我們要一份芒果雪花冰，上面再加一份手工奶酪和煉乳。",
+        "pinyin": "Tài hǎo le! Nà wǒmen yào yí fèn mángguǒ xuěhuābīng, shàngmiàn zài jiā yí fèn shǒugōng nǎilào hàn liànrǔ.",
+        "translation": "Tuyệt quá! Vậy cho chúng tôi một tô đá bào tuyết xoài, bên trên thêm một phần pudding sữa thủ công và sữa đặc nhé."
+      },
+      {
+        "speaker": "B (Nhân viên tiệm đá bào)",
+        "sentence": "沒問題，這是小碗和湯匙，請先找位子坐，餐點做好會幫您送過去！",
+        "pinyin": "Méi wèntí, zhè shì xiǎowǎn hàn tāngchí, qǐng xiān zhǎo wèizi zuò, cāndiǎn zuò hǎo huì bāng nín sòng guòqù!",
+        "translation": "Không vấn đề gì, đây là bát nhỏ và thìa, mời các bạn tìm bàn ngồi trước, làm xong món bên mình sẽ mang ra tận bàn nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "雪花冰",
+        "meaning": "Đá bào tuyết sữa (mịn màng)"
+      },
+      {
+        "word": "芒果",
+        "meaning": "Quả xoài"
+      },
+      {
+        "word": "低消",
+        "meaning": "Mức chi tiêu tối thiểu (Minimum spend)"
+      },
+      {
+        "word": "芋圓",
+        "meaning": "Viên khoai môn dẻo"
+      },
+      {
+        "word": "煉乳",
+        "meaning": "Sữa đặc"
+      },
+      {
+        "word": "湯匙",
+        "meaning": "Cái thìa / Cái muỗng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-23",
+    "title": "Hỏi đường đến nhà vệ sinh và đi nhờ vệ sinh tại trạm MRT",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "不好意思，請問這附近有化妝室嗎？我可以借用一下站內的廁所嗎？",
+      "pinyin": "Bù hǎoyìsi, qǐngwèn zhè fùjìn yǒu huàzhuāngshì ma? Wǒ kěyǐ jièyòng yíxià zhànnèi de cèsuǒ ma?",
+      "translation": "Xin lỗi, cho hỏi gần đây có nhà vệ sinh không? Tôi có thể mượn đi nhờ nhà vệ sinh bên trong trạm được không?"
+    },
+    "usage": "Dùng khi cần tìm nhà vệ sinh công cộng ở Đài Loan hoặc xin nhân viên MRT cho phép vào trong khu soát vé để đi vệ sinh miễn phí.",
+    "note": "Ở Đài Loan, nhà vệ sinh trên biển chỉ dẫn công cộng thường ghi là 化妝室 (huàzhuāngshì) hoặc 洗手間 (xǐshǒujiān). Du khách chưa quẹt thẻ đi tàu có thể đến quầy dịch vụ MRT xin mượn đồng xu tạm thời 臨時通行幣 để vào đi vệ sinh miễn phí.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "不好意思，請問服務台人員，這附近有化妝室嗎？",
+        "pinyin": "Bù hǎoyìsi, qǐngwèn fúwùtái rényuán, zhè fùjìn yǒu huàzhuāngshì ma?",
+        "translation": "Xin lỗi, cho hỏi nhân viên quầy dịch vụ, gần đây có nhà vệ sinh không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "有的，化妝室在刷卡閘門裡面，走到底右轉就是了。",
+        "pinyin": "Yǒu de, huàzhuāngshì zài shuākǎ zhámén lǐmiàn, zǒu dào dǐ yòu zhuǎn jiù shì le.",
+        "translation": "Có ạ, nhà vệ sinh ở bên trong cổng quẹt thẻ, bạn đi hết đường rồi rẽ phải là tới."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "可是我現在沒有要搭捷運，請問可以借用一下裡面的廁所嗎？",
+        "pinyin": "Kěshì wǒ xiànzài méiyǒu yào dā jiéyùn, qǐngwèn kěyǐ jièyòng yíxià lǐmiàn de cèsuǒ ma?",
+        "translation": "Nhưng hiện tại tôi không đi tàu điện ngầm, cho hỏi tôi có thể mượn đi nhờ nhà vệ sinh bên trong được không?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "沒問題！這枚臨時通行幣給您感應進站，十五分鐘內出來投回去就可以了。",
+        "pinyin": "Méi wèntí! Zhè méi línshí tōngxíng bì gěi nín gǎnyìng jìnzhàn, shíwǔ fēnzhōng nèi chūlái tóu huíqù jiù kěyǐ le.",
+        "translation": "Không vấn đề gì! Đồng xu thông hành tạm thời này bạn chạm vào để qua cổng, trong vòng 15 phút trở ra nhét lại vào khe là được nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太感謝了，台灣的捷運真的好貼心！",
+        "pinyin": "Tài gǎnxiè le, Táiwān de jiéyùn zhēn de hǎo tiēxīn!",
+        "translation": "Cảm ơn bạn nhiều quá, MRT Đài Loan thực sự quá chu đáo!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "化妝室",
+        "meaning": "Nhà vệ sinh (từ phổ biến trên biển báo tại Đài Loan)"
+      },
+      {
+        "word": "洗手間",
+        "meaning": "Nhà vệ sinh / Phòng rửa tay"
+      },
+      {
+        "word": "閘門",
+        "meaning": "Cổng soát vé / Cửa kiểm soát"
+      },
+      {
+        "word": "借用",
+        "meaning": "Mượn dùng / Dùng nhờ"
+      },
+      {
+        "word": "臨時",
+        "meaning": "Tạm thời"
+      },
+      {
+        "word": "貼心",
+        "meaning": "Chu đáo / Tinh tế"
+      }
+    ]
+  },
+  {
+    "id": "lesson-24",
+    "title": "Thử và mua trà Ô Long Đài Loan làm quà",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "老闆，我想買台灣的高山烏龍茶送朋友，請問可以試喝嗎？",
+      "pinyin": "Lǎobǎn, wǒ xiǎng mǎi Táiwān de gāoshān wūlóngchá sòng péngyǒu, qǐngwèn kěyǐ shìhē ma?",
+      "translation": "Ông chủ ơi, tôi muốn mua trà Ô Long vùng núi cao Đài Loan để tặng bạn bè, cho hỏi có thể uống thử được không?"
+    },
+    "usage": "Dùng khi ghé thăm các tiệm trà truyền thống tại Đài Loan để thưởng trà đạo miễn phí và chọn mua trà đặc sản làm quà.",
+    "note": "Ở Đài Loan, các tiệm trà luôn có dịch vụ 試喝 (shìhē - uống thử) miễn phí tại bàn trà đạo. Trà chất lượng tốt thường có đặc điểm 順口 (shùnkǒu - êm dịu, không chát) và 回甘 (huígān - vị ngọt đọng lại trong cổ họng). Đơn vị cân truyền thống 1 台斤 (Đài cân) = 600g.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆你好，我想買台灣的高山烏龍茶送朋友，請問可以試喝嗎？",
+        "pinyin": "Lǎobǎn nǐ hǎo, wǒ xiǎng mǎi Táiwān de gāoshān wūlóngchá sòng péngyǒu, qǐngwèn kěyǐ shìhē ma?",
+        "translation": "Xin chào ông chủ, tôi muốn mua trà Ô Long núi cao Đài Loan biếu bạn bè, cho hỏi có thể uống thử được không ạ?"
+      },
+      {
+        "speaker": "B (Chủ tiệm trà)",
+        "sentence": "歡迎歡迎！請坐下來喝杯熱茶。這款是剛採收的阿里山烏龍，您先聞聞看茶香。",
+        "pinyin": "Huānyíng huānyíng! Qǐng zuò xiàlái hē bēi rèchá. Zhè kuǎn shì gāng cǎishōu de Ālǐshān wūlóng, nín xiān wén wén kàn cháxiāng.",
+        "translation": "Hoan nghênh bạn! Mời ngồi xuống thưởng thức tách trà nóng. Đây là trà Ô Long A Lý Sơn vừa mới thu hoạch, bạn ngửi thử hương trà trước nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "哇，茶香好清雅，喝起來很順口，而且喉嚨有回甘！",
+        "pinyin": "Wa, cháxiāng hǎo qīngyǎ, hē qǐlái hěn shùnkǒu, érqiě hóulóng yǒu huígān!",
+        "translation": "Oa, hương trà rất thanh nhã, uống vào êm dịu mà cuống họng lại có vị ngọt hậu!"
+      },
+      {
+        "speaker": "B (Chủ tiệm trà)",
+        "sentence": "內行的喔！這款茶葉都是真空包裝，常溫可以放兩年，一斤裝成四小罐，送禮很大方！",
+        "pinyin": "Nèiháng de o! Zhè kuǎn cháyè dōu shì zhēnkōng bāozhuāng, chángwēn kěyǐ fàng liǎng nián, yì jīn zhuāng chéng sì xiǎoguàn, sònglǐ hěn dàfāng!",
+        "translation": "Bạn sành trà đấy nhé! Loại lá trà này đều được đóng gói hút chân không, để ở nhiệt độ thường được 2 năm, 1 cân chia làm 4 hộp nhỏ, đem tặng làm quà rất lịch sự!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了，請幫我包兩斤，謝謝老闆！",
+        "pinyin": "Tài hǎo le, qǐng bāng wǒ bāo liǎng jīn, xièxie lǎobǎn!",
+        "translation": "Tốt quá, gói giúp tôi 2 cân nhé, cảm ơn ông chủ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "高山茶",
+        "meaning": "Trà vùng núi cao (độ cao trên 1000m)"
+      },
+      {
+        "word": "烏龍茶",
+        "meaning": "Trà Ô Long"
+      },
+      {
+        "word": "試喝",
+        "meaning": "Uống thử / Nếm thử nước trà"
+      },
+      {
+        "word": "回甘",
+        "meaning": "Hậu vị ngọt sâu đọng lại trong cổ họng"
+      },
+      {
+        "word": "順口",
+        "meaning": "Vị êm dịu, trôi chảy, không gắt chát"
+      },
+      {
+        "word": "真空包裝",
+        "meaning": "Đóng gói hút chân không"
+      }
+    ]
+  },
+  {
+    "id": "lesson-25",
+    "title": "Đi xe buýt và cách quẹt thẻ lên xuống xe",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "司機先生，請問這班公車有到九份嗎？上下車都要刷卡嗎？",
+      "pinyin": "Sījī xiānsheng, qǐngwèn zhè bān gōngchē yǒu dào Jiǔfèn ma? Shàngxiàchē dōu yào shuākǎ ma?",
+      "translation": "Bác tài ơi, cho hỏi chuyến xe buýt này có đến Cửu Phần không? Lên xe và xuống xe đều phải quẹt thẻ đúng không?"
+    },
+    "usage": "Dùng khi đón xe buýt đi các điểm ngoại ô hoặc tham quan tại Đài Loan để hỏi lộ trình và thực hiện quẹt thẻ EasyCard đúng quy tắc.",
+    "note": "Ở Đài Loan, xe buýt gọi là 公車 (gōngchē). Khi đứng chờ ở trạm cần chủ động 招手 (zhāoshǒu - vẫy tay) để xe dừng. Quy tắc quẹt thẻ hiện nay là 上下車都要刷卡 (lên và xuống xe đều phải quẹt). Trước khi xuống trạm kế tiếp cần bấm chuông 下車鈴 (xiàchē líng).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "司機先生，不好意思，請問這班965公車有到九份老街嗎？",
+        "pinyin": "Sījī xiānsheng, bù hǎoyìsi, qǐngwèn zhè bān jiǔ-liù-wǔ gōngchē yǒu dào Jiǔfèn lǎojiē ma?",
+        "translation": "Bác tài ơi, xin lỗi cho hỏi chuyến xe buýt 965 này có đến phố cổ Cửu Phần không ạ?"
+      },
+      {
+        "speaker": "B (Tài xế xe buýt)",
+        "sentence": "有的，直達九份老街！上車請感應悠遊卡，一人一票喔。",
+        "pinyin": "Yǒu de, zhídá Jiǔfèn lǎojiē! Shàngchē qǐng gǎnyìng Yōuyóukǎ, yì rén yí piào o.",
+        "translation": "Có nhé, chạy thẳng đến phố cổ Cửu Phần luôn! Lên xe mời chạm thẻ EasyCard, mỗi người một thẻ nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的。請問下車的時候還需要再刷一次卡嗎？",
+        "pinyin": "Hǎo de. Qǐngwèn xiàchē de shíhòu hái xūyào zài shuā yí cì kǎ ma?",
+        "translation": "Vâng ạ. Cho hỏi lúc xuống xe có cần phải quẹt thẻ thêm một lần nữa không ạ?"
+      },
+      {
+        "speaker": "B (Tài xế xe buýt)",
+        "sentence": "要喔，上下車都要刷卡！快到站時記得先按紅色的下車鈴。",
+        "pinyin": "Yào o, shàngxiàchē dōu yào shuākǎ! Kuài dào zhàn shí jìde xiān àn hóngsè de xiàchē líng.",
+        "translation": "Có chứ, lên và xuống xe đều phải quẹt thẻ nhé! Sắp đến trạm nhớ bấm chuông màu đỏ báo xuống xe trước nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "了解，謝謝司機先生！",
+        "pinyin": "Liǎojiě, xièxie sījī xiānsheng!",
+        "translation": "Tôi hiểu rồi, cảm ơn bác tài!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "公車",
+        "meaning": "Xe buýt công cộng"
+      },
+      {
+        "word": "上下車",
+        "meaning": "Lên xe và xuống xe"
+      },
+      {
+        "word": "下車鈴",
+        "meaning": "Chuông báo dừng xe / xuống xe"
+      },
+      {
+        "word": "招手",
+        "meaning": "Vẫy tay gọi xe"
+      },
+      {
+        "word": "直達",
+        "meaning": "Đi thẳng / Đến thẳng"
+      },
+      {
+        "word": "感應",
+        "meaning": "Chạm thẻ / Quét thẻ cảm ứng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-26",
+    "title": "Thưởng thức Tiểu Long Bao và pha nước chấm",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "服務生，請問小籠包推薦怎麼吃？另外可以再給我們一些薑絲嗎？",
+      "pinyin": "Fúwùshēng, qǐngwèn xiǎolóngbāo tuījiàn zěnme chī? Lìngwài kěyǐ zài gěi wǒmen yìxiē jiāngsī ma?",
+      "translation": "Bạn phục vụ ơi, cho hỏi Tiểu Long Bao nên thưởng thức như thế nào? Ngoài ra có thể cho chúng tôi thêm một ít gừng thái sợi được không?"
+    },
+    "usage": "Dùng khi thưởng thức món Tiểu Long Bao tại các nhà hàng nổi tiếng ở Đài Loan để hỏi công thức pha nước chấm và xin thêm gừng sợi ăn kèm.",
+    "note": "Tiểu Long Bao 小籠包 ở Đài Loan thường được pha nước chấm theo tỷ lệ 1 xì dầu : 3 giấm vào đĩa gừng thái sợi 薑絲 (jiāngsī). Khi ăn nên đặt lên thìa, cắn nhẹ rách vỏ để húp nước súp 湯汁 (tāngzhī) trước, tránh bị bỏng miệng 燙口.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "服務生你好，我們點的招牌小籠包送上來了，請問這個醬料要怎麼調配呢？",
+        "pinyin": "Fúwùshēng nǐ hǎo, wǒmen diǎn de zhāopái xiǎolóngbāo sòng shànglái le, qǐngwèn zhè ge jiàngliào yào zěnme tiáopèi ne?",
+        "translation": "Chào bạn phục vụ, món Tiểu Long Bao đặc biệt của chúng tôi đã lên rồi, cho hỏi nước chấm này pha thế nào vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên phục vụ)",
+        "sentence": "推薦黃金比例：醬油一份、黑醋三份，倒在薑絲碟子裡配著吃最提味喔！",
+        "pinyin": "Tuījiàn huángjīn bǐlì: jiàngyóu yí fèn, hēicù sān fèn, dào zài jiāngsī diézi lǐ pèizhe chī zuì tíwèi o!",
+        "translation": "Gợi ý bạn tỷ lệ vàng nhé: 1 phần xì dầu, 3 phần giấm đen, rót vào đĩa gừng sợi ăn kèm là dậy mùi thơm ngon nhất đấy ạ!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的！另外吃的時候有什麼訣竅嗎？剛蒸出來好像非常燙。",
+        "pinyin": "Hǎo de! Lìngwài chī de shíhòu yǒu shénme juéqiào ma? Gāng zhēng chūlái hǎoxiàng fēicháng tàng.",
+        "translation": "Vâng ạ! Ngoài ra khi ăn có bí quyết gì không? Vừa mới hấp xong trông có vẻ rất nóng."
+      },
+      {
+        "speaker": "B (Nhân viên phục vụ)",
+        "sentence": "先放在湯匙上，輕輕咬破皮吸一口鮮美的湯汁，再夾幾根薑絲一起吃，小心燙口喔！",
+        "pinyin": "Xiān fàng zài tāngchí shàng, qīngqīng yǎopò pí xī yì kǒu xiānměi de tāngzhī, zài jiā jǐ gēn jiāngsī yìqǐ chī, xiǎoxīn tàngkǒu o!",
+        "translation": "Đầu tiên bạn đặt bánh lên thìa, cắn nhẹ rách vỏ húp một ngụm nước súp thơm ngọt, rồi gắp vài sợi gừng ăn cùng, cẩn thận kẻo bỏng miệng nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "很好吃！麻煩再給我們一碟薑絲，謝謝你。",
+        "pinyin": "Hěn hǎochī! Máfán zài gěi wǒmen yì dié jiāngsī, xièxie nǐ.",
+        "translation": "Ngon quá! Phiền bạn cho chúng tôi xin thêm một đĩa gừng sợi nữa nhé, cảm ơn bạn."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "小籠包",
+        "meaning": "Tiểu Long Bao (Bánh bao súp hấp)"
+      },
+      {
+        "word": "薑絲",
+        "meaning": "Gừng tươi thái sợi mỏng"
+      },
+      {
+        "word": "湯汁",
+        "meaning": "Nước súp / Nước thịt hầm bên trong"
+      },
+      {
+        "word": "黃金比例",
+        "meaning": "Tỷ lệ vàng"
+      },
+      {
+        "word": "醋",
+        "meaning": "Giấm ăn"
+      },
+      {
+        "word": "燙口",
+        "meaning": "Bỏng miệng / Nóng rát miệng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-27",
+    "title": "Gọi món tại tiệm ăn sáng truyền thống Đài Loan",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我要一份起司培根蛋餅和一碗鹹豆漿，內用。",
+      "pinyin": "Lǎobǎn, wǒ yào yí fèn qǐsī péigēn dànbǐng hàn yì wǎn xián dòujiāng, nèiyòng.",
+      "translation": "Ông chủ ơi, cho tôi một phần bánh trứng cuộn phô mai thịt xông khói và một bát sữa đậu nành mặn, ăn tại chỗ."
+    },
+    "usage": "Dùng khi vào các quán ăn sáng truyền thống ở Đài Loan để gọi các món điểm tâm sáng nổi tiếng như bánh trứng cuộn, sữa đậu nành mặn, bánh nướng kẹp quẩy.",
+    "note": "Ở Đài Loan, các tiệm ăn sáng 早餐店 (zǎocāndiàn) rất phổ biến. Món ăn đặc trưng gồm có 蛋餅 (dànbǐng - bánh trứng cuộn), 鹹豆漿 (xián dòujiāng - sữa đậu nành mặn ăn kèm quẩy 油條), và nước sốt chấm kèm 醬油膏 (jiàngyóugāo - xì dầu ngọt đặc).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆早安！兩位內用，請問直接跟您點餐嗎？",
+        "pinyin": "Lǎobǎn zǎo'ān! Liǎng wèi nèiyòng, qǐngwèn zhíjiē gēn nín diǎncān ma?",
+        "translation": "Chào buổi sáng ông chủ! Hai người ăn tại chỗ, cho hỏi gọi món trực tiếp với bác luôn đúng không ạ?"
+      },
+      {
+        "speaker": "B (Chủ tiệm ăn sáng)",
+        "sentence": "早啊！可以直接點，今天想吃點什麼？蛋餅、燒餅還是小籠包？",
+        "pinyin": "Zǎo a! Kěyǐ zhíjiē diǎn, jīntiān xiǎng chī diǎn shénme? Dànbǐng, shāobǐng háishì xiǎolóngbāo?",
+        "translation": "Chào buổi sáng! Gọi trực tiếp được nhé, hôm nay các bạn muốn ăn gì? Bánh trứng cuộn, bánh nướng mè hay tiểu long bao?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我要一份起司培根蛋餅和一碗熱的鹹豆漿，我朋友要一個燒餅夾蛋配冰豆漿。",
+        "pinyin": "Wǒ yào yí fèn qǐsī péigēn dànbǐng hàn yì wǎn rè de xián dòujiāng, wǒ péngyǒu yào yí ge shāobǐng jiá dàn pèi bīng dòujiāng.",
+        "translation": "Cho tôi một phần bánh trứng cuộn phô mai thịt xông khói và một bát sữa đậu nành mặn nóng, bạn tôi lấy một bánh nướng kẹp trứng kèm một ly sữa đậu nành đá."
+      },
+      {
+        "speaker": "B (Chủ tiệm ăn sáng)",
+        "sentence": "好的！蛋餅要加醬油膏跟辣椒嗎？鹹豆漿幫你放辣油喔！",
+        "pinyin": "Hǎo de! Dànbǐng yào jiā jiàngyóugāo gēn làjiāo ma? Xián dòujiāng bāng nǐ fàng làyóu o!",
+        "translation": "Được nhé! Bánh trứng cuộn có rưới sốt tương ngọt và ớt không? Sữa đậu nành mặn tôi cho thêm một chút dầu ớt nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "要，請幫我加一點點辣，謝謝老闆！",
+        "pinyin": "Yào, qǐng bāng wǒ jiā yìdiǎndiǎn là, xièxie lǎobǎn!",
+        "translation": "Có ạ, phiền bác cho tôi một chút ớt thôi nhé, cảm ơn ông chủ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "蛋餅",
+        "meaning": "Bánh kếp trứng cuộn Đài Loan"
+      },
+      {
+        "word": "鹹豆漿",
+        "meaning": "Sữa đậu nành mặn (ăn kèm quẩy và gia vị)"
+      },
+      {
+        "word": "燒餅",
+        "meaning": "Bánh nướng mè giòn"
+      },
+      {
+        "word": "油條",
+        "meaning": "Bánh quẩy giòn"
+      },
+      {
+        "word": "醬油膏",
+        "meaning": "Sốt tương sệt ngọt chấm đồ ăn sáng"
+      },
+      {
+        "word": "起司",
+        "meaning": "Phô mai"
+      }
+    ]
+  },
+  {
+    "id": "lesson-28",
+    "title": "Báo mất và tìm lại đồ thất lạc tại trạm MRT",
+    "category": "Khẩn cấp & Y tế",
+    "mainSentence": {
+      "sentence": "不好意思，我把黑色背包忘在捷運車廂裡了，請問可以幫我聯繫遺失物中心嗎？",
+      "pinyin": "Bù hǎoyìsi, wǒ bǎ hēisè bēibāo wàng zài jiéyùn chēxiāng lǐ le, qǐngwèn kěyǐ bāng wǒ liánxì yíshīwù zhōngxīn ma?",
+      "translation": "Xin lỗi, tôi để quên chiếc balo màu đen trong toa tàu điện ngầm rồi, cho hỏi có thể giúp tôi liên hệ trung tâm đồ thất lạc được không?"
+    },
+    "usage": "Dùng khi bỏ quên hành lý, balo, điện thoại trên tàu MRT hoặc phương tiện công cộng ở Đài Loan để nhờ nhân viên ga tìm kiếm.",
+    "note": "Ở Đài Loan, đồ thất lạc gọi là 遺失物 (yíshīwù). Khi báo mất trên MRT cần cung cấp hướng tàu chạy, số hiệu toa 車廂 (chēxiāng) và thời gian. Khi nhận lại đồ tại Trung tâm đồ thất lạc 遺失物中心 (ở Ga Đài Bắc) cần xuất trình hộ chiếu 護照 (hùzhào).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "服務台人員你好，我剛下車，發現把一個黑色後背包忘在車廂裡了！",
+        "pinyin": "Fúwùtái rényuán nǐ hǎo, wǒ gāng xiàchē, fāxiàn bǎ yí ge hēisè hòubēibāo wàng zài chēxiāng lǐ le!",
+        "translation": "Chào nhân viên quầy dịch vụ, tôi vừa xuống tàu thì phát hiện mình để quên một chiếc balo màu đen trong toa tàu rồi!"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "別著急！請問您搭的是哪條線？剛才幾點在第幾節車廂下車呢？",
+        "pinyin": "Bié zháojí! Qǐngwèn nín dā de shì nǎ tiáo xiàn? Gāngcái jǐ diǎn zài dì jǐ jié chēxiāng xiàchē ne?",
+        "translation": "Đừng quá lo lắng! Cho hỏi bạn vừa đi tuyến nào? Vừa nãy mấy giờ và bạn xuống ở toa xe thứ mấy vậy ạ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我搭紅線往象山方向，大概五分鐘前在第四節車廂下車，裡面有我的護照和錢包。",
+        "pinyin": "Wǒ dā hóngxiàn wǎng Xiàngshān fāngxiàng, dàyuē wǔ fēnzhōng qián zài dì-sì jié chēxiāng xiàchē, lǐmiàn yǒu wǒ de hùzhào hàn qiánbāo.",
+        "translation": "Tôi đi tuyến Đỏ hướng về Tượng Sơn, khoảng 5 phút trước xuống ở toa số 4, bên trong có hộ chiếu và ví tiền của tôi."
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "好的，我立刻聯絡下一站站務員上車幫您找，請先填一張遺失物登記表。",
+        "pinyin": "Hǎo de, wǒ lìkè liánluò xià yí zhàn zhànwùyuán shàngchē bāng nín zhǎo, qǐng xiān tián yì zhāng yíshīwù dēngjì biǎo.",
+        "translation": "Được rồi, tôi sẽ lập tức liên hệ nhân viên ga kế tiếp lên tàu tìm giúp bạn, phiền bạn điền vào một phiếu đăng ký tìm đồ thất lạc trước nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "找到之後要怎麼領取呢？需要出示證件嗎？",
+        "pinyin": "Zhǎodào zhīhòu yào zěnme lǐngqǔ ne? Xūyào chūshì zhèngjiàn ma?",
+        "translation": "Sau khi tìm được thì nhận lại như thế nào ạ? Có cần xuất trình giấy tờ tùy thân không?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "如果找到了會電話通知您，到台北車站遺失物中心出示護照確認就可以領回囉！",
+        "pinyin": "Rúguǒ zhǎodào le huì diànhuà tōngzhī nín, dào Táiběi Chēzhàn yíshīwù zhōngxīn chūshì hùzhào quèrèn jiù kěyǐ lǐnghuí luo!",
+        "translation": "Nếu tìm thấy họ sẽ gọi điện báo ngay cho bạn, bạn đến Trung tâm đồ thất lạc ở Ga Đài Bắc xuất trình hộ chiếu xác nhận là nhận lại được nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "遺失物",
+        "meaning": "Đồ thất lạc / Đồ để quên"
+      },
+      {
+        "word": "車廂",
+        "meaning": "Toa tàu xe điện ngầm / Toa tàu xe lửa"
+      },
+      {
+        "word": "聯絡",
+        "meaning": "Liên hệ / Liên lạc"
+      },
+      {
+        "word": "登記表",
+        "meaning": "Phiếu đăng ký / Biểu mẫu kê khai"
+      },
+      {
+        "word": "領取",
+        "meaning": "Nhận lại / Lĩnh nhận lại đồ vật"
+      },
+      {
+        "word": "護照",
+        "meaning": "Hộ chiếu"
+      }
+    ]
   }
 ]
