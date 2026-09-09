@@ -1775,5 +1775,151 @@
         "meaning": "Hộ chiếu"
       }
     ]
+  },
+  {
+    "id": "lesson-29",
+    "title": "Mua vé tham quan và thuê máy thuyết minh âm thanh",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "你好，我們要買兩張全票，另外想租借中文或英文的語音導覽機。",
+      "pinyin": "Nǐ hǎo, wǒmen yào mǎi liǎng zhāng quánpiào, lìngwài xiǎng zūjiè Zhōngwén huò Yīngwén de yǔyīn dǎolǎnjī.",
+      "translation": "Xin chào, chúng tôi muốn mua hai vé người lớn (vé phổ thông), ngoài ra muốn thuê máy thuyết minh âm thanh tiếng Trung hoặc tiếng Anh."
+    },
+    "usage": "Dùng khi mua vé tham quan bảo tàng, danh lam thắng cảnh ở Đài Loan và thuê thiết bị nghe thuyết minh tự động.",
+    "note": "Ở Đài Loan, vé người lớn gọi là 全票 (quánpiào). Máy thuyết minh tự động gọi là 語音導覽機 (yǔyīn dǎolǎnjī), khi thuê thường yêu cầu đặt cọc hộ chiếu 押護照 hoặc tiền mặt 押金. Bảo tàng Cố Cung nổi tiếng với báu vật 翠玉白菜 (Cuìyù Báicài - Bắp cải ngọc bích).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我們要買兩張故宮的參觀全票，請問可以用悠遊卡或信用卡付款嗎？",
+        "pinyin": "Nǐ hǎo, wǒmen yào mǎi liǎng zhāng Gùgōng de cānguān quánpiào, qǐngwèn kěyǐ yòng Yōuyóukǎ huò xìnyòngkǎ fùkuǎn ma?",
+        "translation": "Xin chào, chúng tôi muốn mua 2 vé người lớn tham quan Bảo tàng Cố Cung, cho hỏi có thể thanh toán bằng thẻ EasyCard hoặc thẻ tín dụng không?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "都可以喔！全票一張是三百五十元，兩張總共七百元。",
+        "pinyin": "Dōu kěyǐ o! Quánpiào yì zhāng shì sānbǎi wǔshí yuán, liǎng zhāng zǒnggòng qībǎi yuán.",
+        "translation": "Đều được nhé ạ! Vé người lớn 350 tệ một vé, 2 vé tổng cộng là 700 tệ."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問哪裡可以租借語音導覽機？需要押證件嗎？",
+        "pinyin": "Qǐngwèn nǎlǐ kěyǐ zūjiè yǔyīn dǎolǎnjī? Xūyào yā zhèngjiàn ma?",
+        "translation": "Cho hỏi ở đâu có thể thuê máy thuyết minh âm thanh? Có cần đặt cọc giấy tờ không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "請到正門右側的導覽櫃檯，一台租金是一百五十元，需要押一本護照喔！",
+        "pinyin": "Qǐng dào zhèngmén yòucè de dǎolǎn guìtái, yì tái zūjīn shì yìbǎi wǔshí yuán, xūyào yā yì běn hùzhào o!",
+        "translation": "Mời bạn sang quầy hướng dẫn bên phải cổng chính, phí thuê mỗi máy là 150 tệ, cần đặt cọc một cuốn hộ chiếu nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了，請問翠玉白菜今天有在三樓展出嗎？",
+        "pinyin": "Tài hǎo le, qǐngwèn Cuìyù Báicài jīntiān yǒu zài sān lóu zhǎnchū ma?",
+        "translation": "Tốt quá, cho hỏi Bắp cải ngọc bích hôm nay có đang trưng bày ở tầng 3 không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "有的，在三樓302展廳，祝你們參觀愉快！",
+        "pinyin": "Yǒu de, zài sān lóu sān-líng-èr zhǎntīng, zhù nǐmen cānguān yúkuài!",
+        "translation": "Có ạ, ở phòng triển lãm 302 tầng 3, chúc các bạn tham quan vui vẻ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "全票",
+        "meaning": "Vé phổ thông / Vé người lớn"
+      },
+      {
+        "word": "語音導覽",
+        "meaning": "Thuyết minh hướng dẫn bằng âm thanh"
+      },
+      {
+        "word": "租借",
+        "meaning": "Thuê mượn"
+      },
+      {
+        "word": "押金",
+        "meaning": "Tiền đặt cọc"
+      },
+      {
+        "word": "展廳",
+        "meaning": "Phòng triển lãm / Phòng trưng bày"
+      },
+      {
+        "word": "翠玉白菜",
+        "meaning": "Bắp cải ngọc bích (báu vật hoàng gia Cố Cung)"
+      }
+    ]
+  },
+  {
+    "id": "lesson-30",
+    "title": "Thuê sạc dự phòng công cộng và hỏi ổ cắm",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問店裡有共享行動電源可以借嗎？請問可以在不同門市歸還嗎？",
+      "pinyin": "Qǐngwèn diàn lǐ yǒu gòngxiǎng xíngdòng diànyuán kěyǐ jiè ma? Qǐngwèn kěyǐ zài bùtóng ménshì guīhuán ma?",
+      "translation": "Cho hỏi trong quán có sạc dự phòng công cộng cho thuê không? Có thể trả ở cửa hàng khác được không?"
+    },
+    "usage": "Dùng khi điện thoại hết pin và cần tìm trạm thuê sạc pin dự phòng (như ChargeSPOT) tại các cửa hàng tiện lợi hoặc trạm MRT ở Đài Loan.",
+    "note": "Ở Đài Loan, pin sạc dự phòng gọi là 行動電源 (xíngdòng diànyuán). Dịch vụ sạc chia sẻ công cộng phổ biến nhất là ChargeSPOT, cho phép thuê ở điểm này và trả ở điểm khác (甲地租、乙地還). Pin sạc có tích hợp sẵn 3 loại dây sạc.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我的手機快沒電了，請問店裡有行動電源可以租借嗎？",
+        "pinyin": "Nǐ hǎo, wǒ de shǒujī kuài méi diàn le, qǐngwèn diàn lǐ yǒu xíngdòng diànyuán kěyǐ zūjiè ma?",
+        "translation": "Xin chào, điện thoại của tôi sắp hết pin rồi, cho hỏi trong cửa hàng có sạc dự phòng cho thuê không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên cửa hàng)",
+        "sentence": "有的！櫃檯旁邊那台ChargeSPOT機台就是，用手機掃描螢幕上的QR Code就可以借了。",
+        "pinyin": "Yǒu de! Guìtái pángbiān nà tái ChargeSPOT jītái jiù shì, yòng shǒujī sǎomiáo yíngmù shàng de QR Code jiù kěyǐ jiè le.",
+        "translation": "Có ạ! Máy ChargeSPOT bên cạnh quầy thu ngân chính là nó đấy, bạn dùng điện thoại quét mã QR trên màn hình là thuê được ngay."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問它裡面有附Type-C和Lightning充電線嗎？",
+        "pinyin": "Qǐngwèn tā lǐmiàn yǒu fù Type-C hàn Lightning chōngdiàn xiàn ma?",
+        "translation": "Cho hỏi trên cục sạc có gắn sẵn dây sạc Type-C và Lightning không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên cửa hàng)",
+        "sentence": "有自带三種規格的充電線喔！用完之後，隨便一家超商或捷運站的機台都可以歸還。",
+        "pinyin": "Yǒu zìdài sān zhǒng guīgé de chōngdiàn xiàn o! Yòng wán zhīhòu, suíbiàn yì jiā chāoshāng huò jiéyùnzhàn de jītái dōu kěyǐ guīhuán.",
+        "translation": "Cục pin có sẵn cả 3 đầu dây sạc thông dụng nhé! Dùng xong bạn có thể trả tại máy ở bất kỳ cửa hàng tiện lợi hay trạm MRT nào đều được."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太方便了，非常感謝你的幫忙！",
+        "pinyin": "Tài fāngbiàn le, fēicháng gǎnxiè nǐ de bāngmáng!",
+        "translation": "Tiện lợi quá, cảm ơn bạn đã nhiệt tình hỗ trợ nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "行動電源",
+        "meaning": "Pin sạc dự phòng (từ ngữ Đài Loan)"
+      },
+      {
+        "word": "充電",
+        "meaning": "Sạc điện / Sạc pin"
+      },
+      {
+        "word": "插座",
+        "meaning": "Ổ cắm điện"
+      },
+      {
+        "word": "充電線",
+        "meaning": "Dây cáp sạc"
+      },
+      {
+        "word": "歸還",
+        "meaning": "Hoàn trả / Trả lại thiết bị"
+      },
+      {
+        "word": "沒電",
+        "meaning": "Hết pin / Hết điện"
+      }
+    ]
   }
 ]
