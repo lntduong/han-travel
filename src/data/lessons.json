@@ -1921,5 +1921,145 @@
         "meaning": "Hết pin / Hết điện"
       }
     ]
+  },
+  {
+    "id": "lesson-31",
+    "title": "Thưởng thức đậu hũ thối chiên giòn tại chợ đêm",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我要一份脆皮臭豆腐，加蒜泥，泡菜多一點，小辣。",
+      "pinyin": "Lǎobǎn, wǒ yào yí fèn cuìpí chòudòufu, jiā suànní, pàocài duō yìdiǎn, xiǎo là.",
+      "translation": "Ông chủ ơi, cho tôi một phần đậu hũ thối chiên giòn, thêm tỏi băm, nhiều kim chi một chút và cay ít nhé."
+    },
+    "usage": "Dùng khi thưởng thức món đậu hũ thối chiên giòn tại các chợ đêm Đài Loan và muốn tùy chỉnh lượng tỏi băm, độ cay cũng như xin thêm kim chi chua ngọt.",
+    "note": "Ở chợ đêm Đài Loan, món đậu hũ thối chiên giòn 脆皮臭豆腐 (cuìpí chòudòufu) luôn được ăn kèm 台式泡菜 (táishì pàocài - kim chi bắp cải chua ngọt kiểu Đài) và sốt tỏi 蒜泥 (suànní). Cách ăn ngon nhất là nhét kim chi vào giữa miếng đậu giòn rụm rồi thưởng thức.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，請問一份臭豆腐是多少錢？一盤有幾塊？",
+        "pinyin": "Lǎobǎn, qǐngwèn yí fèn chòudòufu shì duōshao qián? Yì pán yǒu jǐ kuài?",
+        "translation": "Ông chủ ơi, cho hỏi một phần đậu hũ thối bao nhiêu tiền? Một đĩa có mấy miếng ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán chợ đêm)",
+        "sentence": "一份六十五元，一盤有五大塊！都是現點現炸的喔，要加蒜泥和辣椒嗎？",
+        "pinyin": "Yí fèn liùshíwǔ yuán, yì pán yǒu wǔ dà kuài! Dōu shì xiàndiǎn xiànzhà de o, yào jiā suànní hàn làjiāo ma?",
+        "translation": "Một phần 65 tệ, một đĩa có 5 miếng lớn! Đều chiên nóng giòn tại chỗ khi gọi nhé, bạn có ăn thêm tỏi băm và ớt không?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "要加蒜泥，小辣就好。另外請問泡菜可以幫我多放一點嗎？",
+        "pinyin": "Yào jiā suànní, xiǎo là jiù hǎo. Lìngwài qǐngwèn pàocài kěyǐ bāng wǒ duō fàng yìdiǎn ma?",
+        "translation": "Cho thêm tỏi băm, cay ít thôi nhé. Tiện thể cho hỏi có thể cho tôi thêm nhiều kim chi một chút được không ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán chợ đêm)",
+        "sentence": "沒問題，多送你一點手工泡菜！塞在豆腐中間一起吃最內行！",
+        "pinyin": "Méi wèntí, duō sòng nǐ yìdiǎn shǒugōng pàocài! Sāi zài dòufu zhōngjiān yìqǐ chī zuì nèiháng!",
+        "translation": "Không thành vấn đề, tặng thêm bạn một chút kim chi làm thủ công nhé! Nhét vào giữa miếng đậu hũ ăn chung là sành điệu nhất đấy!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太感謝了！聞起來好香，我們內用在後面找位子坐。",
+        "pinyin": "Tài gǎnxiè le! Wén qǐlái hǎo xiāng, wǒmen nèiyòng zài hòumiàn zhǎo wèizi zuò.",
+        "translation": "Cảm ơn bác nhiều! Ngửi thơm quá chừng, chúng tôi ăn tại chỗ xin vào phía sau tìm bàn ngồi nhé."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "臭豆腐",
+        "meaning": "Đậu hũ thối"
+      },
+      {
+        "word": "脆皮",
+        "meaning": "Vỏ giòn rụm"
+      },
+      {
+        "word": "台式泡菜",
+        "meaning": "Kim chi bắp cải chua ngọt kiểu Đài Loan"
+      },
+      {
+        "word": "蒜泥",
+        "meaning": "Tỏi băm nhuyễn"
+      },
+      {
+        "word": "現炸",
+        "meaning": "Chiên giòn tại chỗ khi gọi"
+      },
+      {
+        "word": "內行",
+        "meaning": "Sành điệu / Hiểu biết chuyên môn"
+      }
+    ]
+  },
+  {
+    "id": "lesson-32",
+    "title": "Mua SIM 4G/5G du lịch không giới hạn tại sân bay",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "你好，我想買一張七天無限上網吃到飽的網卡，請問有包含通話費嗎？",
+      "pinyin": "Nǐ hǎo, wǒ xiǎng mǎi yì zhāng qī tiān wúxiàn shàngwǎng chīdàobǎo de wǎngkǎ, qǐngwèn yǒu bāohán tōnghuàfèi ma?",
+      "translation": "Xin chào, tôi muốn mua một thẻ SIM 7 ngày lướt mạng không giới hạn dung lượng, cho hỏi có bao gồm cước gọi điện thoại không?"
+    },
+    "usage": "Dùng khi vừa hạ cánh xuống sân bay ở Đài Loan và đến các quầy nhà mạng viễn thông để mua SIM du lịch hoặc cài đặt eSIM.",
+    "note": "Ở Đài Loan, gói internet không giới hạn gọi là 上網吃到飽 (shàngwǎng chīdàobǎo). Mua sim du lịch bắt buộc xuất trình hộ chiếu gốc 護照正本 (hùzhào zhèngběn). Hầu hết các sim du lịch đều có tặng sẵn tiền cước gọi điện thoại 通話費 (tōnghuàfèi).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我們剛抵達台灣，想買兩張七天上網吃到飽的電話卡。",
+        "pinyin": "Nǐ hǎo, wǒmen gāng dǐdá Táiwān, xiǎng mǎi liǎng zhāng qī tiān shàngwǎng chīdàobǎo de diànhuàkǎ.",
+        "translation": "Xin chào, chúng tôi vừa đến Đài Loan, muốn mua 2 sim 7 ngày lướt mạng không giới hạn dung lượng."
+      },
+      {
+        "speaker": "B (Nhân viên quầy viễn thông)",
+        "sentence": "歡迎來到台灣！七天4G吃到飽一張是五百元，裡面有送五十元的市話與手機通話費喔。",
+        "pinyin": "Huānyíng lái dào Táiwān! Qī tiān sì-G chīdàobǎo yì zhāng shì wǔbǎi yuán, lǐmiàn yǒu sòng wǔshí yuán de shìhuà yǔ shǒujī tōnghuàfèi o.",
+        "translation": "Chào mừng bạn đến Đài Loan! Gói 4G không giới hạn 7 ngày là 500 tệ một sim, trong tài khoản có tặng 50 tệ cước gọi nội hạt và di động nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，我們各買一張，請問可以用信用卡付款嗎？",
+        "pinyin": "Hǎo de, wǒmen gè mǎi yì zhāng, qǐngwèn kěyǐ yòng xìnyòngkǎ fùkuǎn ma?",
+        "translation": "Vâng, chúng tôi lấy mỗi người 1 sim, cho hỏi có thể thanh toán bằng thẻ tín dụng không?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy viễn thông)",
+        "sentence": "可以刷卡！麻煩請出示兩位的護照正本，我來幫您登記並安裝換卡。",
+        "pinyin": "Kěyǐ shuākǎ! Máfán qǐng chūshì liǎng wèi de hùzhào zhèngběn, wǒ lái bāng nín dēngjì bìng ānzhuāng huànkǎ.",
+        "translation": "Quẹt thẻ được nhé! Phiền bạn xuất trình hộ chiếu gốc của cả hai người, tôi sẽ làm thủ tục đăng ký và thay sim vào máy giúp các bạn."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，這是護照和手機。換下來的原門號SIM卡也請幫我貼好保管，謝謝！",
+        "pinyin": "Hǎo de, zhè shì hùzhào hàn shǒujī. Huàn xiàlái de yuán ménhào SIM kǎ yě qǐng bāng wǒ tiē hǎo bǎoguǎn, xièxie!",
+        "translation": "Vâng, đây là hộ chiếu và điện thoại. Sim cũ tháo ra phiền bạn dán cố định lại cẩn thận giúp tôi nhé, cảm ơn bạn!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "吃到飽",
+        "meaning": "Không giới hạn dung lượng / Trọn gói (Unlimited)"
+      },
+      {
+        "word": "網卡",
+        "meaning": "Thẻ SIM data / Thẻ mạng internet"
+      },
+      {
+        "word": "通話費",
+        "meaning": "Cước phí gọi thoại"
+      },
+      {
+        "word": "開通",
+        "meaning": "Kích hoạt sử dụng"
+      },
+      {
+        "word": "護照正本",
+        "meaning": "Hộ chiếu bản gốc"
+      },
+      {
+        "word": "換卡",
+        "meaning": "Thay đổi thẻ SIM"
+      }
+    ]
   }
 ]
