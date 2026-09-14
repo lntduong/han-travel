@@ -2061,5 +2061,145 @@
         "meaning": "Thay đổi thẻ SIM"
       }
     ]
+  },
+  {
+    "id": "lesson-33",
+    "title": "Viếng chùa cầu may và xin bùa bình an",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問這個平安符要去哪裡過爐？要在香爐上繞三圈嗎？",
+      "pinyin": "Qǐngwèn zhè ge píng'ān fú yào qù nǎlǐ guòlú? Yào zài xiānglú shàng rào sān quān ma?",
+      "translation": "Cho hỏi bùa bình an này cần đi qua lư hương nào để khai quang? Có phải xoay ba vòng trên lư hương không?"
+    },
+    "usage": "Dùng khi đến viếng các ngôi chùa cổ ở Đài Loan (như Chùa Long Sơn, Đền Hành Thiên) để mua bùa hộ mệnh và thực hiện nghi thức khai quang qua lư hương.",
+    "note": "Ở Đài Loan, đi chùa thắp hương gọi là 拜拜 (bàibài). Bùa bình an 平安符 (píng'ān fú) sau khi mua cần mang qua lư hương chính làm lễ 過爐 (guòlú) bằng cách xoay thuận chiều kim đồng hồ 3 vòng 順時針繞三圈. Khi ra vào chùa tuân thủ nguyên tắc vào cửa trái, ra cửa phải (左進右出).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "志工阿姨你好，我想為家人買兩個平安符，請問在紀念品處買對嗎？",
+        "pinyin": "Zhìgōng āyí nǐ hǎo, wǒ xiǎng wèi jiārén mǎi liǎng ge píng'ān fú, qǐngwèn zài jìnìanpǐn chù mǎi duì ma?",
+        "translation": "Chào cô tình nguyện viên, cháu muốn mua hai chiếc bùa bình an cho gia đình, cho hỏi mua ở quầy lưu niệm này đúng không ạ?"
+      },
+      {
+        "speaker": "B (Tình nguyện viên đền chùa)",
+        "sentence": "對的，平安符一個五十元。買好後記得拿到中間的大香爐過爐喔！",
+        "pinyin": "Duì de, píng'ān fú yí ge wǔshí yuán. Mǎi hǎo hòu jìde ná dào zhōngjiān de dà xiānglú guòlú o!",
+        "translation": "Đúng rồi cháu, bùa bình an 50 tệ một chiếc. Mua xong cháu nhớ mang ra lư hương lớn ở giữa để làm lễ qua khói hương nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問過爐的步驟是怎麼樣呢？需要說什麼話嗎？",
+        "pinyin": "Qǐngwèn guòlú de bùzhòu shì zěnmeyàng ne? Xūyào shuō shénme huà ma?",
+        "translation": "Cho cháu hỏi các bước làm lễ qua lư hương như thế nào ạ? Có cần khấn điều gì không?"
+      },
+      {
+        "speaker": "B (Tình nguyện viên đền chùa)",
+        "sentence": "在心裡默念自己的名字、生日和願望，然後拿著平安符在香爐上方順時針繞三圈就可以了。",
+        "pinyin": "Zài xīnlǐ mòniàn zìjǐ de míngzì, shēngrì hàn yuànwàng, ránhòu názhe píng'ān fú zài xiānglú shàngfāng shùnshízhēn rào sān quān jiù kěyǐ le.",
+        "translation": "Trong lòng cháu nhẩm tên, ngày sinh và ước nguyện của mình, sau đó cầm bùa xoay thuận chiều kim đồng hồ 3 vòng trên miệng lư hương là được."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我懂了，非常謝謝您的指導！",
+        "pinyin": "Wǒ dǒng le, fēicháng xièxie nín de zhǐdǎo!",
+        "translation": "Cháu hiểu rồi, cảm ơn cô đã hướng dẫn tận tình ạ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "拜拜",
+        "meaning": "Đi chùa / Thắp hương vái lạy"
+      },
+      {
+        "word": "平安符",
+        "meaning": "Bùa bình an / Bùa hộ mệnh"
+      },
+      {
+        "word": "香爐",
+        "meaning": "Lư hương lớn"
+      },
+      {
+        "word": "過爐",
+        "meaning": "Hơ bùa qua khói hương khai quang"
+      },
+      {
+        "word": "順時針",
+        "meaning": "Thuận chiều kim đồng hồ"
+      },
+      {
+        "word": "繞三圈",
+        "meaning": "Xoay ba vòng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-34",
+    "title": "Mua sắm mỹ phẩm và hỏi ưu đãi mua 1 tặng 1",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問這款面膜現在有買一送一的活動嗎？第二件可以混搭其他款式嗎？",
+      "pinyin": "Qǐngwèn zhè kuǎn miànmó xiànzài yǒu mǎi yī sòng yī de huódòng ma? Dì èr jiàn kěyǐ hùndā qítā kuǎnshì ma?",
+      "translation": "Cho hỏi loại mặt nạ này hiện có chương trình mua 1 tặng 1 không? Hộp thứ hai có được chọn phối cùng loại khác không?"
+    },
+    "usage": "Dùng khi mua sắm mỹ phẩm tại các chuỗi cửa hàng dược mỹ phẩm như Cosmed (康是美) hay Watsons (屈臣氏) ở Đài Loan để hỏi chương trình khuyến mãi mua 1 tặng 1.",
+    "note": "Ở Đài Loan, các cửa hàng dược mỹ phẩm 藥妝店 (yàozhuāngdiàn) thường xuyên có chương trình 買一送一 (mǎi yī sòng yī - mua 1 tặng 1) hoặc 加一元多一件 (thêm 1 TWD được thêm 1 sản phẩm). Từ 混搭 (hùndā) có nghĩa là phối hợp chọn nhiều mùi hương/loại khác nhau cùng mức giá.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "小姐你好，請問這款茶樹面膜現在有買一送一的優惠嗎？",
+        "pinyin": "Xiǎojiě nǐ hǎo, qǐngwèn zhè kuǎn cháshù miànmó xiànzài yǒu mǎi yī sòng yī de yōuhuì ma?",
+        "translation": "Chào chị nhân viên, cho hỏi loại mặt nạ tràm trà này hiện có ưu đãi mua 1 tặng 1 không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên cửa hàng)",
+        "sentence": "有的！架上有貼黃色標籤的都有買一送一，第二件可以任選同價位的玻尿酸或美白款混搭喔！",
+        "pinyin": "Yǒu de! Jià shàng yǒu tiē huángsè biāoqiān de dōu yǒu mǎi yī sòng yī, dì-èr jiàn kěyǐ rènxuǎn tóng jiàwèi de bōniàosuān huò měibái kuǎn hùndā o!",
+        "translation": "Có nhé! Các hộp trên kệ có dán nhãn màu vàng đều được mua 1 tặng 1, hộp thứ 2 bạn có thể tự chọn phối cùng loại cấp ẩm Hyaluronic Acid hoặc làm trắng da cùng tầm giá nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太划算了！那我各拿兩盒。請問如果買滿兩千元，可以在店裡直接辦理退稅嗎？",
+        "pinyin": "Tài huásuàn le! Nà wǒ gè ná liǎng hé. Qǐngwèn rúguǒ mǎi mǎn liǎng qiān yuán, kěyǐ zài diàn lǐ zhíjiē bànlǐ tuìshuì ma?",
+        "translation": "Rẻ quá chừng! Vậy tôi lấy mỗi loại 2 hộp. Cho hỏi nếu mua đủ 2.000 tệ thì có thể làm thủ tục hoàn thuế trực tiếp tại quán không?"
+      },
+      {
+        "speaker": "B (Nhân viên cửa hàng)",
+        "sentence": "可以喔！結帳時請出示護照正本，我們會現場直接退現金給您喔！",
+        "pinyin": "Kěyǐ o! Jiézhàng shí qǐng chūshì hùzhào zhèngběn, wǒmen huì xiànchǎng zhíjiē tuì xiànjīn gěi nín o!",
+        "translation": "Được nhé! Khi thanh toán phiền bạn xuất trình hộ chiếu gốc, bên mình sẽ hoàn lại tiền mặt trực tiếp tại chỗ cho bạn luôn!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，非常謝謝你的詳細說明！",
+        "pinyin": "Hǎo de, fēicháng xièxie nǐ de xiángxì shuōmíng!",
+        "translation": "Vâng ạ, cảm ơn chị đã giải thích rất chi tiết!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "藥妝店",
+        "meaning": "Cửa hàng dược mỹ phẩm"
+      },
+      {
+        "word": "買一送一",
+        "meaning": "Mua 1 tặng 1"
+      },
+      {
+        "word": "面膜",
+        "meaning": "Mặt nạ dưỡng da"
+      },
+      {
+        "word": "混搭",
+        "meaning": "Chọn phối kết hợp nhiều loại khác nhau"
+      },
+      {
+        "word": "標籤",
+        "meaning": "Nhãn giá / Nhãn khuyến mãi"
+      },
+      {
+        "word": "划算",
+        "meaning": "Hời / Tiết kiệm / Đáng tiền"
+      }
+    ]
   }
 ]
