@@ -2201,5 +2201,227 @@
         "meaning": "Hời / Tiết kiệm / Đáng tiền"
       }
     ]
+  },
+  {
+    "id": "lesson-35",
+    "title": "Mua vé tàu hỏa truyền thống và cơm hộp đường sắt",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "我想買兩張今天去花蓮的自強號車票，另外請問台鐵便當在哪裡買？",
+      "pinyin": "Wǒ xiǎng mǎi liǎng zhāng jīntiān qù Huālián de Zìqiánghào chēpiào, lìngwài qǐngwèn Táitiě biàndāng zài nǎlǐ mǎi?",
+      "translation": "Tôi muốn mua 2 vé tàu Tự Cường đi Hoa Liên hôm nay, ngoài ra cho hỏi cơm hộp đường sắt mua ở đâu vậy ạ?"
+    },
+    "usage": "Dùng khi mua vé tàu hỏa truyền thống (TRA) đi các tỉnh thành Đài Loan (như Hoa Liên, Nghi Lan) và hỏi mua món cơm hộp đường sắt đặc sản.",
+    "note": "Ở Đài Loan, hệ thống tàu hỏa thường gọi là 台鐵 (Táitiě / TRA). Tàu nhanh gồm 自強號 (Zìqiánghào), 普悠瑪號 (Pǔyōumǎhào). Tàu chặng ngắn địa phương gọi là 區間車 (qūjiānchē) có thể quẹt thẻ EasyCard. Sân ga đón tàu gọi là 月台 (yuètái). Cơm sườn heo đường sắt 台鐵排骨便當 là món ăn biểu tượng không nên bỏ lỡ.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我想買兩張今天上午去花蓮的自強號車票，有靠窗的位子嗎？",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng mǎi liǎng zhāng jīntiān shàngwǔ qù Huālián de Zìqiánghào chēpiào, yǒu kàochuāng de wèizi ma?",
+        "translation": "Xin chào, tôi muốn mua 2 vé tàu Tự Cường đi Hoa Liên sáng hôm nay, có chỗ ngồi cạnh cửa sổ không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "早上九點半有一班普悠瑪號，剛好剩兩張連在一起的靠窗座位喔！",
+        "pinyin": "Zǎoshang jiǔ diǎn bàn yǒu yì bān Pǔyōumǎhào, gānghǎo shèng liǎng zhāng lián zài yìqǐ de kàochuāng zuòwèi o!",
+        "translation": "9 giờ 30 sáng có một chuyến tàu Puyuma, vừa khéo còn đúng 2 chỗ cạnh cửa sổ ngồi liền nhau nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太幸運了！請幫我出這兩張票。另外請問傳說中的台鐵便當在哪裡買？",
+        "pinyin": "Tài xìngyùn le! Qǐng bāng wǒ chū zhè liǎng zhāng piào. Lìngwài qǐngwèn chuánshuō zhōng de Táitiě biàndāng zài nǎlǐ mǎi?",
+        "translation": "May mắn quá! Lấy giúp tôi 2 vé này nhé. Ngoài ra cho hỏi món cơm hộp đường sắt nức tiếng thì mua ở đâu vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "售票處走出去右轉，有一個「台鐵便當本舖」，招牌八角排骨便當很好吃喔！",
+        "pinyin": "Shòupiàochù zǒu chūqù yòu zhuǎn, yǒu yí ge \"Táitiě biàndāng běnpù\", zhāopái bājiǎo páigǔ biàndāng hěn hǎochī o!",
+        "translation": "Đi ra khỏi quầy vé rẽ phải là có quầy \"Tiệm chính Cơm hộp Đài Thiết\", món cơm sườn heo hộp bát giác đặc trưng rất ngon đấy!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問這班車是在第幾月台搭乘呢？",
+        "pinyin": "Qǐngwèn zhè bān chē shì zài dì jǐ yuètái dāchéng ne?",
+        "translation": "Cho hỏi chuyến tàu này lên ở sân ga số mấy vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé)",
+        "sentence": "在第四月台搭乘，記得開車前十分鐘進站喔！",
+        "pinyin": "Zài dì-sì yuètái dāchéng, jìde kāichē qián shí fēnzhōng jìnzhàn o!",
+        "translation": "Lên tàu ở sân ga số 4, nhớ vào ga trước giờ tàu chạy 10 phút nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "台鐵",
+        "meaning": "Cục đường sắt Đài Loan / Tàu hỏa thông thường (TRA)"
+      },
+      {
+        "word": "自強號",
+        "meaning": "Tàu Tự Cường (tàu nhanh liên tỉnh)"
+      },
+      {
+        "word": "區間車",
+        "meaning": "Tàu chặng ngắn địa phương"
+      },
+      {
+        "word": "月台",
+        "meaning": "Sân ga tàu hỏa (Platform)"
+      },
+      {
+        "word": "便當",
+        "meaning": "Cơm hộp"
+      },
+      {
+        "word": "排骨",
+        "meaning": "Sườn heo (chiên rim)"
+      }
+    ]
+  },
+  {
+    "id": "lesson-36",
+    "title": "Thưởng thức món hàu chiên trứng tại chợ đêm",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我們要一份招牌蚵仔煎，醬多一點，再來一碗熱蛤蜊湯。",
+      "pinyin": "Lǎobǎn, wǒmen yào yí fèn zhāopái ô-á-tsian, jiàng duō yìdiǎn, zài lái yì wǎn rè gélítāng.",
+      "translation": "Ông chủ ơi, chúng tôi lấy một phần hàu chiên trứng đặc biệt, nhiều nước sốt một chút, và thêm một bát canh nghêu nóng nhé."
+    },
+    "usage": "Dùng khi vào các quán ăn truyền thống tại chợ đêm Đài Loan để gọi món hàu chiên trứng (蚵仔煎) và canh nghêu nóng (蛤蜊湯).",
+    "note": "Ở Đài Loan, món hàu chiên trứng 蚵仔煎 thường được phát âm theo tiếng Đài là ô-á-tsian. Món ăn có nước sốt chua ngọt đặc trưng 甜辣醬 (tiánlàjiàng) và người bản xứ thường ăn kèm một bát canh nghêu nấu gừng 蛤蜊湯 (gélítāng) để giải ngấy (解膩).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，兩位內用！請問這張桌子有人坐嗎？",
+        "pinyin": "Lǎobǎn, liǎng wèi nèiyòng! Qǐngwèn zhè zhāng zhuōzi yǒu rén zuò ma?",
+        "translation": "Ông chủ ơi, hai người ăn tại chỗ! Cho hỏi bàn này có ai ngồi chưa ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán chợ đêm)",
+        "sentence": "沒人坐，請坐請坐！今天想吃點什麼？我們的蚵仔（ô-á）都是嘉義東石產地直送的喔！",
+        "pinyin": "Méi rén zuò, qǐng zuò qǐng zuò! Jīntiān xiǎng chī diǎn shénme? Wǒmen de ô-á dōu shì Jiāyì Dōngshí chǎndì zhísòng de o!",
+        "translation": "Chưa có ai ngồi, mời ngồi mời ngồi! Hôm nay muốn ăn gì nào? Hàu của quán tôi đều là hàu tươi vận chuyển trực tiếp từ vùng Đông Thạch, Gia Nghĩa đấy nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太棒了！那我們要一份招牌蚵仔煎（ô-á-tsian），醬料幫我淋多一點。",
+        "pinyin": "Tài bàng le! Nà wǒmen yào yí fèn zhāopái ô-á-tsian, jiàngliào bāng wǒ lín duō yìdiǎn.",
+        "translation": "Tuyệt quá! Vậy chúng tôi lấy một phần hàu chiên trứng đặc biệt, rưới nhiều nước sốt một chút giúp tôi nhé."
+      },
+      {
+        "speaker": "B (Chủ quán chợ đêm)",
+        "sentence": "沒問題！要不要再來一碗熱騰騰的薑絲蛤蜊湯？配著吃很清甜解膩喔。",
+        "pinyin": "Méi wèntí! Yào bu yào zài lái yì wǎn rèténgténg de jiāngsī gélítāng? Pèizhe chī hěn qīngtián jiěnì o.",
+        "translation": "Không thành vấn đề! Có muốn thêm một tô canh nghêu nấu gừng nóng hổi không? Ăn cùng rất ngọt thanh và chống ngấy nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好啊，那就再來一碗蛤蜊湯，謝謝老闆！",
+        "pinyin": "Hǎo a, nà jiù zài lái yì wǎn gélítāng, xièxie lǎobǎn!",
+        "translation": "Vâng ạ, vậy cho thêm một bát canh nghêu nữa nhé, cảm ơn ông chủ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "蚵仔煎",
+        "meaning": "Hàu chiên trứng (phát âm tiếng Đài: ô-á-tsian)"
+      },
+      {
+        "word": "蛤蜊湯",
+        "meaning": "Canh nghêu / Canh ngao nấu gừng"
+      },
+      {
+        "word": "甜辣醬",
+        "meaning": "Sốt tương ngọt cay nhẹ"
+      },
+      {
+        "word": "產地直送",
+        "meaning": "Vận chuyển trực tiếp từ nơi nuôi trồng / sản xuất"
+      },
+      {
+        "word": "解膩",
+        "meaning": "Chống ngấy / Đỡ ngấy"
+      },
+      {
+        "word": "淋",
+        "meaning": "Rưới / Chan (nước sốt lên món ăn)"
+      }
+    ]
+  },
+  {
+    "id": "lesson-37",
+    "title": "Tham quan đài quan sát tháp Taipei 101",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問台北101觀景台的售票處在幾樓？今天戶外觀景台有開放嗎？",
+      "pinyin": "Qǐngwèn Táiběi Yī-Líng-Yī guānjǐngtái de shòupiàochù zài jǐ lóu? Jīntiān hùwài guānjǐngtái yǒu kāifàng ma?",
+      "translation": "Cho hỏi quầy bán vé đài quan sát Taipei 101 ở tầng mấy? Hôm nay đài quan sát ngoài trời có mở cửa không?"
+    },
+    "usage": "Dùng khi đến tháp Taipei 101 để tìm quầy vé lên đài quan sát ngắm cảnh và hỏi thông tin mở cửa của đài quan sát ngoài trời.",
+    "note": "Quầy vé đài quan sát Taipei 101 觀景台 (guānjǐngtái) nằm ở tầng 5. Thang máy siêu tốc 高速電梯 (gāosù diàntī) lên tầng 89 chỉ mất 37 giây. Tòa tháp nổi tiếng với quả cầu giảm chấn chống bão và động đất 風阻尼球 (fēng zǔní qiú). Đài quan sát ngoài trời 戶外觀景台 ở tầng 91 chỉ mở cửa khi thời tiết thuận lợi.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，請問去台北101觀景台要先在哪裡買票呢？",
+        "pinyin": "Nǐ hǎo, qǐngwèn qù Táiběi Yī-Líng-Yī guānjǐngtái yào xiān zài nǎlǐ mǎi piào ne?",
+        "translation": "Xin chào, cho hỏi muốn lên đài quan sát Taipei 101 thì phải mua vé ở tầng nào trước vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên hướng dẫn tòa nhà)",
+        "sentence": "請搭手扶梯直上五樓，那裡有售票處、自動取票機和高速電梯入口喔！",
+        "pinyin": "Qǐng dā shǒufútī zhí shàng wǔ lóu, nàlǐ yǒu shòupiàochù, zìdòng qǔpiàojī hàn gāosù diàntī rùkǒu o!",
+        "translation": "Mời bạn đi thang cuốn lên thẳng tầng 5, ở đó có quầy bán vé, máy nhận vé tự động và lối vào thang máy tốc độ cao nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的！請問今天天氣不錯，九十一樓的戶外觀景台有開放參觀嗎？",
+        "pinyin": "Hǎo de! Qǐngwèn jīntiān tiānqì búcuò, jiǔshíyī lóu de hùwài guānjǐngtái yǒu kāifàng cānguān ma?",
+        "translation": "Vâng ạ! Cho hỏi hôm nay thời tiết khá đẹp, đài quan sát ngoài trời ở tầng 91 có mở cửa cho khách lên tham quan không?"
+      },
+      {
+        "speaker": "B (Nhân viên hướng dẫn tòa nhà)",
+        "sentence": "今天有開放喔！在八十八樓還可以近距離參觀著名的金色風阻尼球。",
+        "pinyin": "Jīntiān yǒu kāifàng o! Zài bāshíbā lóu hái kěyǐ jìn jùlí cānguān zhùmíng de jīnsè fēng zǔní qiú.",
+        "translation": "Hôm nay có mở cửa nhé! Ở tầng 88 bạn còn có thể ngắm nhìn ở cự ly gần quả cầu giảm chấn màu vàng nổi tiếng nữa đấy."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太棒了，搭高速電梯到八十九樓大概需要多久呢？",
+        "pinyin": "Tài bàng le, dā gāosù diàntī dào bāshíjiǔ lóu dàgài xūyào duōjiǔ ne?",
+        "translation": "Tuyệt quá, đi thang máy siêu tốc lên tầng 89 mất khoảng bao lâu vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên hướng dẫn tòa nhà)",
+        "sentence": "只要三十七秒！上升時如果耳朵有點悶脹，輕輕吞口水就可以了，祝您參觀愉快！",
+        "pinyin": "Zhǐ yào sānshíqī miǎo! Shàngshēng shí rúguǒ ěrduo yǒuxiē mènzhàng, qīngqīng tūn kǒushuǐ jiù kěyǐ le, zhù nín cānguān yúkuài!",
+        "translation": "Chỉ mất 37 giây thôi! Lúc lên nếu tai hơi bị ù tức, bạn nhẹ nhàng nuốt nước bọt là hết ngay, chúc bạn tham quan vui vẻ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "觀景台",
+        "meaning": "Đài quan sát / Tầng ngắm cảnh"
+      },
+      {
+        "word": "高速電梯",
+        "meaning": "Thang máy tốc độ cao (siêu tốc)"
+      },
+      {
+        "word": "風阻尼球",
+        "meaning": "Quả cầu giảm chấn gió và động đất (Tuned Mass Damper)"
+      },
+      {
+        "word": "開放",
+        "meaning": "Mở cửa đón khách"
+      },
+      {
+        "word": "戶外",
+        "meaning": "Ngoài trời"
+      },
+      {
+        "word": "吞口水",
+        "meaning": "Nuốt nước bọt (giảm ù tai)"
+      }
+    ]
   }
 ]
