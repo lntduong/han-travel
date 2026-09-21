@@ -2423,5 +2423,367 @@
         "meaning": "Nuốt nước bọt (giảm ù tai)"
       }
     ]
+  },
+  {
+    "id": "lesson-38",
+    "title": "Trải nghiệm quán nhậu đêm Nhiệt Xảo Đài Loan",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，請問白飯是免費自取嗎？啤酒直接到冰箱拿對不對？",
+      "pinyin": "Lǎobǎn, qǐngwèn báifàn shì miǎnfèi zìqǔ ma? Píjiǔ zhíjiē dào bīngxiāng ná duì bú duì?",
+      "translation": "Ông chủ ơi, cho hỏi cơm trắng là tự lấy miễn phí đúng không? Bia thì cứ tự ra tủ lạnh lấy đúng không ạ?"
+    },
+    "usage": "Dùng khi đi ăn tại các quán nhậu hải sản xào nóng (熱炒 100 - Rèchǎo) ở Đài Loan để hỏi về quy cách tự lấy cơm trắng miễn phí và tự phục vụ bia, nước ngọt.",
+    "note": "Ở Đài Loan, các quán nhậu 熱炒 (rèchǎo) có quy tắc 白飯免費自取 (báifàn miǎnfèi zìqǔ - cơm trắng tự lấy ăn miễn phí). Đồ uống và bia khách tự lấy trong tủ lạnh mang ra bàn, thanh toán bằng cách nhân viên đến đếm số vỏ chai. Nổi tiếng nhất là loại bia tươi 18天台灣生啤酒 (Bia tươi 18 ngày).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，我們有四位，第一次來吃熱炒，請問怎麼點餐呢？",
+        "pinyin": "Lǎobǎn, wǒmen yǒu sì wèi, dì-yī cì lái chī rèchǎo, qǐngwèn zěnme diǎncān ne?",
+        "translation": "Ông chủ ơi, chúng tôi có 4 người, lần đầu đến ăn quán nhiệt xảo, cho hỏi gọi món thế nào ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán nhiệt xảo)",
+        "sentence": "請先在菜單上劃單，推薦點炒水蓮、九層塔蛤蜊和鳳梨蝦球，上菜很快喔！",
+        "pinyin": "Qǐng xiān zài càidān shàng huà dān, tuījiàn diǎn chǎo shuǐlián, jiǔcéngtǎ gélì hàn fènglísī xiāqiú, shàngcài hěn kuài o!",
+        "translation": "Mời bạn gạch chọn món trên menu giấy nhé, gợi ý các bạn gọi rau thủy liên xào, nghêu xào lá húng quế và tôm chiên sốt dứa, lên món nhanh lắm nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的！請問店裡的白飯是免費自取嗎？啤酒直接去冰箱拿對嗎？",
+        "pinyin": "Hǎo de! Qǐngwèn diàn lǐ de báifàn shì miǎnfèi zìqǔ ma? Píjiǔ zhíjiē qù bīngxiāng ná duì ma?",
+        "translation": "Vâng ạ! Cho hỏi cơm trắng trong quán là tự lấy miễn phí đúng không? Bia thì cứ tự ra tủ lạnh lấy đúng không ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán nhiệt xảo)",
+        "sentence": "對！大電鍋裡有熱白飯可以吃到飽，旁邊冰箱有18天台灣生啤酒，想喝什麼隨便拿，最後再數瓶子算錢！",
+        "pinyin": "Duì! Dà diànguō lǐ yǒu rè báifàn kěyǐ chīdàobǎo, pángbiān bīngxiāng yǒu shí-bā tiān Táiwān shēngpíjiǔ, xiǎng hē shénme suíbiàn ná, zuìhòu zài shǔ píngzi suàn qián!",
+        "translation": "Đúng rồi! Trong nồi cơm điện lớn có cơm trắng nóng ăn no nê thỏa thích, tủ lạnh bên cạnh có bia tươi Đài Loan 18 ngày, thích uống gì cứ tự nhiên lấy nhé, cuối cùng bên mình sẽ đếm vỏ chai tính tiền!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "氣氛真熱鬧，我們去拿兩瓶啤酒，乾杯！",
+        "pinyin": "Qìfēn zhēn rènào, wǒmen qù ná liǎng píng píjiǔ, gānbēi!",
+        "translation": "Không khí náo nhiệt thật đấy, chúng tôi đi lấy hai chai bia đây, cạn ly nào!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "熱炒",
+        "meaning": "Quán nhậu đồ xào nóng bình dân Đài Loan"
+      },
+      {
+        "word": "自取",
+        "meaning": "Tự lấy / Tự phục vụ"
+      },
+      {
+        "word": "生啤酒",
+        "meaning": "Bia tươi (đặc biệt là bia 18 ngày)"
+      },
+      {
+        "word": "九層塔",
+        "meaning": "Lá húng quế"
+      },
+      {
+        "word": "水蓮",
+        "meaning": "Rau thủy liên (đặc sản giòn ngọt của Đài Loan)"
+      },
+      {
+        "word": "乾杯",
+        "meaning": "Cạn ly / Nâng ly"
+      }
+    ]
+  },
+  {
+    "id": "lesson-39",
+    "title": "Hỏi cửa ra ga MRT và tìm đường ở Tây Môn Đình",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問去西門町徒步區和彩虹斑馬線，要走幾號出口？那裡有手扶梯嗎？",
+      "pinyin": "Qǐngwèn qù Xīméndīng túbùqū hàn cǎihóng bānmǎxiàn, yào zǒu jǐ hào chūkǒu? Nàlǐ yǒu shǒufútī ma?",
+      "translation": "Cho hỏi đi đến khu phố đi bộ Tây Môn Đình và vạch kẻ đường cầu vồng thì đi cửa ra số mấy? Ở đó có thang cuốn không?"
+    },
+    "usage": "Dùng khi ra khỏi tàu điện ngầm tại các ga MRT lớn ở Đài Loan để hỏi đúng số hiệu cửa ra và tìm thang máy/thang cuốn hỗ trợ di chuyển.",
+    "note": "Ở các ga MRT Đài Loan, người dân luôn lấy số hiệu cửa ra 出口 (chūkǒu) làm điểm mốc. Khu phố đi bộ Tây Môn Đình 西門町 túbùqū và vạch kẻ cầu vồng 彩虹斑馬線 nằm ngay tại cửa số 6 (六號出口). Nếu có xe đẩy em bé hoặc vali to nên chọn thang máy ưu tiên 無障礙電梯 (wúzhàng'ài diàntī).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "站務員你好，請問去西門町徒步區要走幾號出口呢？",
+        "pinyin": "Zhànwùyuán nǐ hǎo, qǐngwèn qù Xīméndīng túbùqū yào zǒu jǐ hào chūkǒu ne?",
+        "translation": "Chào nhân viên nhà ga, cho hỏi đi đến khu phố đi bộ Tây Môn Đình thì đi cửa ra số mấy vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "請走六號出口！出站直接上去就是徒步區，地上還有一條很漂亮的彩虹斑馬線喔。",
+        "pinyin": "Qǐng zǒu liù hào chūkǒu! Chūzhàn zhíjiē shàngqù jiù shì túbùqū, dìshàng hái yǒu yì tiáo hěn piàoliang de cǎihóng bānmǎxiàn o.",
+        "translation": "Mời bạn đi cửa số 6 nhé! Ra khỏi trạm đi thẳng lên là khu phố đi bộ, dưới mặt đường còn có vạch kẻ cầu vồng rất đẹp đấy."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問六號出口有手扶梯或電梯嗎？我們推著兩台嬰兒車。",
+        "pinyin": "Qǐngwèn liù hào chūkǒu yǒu shǒufútī huò diàntī ma? Wǒmen tuīzhe liǎng tái yīng'érchē.",
+        "translation": "Cho hỏi ở cửa số 6 có thang cuốn hoặc thang máy không? Chúng tôi đang đẩy 2 chiếc xe đẩy em bé."
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga MRT)",
+        "sentence": "六號出口只有電扶梯。如果推嬰兒車，建議搭一號出口旁邊的無障礙電梯最安全喔！",
+        "pinyin": "Liù hào chūkǒu zhǐyǒu diànfútī. Rúguǒ tuī yīng'érchē, jiànyì dā yī hào chūkǒu pángbiān de wúzhàng'ài diàntī zuì ānquán o!",
+        "translation": "Cửa số 6 chỉ có thang cuốn thôi. Nếu đẩy xe em bé, khuyên bạn nên đi thang máy ưu tiên cạnh cửa số 1 là an toàn nhất nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "謝謝您的貼心建議，那我們搭電梯上去！",
+        "pinyin": "Xièxie nín de tiēxīn jiànyì, nà wǒmen dā diàntī shàngqù!",
+        "translation": "Cảm ơn gợi ý chu đáo của bạn, vậy chúng tôi đi thang máy lên nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "出口",
+        "meaning": "Cửa ra / Lối ra ga tàu"
+      },
+      {
+        "word": "徒步區",
+        "meaning": "Khu phố đi bộ"
+      },
+      {
+        "word": "彩虹斑馬線",
+        "meaning": "Vạch kẻ đường cầu vồng (Rainbow Six Ximending)"
+      },
+      {
+        "word": "手扶梯",
+        "meaning": "Thang cuốn tự động"
+      },
+      {
+        "word": "無障礙電梯",
+        "meaning": "Thang máy ưu tiên (không rào cản)"
+      },
+      {
+        "word": "嬰兒車",
+        "meaning": "Xe đẩy em bé"
+      }
+    ]
+  },
+  {
+    "id": "lesson-40",
+    "title": "Trải nghiệm gội đầu ngồi massage kiểu Đài Loan",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "你好，我們想體驗傳統台式坐洗，請問現在有空位嗎？需要預約嗎？",
+      "pinyin": "Nǐ hǎo, wǒmen xiǎng tǐyàn chuántǒng Táishì zuòxǐ, qǐngwèn xiànzài yǒu kòngwèi ma? Xūyào yùyuē ma?",
+      "translation": "Xin chào, chúng tôi muốn trải nghiệm gội đầu ngồi truyền thống kiểu Đài Loan, cho hỏi bây giờ có chỗ trống không? Có cần đặt trước không?"
+    },
+    "usage": "Dùng khi vào các tiệm làm tóc hoặc salon tại Đài Loan để trải nghiệm dịch vụ gội đầu ngồi truyền thống kèm massage cổ vai gáy và tạo hình bọt tóc chụp ảnh.",
+    "note": "Ở Đài Loan, dịch vụ gội đầu ngồi 台式坐洗 (Táishì zuòxǐ) là trải nghiệm làm đẹp thư giãn nổi tiếng. Thợ gội tóc khô tạo bọt 泡泡 (pàopào) trên ghế ngồi, vuốt tạo hình bọt ngộ nghĩnh để khách chụp ảnh, kết hợp bấm huyệt massage cổ vai gáy 肩頸按摩 (jiānjǐng ànmó) và sấy tạo kiểu 吹整 (chuīzhěng).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我們有兩位想體驗台式坐洗，請問現在可以直接洗嗎？",
+        "pinyin": "Nǐ hǎo, wǒmen yǒu liǎng wèi xiǎng tǐyàn Táishì zuòxǐ, qǐngwèn xiànzài kěyǐ zhíjiē xǐ ma?",
+        "translation": "Xin chào, hai người chúng tôi muốn trải nghiệm gội đầu ngồi kiểu Đài Loan, cho hỏi bây giờ có thể gội ngay được không ạ?"
+      },
+      {
+        "speaker": "B (Thợ làm tóc)",
+        "sentence": "可以喔，剛好有兩個位子！我們的標準台式洗頭包含坐洗、頭皮舒壓和肩頸按摩喔。",
+        "pinyin": "Kěyǐ o, gānghǎo yǒu liǎng ge wèizi! Wǒmen de biāozhǔn Táishì xǐtóu bāohán zuòxǐ, tóupí shūyā hàn jiānjǐng ànmó o.",
+        "translation": "Được nhé, vừa khéo còn 2 chỗ! Gói gội đầu Đài Loan tiêu chuẩn bên mình gồm gội ngồi, thư giãn da đầu và massage vai gáy nhé."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了！請問洗頭的時候可以幫我們做泡泡造型拍照嗎？",
+        "pinyin": "Tài hǎo le! Qǐngwèn xǐtóu de shíhòu kěyǐ bāng wǒmen zuò pàopào zàoxíng pāizhào ma?",
+        "translation": "Tuyệt quá! Cho hỏi trong lúc gội có thể tạo hình bọt tóc giúp chúng tôi chụp ảnh được không ạ?"
+      },
+      {
+        "speaker": "B (Thợ làm tóc)",
+        "sentence": "沒問題！我們會幫你們拉出聖誕樹和冰淇淋造型，手機準備好隨時拍照喔！",
+        "pinyin": "Méi wèntí! Wǒmen huì bāng nǐmen lā chū shèngdànshù hàn bīngqílín zàoxíng, shǒujī zhǔnbèi hǎo suíshí pāizhào o!",
+        "translation": "Không vấn đề gì! Tụi mình sẽ tạo hình cây thông Noel và kem ốc quế cho các bạn, chuẩn bị sẵn điện thoại để chụp ảnh bất cứ lúc nào nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "洗完之後有包含吹乾和做造型嗎？",
+        "pinyin": "Xǐ wán zhīhòu yǒu bāohán chuīgān hàn zuò zàoxíng ma?",
+        "translation": "Gội xong thì có bao gồm sấy khô và tạo kiểu tóc không ạ?"
+      },
+      {
+        "speaker": "B (Thợ làm tóc)",
+        "sentence": "有的，沖洗乾淨後設計師會幫您吹順並做漂亮的造型，請這邊入座！",
+        "pinyin": "Yǒu de, chōngxǐ gānjìng hòu shèjìshī huì bāng nín chuīshùn bìng zuò piàoliang de zàoxíng, qǐng zhèbiān rùzuò!",
+        "translation": "Có chứ ạ, xả sạch xong nhà tạo mẫu sẽ sấy mượt và tạo kiểu tóc thật đẹp cho bạn, mời bạn vào bàn bên này!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "台式洗頭",
+        "meaning": "Gội đầu kiểu Đài Loan"
+      },
+      {
+        "word": "坐洗",
+        "meaning": "Gội đầu tư thế ngồi"
+      },
+      {
+        "word": "泡泡",
+        "meaning": "Bọt xà phòng"
+      },
+      {
+        "word": "肩頸按摩",
+        "meaning": "Massage xoa bóp vai và cổ gáy"
+      },
+      {
+        "word": "吹整",
+        "meaning": "Sấy khô và tạo nếp tóc"
+      },
+      {
+        "word": "舒壓",
+        "meaning": "Thư giãn / Giảm căng thẳng áp lực"
+      }
+    ]
+  },
+  {
+    "id": "lesson-41",
+    "title": "Thưởng thức cơm thịt kho Đài Loan Lỗ Nhục Phạn",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我要一碗大份滷肉飯，加一顆滷蛋和一份油豆腐，內用。",
+      "pinyin": "Lǎobǎn, wǒ yào yì wǎn dà fèn lǔròufàn, jiā yì kē lǔdàn hàn yí fèn yóudòufu, nèiyòng.",
+      "translation": "Ông chủ ơi, cho tôi một bát cơm thịt kho phần lớn, thêm một quả trứng kho và một phần đậu phụ rán kho, ăn tại chỗ."
+    },
+    "usage": "Dùng khi vào các quán cơm bình dân tại Đài Loan để gọi món cơm thịt kho Lỗ Nhục Phạn (滷肉飯) cùng các món kho ăn kèm truyền thống.",
+    "note": "Cơm thịt kho Đài Loan 滷肉飯 (lǔròufàn) ở miền Bắc dùng thịt băm kho, trong khi ở miền Nam gọi là 肉燥飯 (ròuzàofàn). Đồ ăn kèm kinh điển luôn có 滷蛋 (lǔdàn - trứng kho), 油豆腐 (yóudòufu - đậu phụ rán kho), 筍絲 (sǔnsī - măng chua xé sợi kho) và 貢丸湯 (gòngwántāng - canh thịt viên).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，兩位內用！請問要在這裡點餐還是劃單呢？",
+        "pinyin": "Lǎobǎn, liǎng wèi nèiyòng! Qǐngwèn yào zài zhèlǐ diǎncān háishì huà dān ne?",
+        "translation": "Ông chủ ơi, hai người ăn tại chỗ! Cho hỏi gọi món tại quầy luôn hay gạch phiếu ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán cơm thịt kho)",
+        "sentence": "直接跟我點就可以！來，兩位想吃大碗還是小碗滷肉飯？",
+        "pinyin": "Zhíjiē gēn wǒ diǎn jiù kěyǐ! Lái, liǎng wèi xiǎng chī dà wǎn háishì xiǎo wǎn lǔròufàn?",
+        "translation": "Gọi trực tiếp với tôi là được! Nào, hai bạn muốn ăn tô cơm thịt kho lớn hay tô nhỏ?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "給我們兩碗大份滷肉飯，每碗都要加一顆滷蛋和一塊油豆腐，另外再來一份筍絲。",
+        "pinyin": "Gěi wǒmen liǎng wǎn dà fèn lǔròufàn, měi wǎn dōu yào jiā yì kē lǔdàn hàn yí kuài yóudòufu, lìngwài zài lái yí fèn sǔnsī.",
+        "translation": "Cho chúng tôi 2 bát cơm thịt kho lớn, mỗi bát thêm một quả trứng kho và một miếng đậu hũ rán kho, ngoài ra cho thêm một đĩa măng kho nhé."
+      },
+      {
+        "speaker": "B (Chủ quán cơm thịt kho)",
+        "sentence": "沒問題！要不要來碗熱湯？今天有剛煮好的貢丸湯和蘿蔔排骨湯喔！",
+        "pinyin": "Méi wèntí! Yào bu yào lái wǎn rètāng? Jīntiān yǒu gāng zhǔ hǎo de gòngwántāng hàn luóbo páigǔ tāng o!",
+        "translation": "Không vấn đề gì! Có muốn lấy thêm bát canh nóng không? Hôm nay có canh thịt viên và canh sườn hầm củ cải vừa nấu xong thơm phức đấy!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "那再來一碗貢丸湯，謝謝老闆！",
+        "pinyin": "Nà zài lái yì wǎn gòngwántāng, xièxie lǎobǎn!",
+        "translation": "Vậy cho thêm một bát canh thịt viên nữa nhé, cảm ơn ông chủ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "滷肉飯",
+        "meaning": "Cơm thịt kho tàu Đài Loan"
+      },
+      {
+        "word": "滷蛋",
+        "meaning": "Trứng kho"
+      },
+      {
+        "word": "油豆腐",
+        "meaning": "Đậu phụ rán kho"
+      },
+      {
+        "word": "筍絲",
+        "meaning": "Măng chua xé sợi kho"
+      },
+      {
+        "word": "貢丸湯",
+        "meaning": "Canh thịt viên heo giòn dai"
+      },
+      {
+        "word": "燙青菜",
+        "meaning": "Rau xanh chần chan mỡ hành"
+      }
+    ]
+  },
+  {
+    "id": "lesson-42",
+    "title": "Thuê xe đạp điện du ngoạn Hồ Nhật Nguyệt",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "老闆，我們想租兩台電動輔助自行車遊日月潭，請問充滿電可以騎多久？",
+      "pinyin": "Lǎobǎn, wǒmen xiǎng zū liǎng tái diàndòng fǔzhù zìxíngchē yóu Rìyuètán, qǐngwèn chōngmǎn diàn kěyǐ qí duōjiǔ?",
+      "translation": "Ông chủ ơi, chúng tôi muốn thuê hai chiếc xe đạp trợ lực điện để đi dạo Hồ Nhật Nguyệt, cho hỏi sạc đầy pin thì chạy được bao lâu ạ?"
+    },
+    "usage": "Dùng khi đến bến tàu Thủy Xã (水社碼頭) ở Hồ Nhật Nguyệt (日月潭) để thuê xe đạp trợ lực điện dạo quanh cung đường xe đạp ven hồ.",
+    "note": "Ở Hồ Nhật Nguyệt, loại xe phổ biến nhất là 電輔車 (diànfǔchē - xe đạp trợ lực điện), giúp vượt các đoạn dốc 上坡 (shàngpō) dễ dàng mà không cần bằng lái. Thuê xe cần đặt cọc hộ chiếu 押護照 (yā hùzhào) và các tiệm thường có giá trọn gói không giới hạn thời gian 不限時間 (bú xiàn shíjiān).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆你好，我們想租兩台車騎去向山遊客中心，請問推薦哪種車型呢？",
+        "pinyin": "Lǎobǎn nǐ hǎo, wǒmen xiǎng zū liǎng tái chē qí qù Xiàngshān yóukè zhōngxīn, qǐngwèn tuījiàn nǎ zhǒng chēxíng ne?",
+        "translation": "Xin chào ông chủ, chúng tôi muốn thuê 2 chiếc xe đạp đến Trung tâm du khách Hướng Sơn, cho hỏi gợi ý nên thuê loại xe nào ạ?"
+      },
+      {
+        "speaker": "B (Chủ tiệm thuê xe đạp)",
+        "sentence": "推薦租電輔車（電動輔助自行車）！上坡時會自動輔助出力，踩起來很輕鬆，充滿電可以騎三十公里喔！",
+        "pinyin": "Tuījiàn zū diànfǔchē (diàndòng fǔzhù zìxíngchē)! Shàngpō shí huì zìdòng fǔzhù chūlì, cǎi qǐlái hěn qīngsōng, chōngmǎn diàn kěyǐ qí sānshí gōnglǐ o!",
+        "translation": "Gợi ý bạn thuê xe đạp trợ lực điện nhé! Lúc lên dốc động cơ sẽ tự trợ lực đẩy, đạp rất nhẹ nhàng êm ái, sạc đầy pin đạp được khoảng 30 cây số nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了！請問費用怎麼算？需要押護照嗎？",
+        "pinyin": "Tài hǎo le! Qǐngwèn fèiyòng zěnme suàn? Xūyào yā hùzhào ma?",
+        "translation": "Tuyệt quá! Cho hỏi chi phí tính thế nào? Có cần đặt cọc hộ chiếu không ạ?"
+      },
+      {
+        "speaker": "B (Chủ tiệm thuê xe đạp)",
+        "sentence": "一台車不限時間是三百元，押一本護照就可以了。店裡有附安全帽和湖畔自行車路線圖。",
+        "pinyin": "Yì tái chē bú xiàn shíjiān shì sānbǎi yuán, yā yì běn hùzhào jiù kěyǐ le. Diàn lǐ yǒu fù ānquánmào hàn húpàn zìxíngchē lùxiàntú.",
+        "translation": "Một xe thuê không giới hạn thời gian là 300 tệ, đặt cọc 1 cuốn hộ chiếu là được. Quán có trang bị sẵn nón bảo hiểm và bản đồ đường đạp xe ven hồ."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，那我們租兩台，最晚幾點要回來還車呢？",
+        "pinyin": "Hǎo de, nà wǒmen zū liǎng tái, zuìwǎn jǐ diǎn yào huílái huánchē ne?",
+        "translation": "Vâng, vậy chúng tôi thuê 2 xe, muộn nhất mấy giờ phải quay lại trả xe vậy ạ?"
+      },
+      {
+        "speaker": "B (Chủ tiệm thuê xe đạp)",
+        "sentence": "傍晚六點前騎回來還車就可以囉，沿途風景很美，祝你們玩得開心！",
+        "pinyin": "Bàngwǎn liù diǎn qián qí huílái huánchē jiù kěyǐ luo, yántú fēngjǐng hěn měi, zhù nǐmen wán de kāixīn!",
+        "translation": "Trước 6 giờ chiều đạp về trả xe là được nhé, phong cảnh dọc đường đẹp lắm, chúc các bạn đi chơi vui vẻ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "日月潭",
+        "meaning": "Hồ Nhật Nguyệt (thắng cảnh nổi tiếng tại Nam Đầu, Đài Loan)"
+      },
+      {
+        "word": "電輔車",
+        "meaning": "Xe đạp trợ lực điện (viết tắt của 電動輔助自行車)"
+      },
+      {
+        "word": "上坡",
+        "meaning": "Lên dốc / Đoạn dốc lên"
+      },
+      {
+        "word": "安全帽",
+        "meaning": "Mũ bảo hiểm"
+      },
+      {
+        "word": "路線圖",
+        "meaning": "Bản đồ tuyến đường / Bản đồ lộ trình"
+      },
+      {
+        "word": "不限時間",
+        "meaning": "Không giới hạn thời gian (thuê trọn ngày)"
+      }
+    ]
   }
 ]
