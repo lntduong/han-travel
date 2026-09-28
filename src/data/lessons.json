@@ -2785,5 +2785,519 @@
         "meaning": "Không giới hạn thời gian (thuê trọn ngày)"
       }
     ]
+  },
+  {
+    "id": "lesson-43",
+    "title": "Mua vé tàu ngắm bình minh A Lý Sơn",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問明天清晨去祝山看日出的火車幾點發車？今天可以先買預售票嗎？",
+      "pinyin": "Qǐngwèn míngtiān qīngchén qù Zhùshān kàn rìchū de huǒchē jǐ diǎn fāchē? Jīntiān kěyǐ xiān mǎi yùshòupiào ma?",
+      "translation": "Cho hỏi sáng sớm mai chuyến tàu lên Chúc Sơn ngắm bình minh mấy giờ khởi hành? Hôm nay có thể mua trước vé không ạ?"
+    },
+    "usage": "Dùng khi đến ga A Lý Sơn (阿里山車站) vào buổi chiều hôm trước để mua vé tàu hỏa leo núi lên đỉnh Chúc Sơn ngắm bình minh và biển mây vào sáng hôm sau.",
+    "note": "Ở A Lý Sơn, tàu hỏa đi ngắm mặt trời mọc gọi là 祝山觀日列車 (Zhùshān guānrì lièchē). Giờ khởi hành的发車時間 thay đổi theo giờ mặt trời mọc mỗi ngày và được công bố lúc 16:00 chiều hôm trước. Vé bán trước 預售票 (yùshòupiào) bán từ 13:00 đến 16:30 chiều. Nhiệt độ sáng sớm trên núi rất lạnh, cần mặc 保暖外套 (áo khoác ấm).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "售票員你好，我們明天清晨想去祝山看日出，請問現在可以買車票嗎？",
+        "pinyin": "Shòupiàoyuán nǐ hǎo, wǒmen míngtiān qīngchén xiǎng qù Zhùshān kàn rìchū, qǐngwèn xiànzài kěyǐ mǎi chēpiào ma?",
+        "translation": "Chào nhân viên bán vé, sáng sớm mai chúng tôi muốn lên Chúc Sơn ngắm bình minh, cho hỏi bây giờ có thể mua vé tàu được không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé ga A Lý Sơn)",
+        "sentence": "可以的！每天下午一點到四點半開放預售隔天的祝山日出車票喔。",
+        "pinyin": "Kěyǐ de! Měitiān xiàwǔ yì diǎn dào sì diǎn bàn kāifàng yùshòu gétiān de Zhùshān rìchū chēpiào o.",
+        "translation": "Được nhé! Mỗi ngày từ 1 giờ đến 4 giờ rưỡi chiều quầy mở bán trước vé tàu ngắm bình minh Chúc Sơn cho ngày hôm sau."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問明天早上的日出時間是幾點？第一班火車幾點發車呢？",
+        "pinyin": "Qǐngwèn míngtiān zǎoshang de rìchū shíjiān shì jǐ diǎn? Dì-yī bān huǒchē jǐ diǎn fāchē ne?",
+        "translation": "Cho hỏi giờ mặt trời mọc sáng mai là mấy giờ? Chuyến tàu đầu tiên mấy giờ khởi hành vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé ga A Lý Sơn)",
+        "sentence": "明天日出大約是六點零五分，第一班觀日列車清晨四點五十分發車，車程約三十分鐘。",
+        "pinyin": "Míngtiān rìchū dàyuē shì liù diǎn líng wǔ fēn, dì-yī bān guānrì lièchē qīngchén sì diǎn wǔshí fēn fāchē, chēchéng yuē sānshí fēnzhōng.",
+        "translation": "Sáng mai mặt trời mọc khoảng 6 giờ 05 phút, chuyến tàu ngắm bình minh đầu tiên xuất phát lúc 4 giờ 50 phút sáng, thời gian đi mất khoảng 30 phút."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了，請給我們兩張來回票。另外請問清晨氣溫很低嗎？",
+        "pinyin": "Tài hǎo le, qǐng gěi wǒmen liǎng zhāng láihuípiào. Lìngwài qǐngwèn qīngchén qìwēn hěn dī ma?",
+        "translation": "Tốt quá, bán cho chúng tôi 2 vé khứ hồi nhé. Ngoài ra cho hỏi sáng sớm nhiệt độ trên núi có thấp lắm không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên quầy vé ga A Lý Sơn)",
+        "sentence": "清晨氣溫大概只有八度左右，風很大，記得穿保暖厚外套喔！",
+        "pinyin": "Qīngchén qìwēn dàyuē zhǐyǒu bā dù zuǒyòu, fēng hěn dà, jìde chuān bǎonuǎn hòu wàitào o!",
+        "translation": "Nhiệt độ sáng sớm chỉ khoảng 8 độ thôi, gió khá lớn, các bạn nhớ mặc áo khoác dày giữ ấm nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "日出",
+        "meaning": "Bình minh / Mặt trời mọc"
+      },
+      {
+        "word": "雲海",
+        "meaning": "Biển mây"
+      },
+      {
+        "word": "祝山線",
+        "meaning": "Tuyến đường sắt Chúc Sơn (ngắm bình minh A Lý Sơn)"
+      },
+      {
+        "word": "預售票",
+        "meaning": "Vé mua trước / Vé đặt trước"
+      },
+      {
+        "word": "來回票",
+        "meaning": "Vé khứ hồi"
+      },
+      {
+        "word": "保暖外套",
+        "meaning": "Áo khoác giữ ấm"
+      }
+    ]
+  },
+  {
+    "id": "lesson-44",
+    "title": "Sử dụng tiệm giặt sấy quần áo tự động 24h",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "請問這台洗衣機會自動加洗衣精嗎？烘乾衣服大概需要幾分鐘？",
+      "pinyin": "Qǐngwèn zhè tái xǐyījī huì zìdòng jiā xǐyījīng ma? Hōnggān yīfú dàgài xūyào jǐ fēnzhōng?",
+      "translation": "Cho hỏi chiếc máy giặt này có tự động bơm nước giặt không? Sấy khô quần áo mất khoảng bao nhiêu phút?"
+    },
+    "usage": "Dùng khi đến tiệm giặt ủi tự động bằng tiền xu mở 24/7 (自助洗衣店) ở Đài Loan để giặt sấy đồ trong các chuyến du lịch dài ngày.",
+    "note": "Ở Đài Loan, các tiệm giặt sấy tự động 自助洗衣店 (zìzhù xǐyīdiàn) đều có máy đổi tiền xu 兌幣機 (duìbìjī). Đa số máy giặt đều có tính năng tự động thêm nước giặt 洗衣精 (xǐyījīng) và nước xả 柔軟精 (róuruǎnjīng). Máy sấy 烘乾機 (hōnggānjī) nên chỉnh mức nhiệt trung bình 中溫 sấy khoảng 30 phút để quần áo khô ráo 乾爽.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，不好意思，我們第一次在台灣用自助洗衣，請問這台機器需要自己買洗衣精嗎？",
+        "pinyin": "Nǐ hǎo, bù hǎoyìsi, wǒmen dì-yī cì zài Táiwān yòng zìzhù xǐyī, qǐngwèn zhè tái jīqì xūyào zìjǐ mǎi xǐyījīng ma?",
+        "translation": "Xin chào, xin lỗi làm phiền bạn, chúng tôi lần đầu dùng tiệm giặt tự động ở Đài Loan, cho hỏi máy này có cần tự mua nước giặt không ạ?"
+      },
+      {
+        "speaker": "B (Người dân địa phương)",
+        "sentence": "不用喔！這台機器啟動後會自動注入洗衣精和柔軟精，很方便。",
+        "pinyin": "Bú yòng o! Zhè tái jīqì qǐdòng hòu huì zìdòng zhùrù xǐyījīng hàn róuruǎnjīng, hěn fāngbiàn.",
+        "translation": "Không cần đâu bạn ơi! Máy này sau khi khởi động sẽ tự động bơm nước giặt và nước xả vải vào, tiện lợi lắm."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太好了！請問如果沒有硬幣，店裡可以換零錢嗎？",
+        "pinyin": "Tài hǎo le! Qǐngwèn rúguǒ méiyǒu yìngbì, diàn lǐ kěyǐ huàn língqián ma?",
+        "translation": "Tuyệt quá! Cho hỏi nếu tôi không có tiền xu, trong tiệm có đổi được tiền lẻ không ạ?"
+      },
+      {
+        "speaker": "B (Người dân địa phương)",
+        "sentence": "門口旁邊有台兌幣機，放一百元鈔票進去就會換成十元硬幣囉。",
+        "pinyin": "Ménkǒu pángbiān yǒu tái duìbìjī, fàng yìbǎi yuán chāopiào jìnqù jiù huì huànchéng shí yuán yìngbì luo.",
+        "translation": "Cạnh cửa ra vào có một chiếc máy đổi xu, bạn nhét tờ 100 tệ vào là nó đổi ra tiền xu 10 tệ ngay."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問洗完之後，衣服大概要烘乾幾分鐘才會全乾呢？",
+        "pinyin": "Qǐngwèn xǐ wán zhīhòu, yīfú dàgài yào hōnggān jǐ fēnzhōng cái huì quán gān ne?",
+        "translation": "Cho hỏi giặt xong thì sấy khoảng bao nhiêu phút quần áo mới khô hẳn vậy ạ?"
+      },
+      {
+        "speaker": "B (Người dân địa phương)",
+        "sentence": "一般衣物投五十元，選中溫烘三十分鐘就完全乾爽可以直接穿囉！",
+        "pinyin": "Yìbān yīwù tóu wǔshí yuán, xuǎn zhōngwēn hōng sānshí fēnzhōng jiù wánquán gānshuǎng kěyǐ zhíjiē chuān luo!",
+        "translation": "Quần áo thông thường bạn nhét 50 tệ, chọn nhiệt độ trung bình sấy 30 phút là khô cong thơm tho mặc được luôn nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "自助洗衣",
+        "meaning": "Giặt ủi tự động / Tự phục vụ giặt đồ"
+      },
+      {
+        "word": "烘乾機",
+        "meaning": "Máy sấy khô quần áo"
+      },
+      {
+        "word": "洗衣精",
+        "meaning": "Nước giặt quần áo"
+      },
+      {
+        "word": "柔軟精",
+        "meaning": "Nước xả vải làm mềm"
+      },
+      {
+        "word": "兌幣機",
+        "meaning": "Máy đổi tiền xu tự động"
+      },
+      {
+        "word": "乾爽",
+        "meaning": "Khô ráo, thơm tho, sảng khoái"
+      }
+    ]
+  },
+  {
+    "id": "lesson-45",
+    "title": "Đổi vé và trải nghiệm xe đạp đường sắt Thâm Áo",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "你好，我有在網路上預約深澳鐵道自行車，請問在哪裡兌換實體車票？",
+      "pinyin": "Nǐ hǎo, wǒ yǒu zài wǎnglù shàng yùyuē Shēn'ào tiědào zìxíngchē, qǐngwèn zài nǎlǐ duìhuàn shítǐ chēpiào?",
+      "translation": "Xin chào, tôi có đặt trước xe đạp đường sắt Thâm Áo trên mạng, cho hỏi đổi vé giấy ở đâu vậy ạ?"
+    },
+    "usage": "Dùng khi đến ga Bát Đẩu Tử hoặc ga Thâm Áo ở ven biển phía Bắc Đài Loan để đổi vé đã đặt trước qua mạng và trải nghiệm tuyến xe đạp đường sắt Shen'ao Rail Bike.",
+    "note": "Tuyến xe đạp đường sắt Thâm Áo 深澳鐵道自行車 (Shēn'ào tiědào zìxíngchē) sử dụng xe hình cá nóc 河豚自行車 chạy ven biển. Khi đến cần xuất trình mã đặt chỗ 憑證 (píngzhèng) để lấy vé giấy 實體車票. Trong lúc đạp xe bắt buộc phải giữ khoảng cách an toàn 保持距離 với xe phía trước.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "站務員你好，我有在網路上預約兩點半的鐵道自行車，這是我的手機QR Code和護照。",
+        "pinyin": "Zhànwùyuán nǐ hǎo, wǒ yǒu zài wǎnglù shàng yùyuē liǎng diǎn bàn de tiědào zìxíngchē, zhè shì wǒ de shǒujī QR Code hàn hùzhào.",
+        "translation": "Chào nhân viên nhà ga, tôi có đặt trước xe đạp đường sắt chuyến 2 giờ rưỡi chiều trên mạng, đây là mã QR trên điện thoại và hộ chiếu của tôi."
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga Bát Đẩu Tử)",
+        "sentence": "好的，已經幫您核對成功，這是兩張實體乘車券。請在發車前十分鐘到月台集合聽安全宣導喔！",
+        "pinyin": "Hǎo de, yǐjīng bāng nín héduì chénggōng, zhè shì liǎng zhāng shítǐ chéngchēquàn. Qǐng zài fāchē qián shí fēnzhōng dào yuètái jíhé tīng ānquán xuāndǎo o!",
+        "translation": "Vâng ạ, đã đối chiếu thông tin thành công, đây là 2 vé giấy lên xe. Phiền bạn có mặt tại sân ga trước giờ xuất phát 10 phút để nghe phổ biến an toàn nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的！請問騎這個河豚自行車會很費力嗎？路上有什麼需要特別注意的？",
+        "pinyin": "Hǎo de! Qǐngwèn qí zhè ge hétún zìxíngchē huì hěn fèilì ma? Lùshàng yǒu shénme xūyào tèbié zhùyì de?",
+        "translation": "Vâng! Cho hỏi đạp chiếc xe đạp cá nóc này có tốn nhiều sức không? Dọc đường có điểm gì cần đặc biệt lưu ý không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên nhà ga Bát Đẩu Tử)",
+        "sentence": "踩起來很輕快，不會費力！最重要的是行進間一定要跟前車保持十公尺的安全距離，不要碰撞喔！",
+        "pinyin": "Cǎi qǐlái hěn qīngkuài, bú huì fèilì! Zuì zhòngyào de shì xíngjìn jiān yídìng yào gēn qiánchē bǎochí shí gōngchǐ de ānquán jùlí, bú yào pèngzhuàng o!",
+        "translation": "Đạp rất nhẹ nhàng thanh thoát, không mất sức đâu! Quan trọng nhất là trong quá trình di chuyển nhất định phải giữ khoảng cách an toàn 10 mét với xe phía trước, không được đâm va chạm nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，我們會注意保持距離的，謝謝！",
+        "pinyin": "Hǎo de, wǒmen huì zhùyì bǎochí jùlí de, xièxie!",
+        "translation": "Vâng, chúng tôi sẽ chú ý giữ khoảng cách, cảm ơn bạn!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "鐵道自行車",
+        "meaning": "Xe đạp đường sắt (Rail Bike)"
+      },
+      {
+        "word": "實體車票",
+        "meaning": "Vé giấy / Vé cứng trực tiếp"
+      },
+      {
+        "word": "憑證",
+        "meaning": "Mã xác nhận / Giấy tờ đặt chỗ trước"
+      },
+      {
+        "word": "保持距離",
+        "meaning": "Giữ khoảng cách an toàn"
+      },
+      {
+        "word": "煞車",
+        "meaning": "Phanh xe / Thắng xe"
+      },
+      {
+        "word": "隧道",
+        "meaning": "Đường hầm"
+      }
+    ]
+  },
+  {
+    "id": "lesson-46",
+    "title": "Thưởng thức cơm gà tây đặc sản Gia Nghĩa",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我們要兩碗火雞肉飯，淋多一點雞油，再加一份火雞肉切盤。",
+      "pinyin": "Lǎobǎn, wǒmen yào liǎng wǎn huǒjīròufàn, lín duō yìdiǎn jīyóu, zài jiā yí fèn huǒjīròu qiēpán.",
+      "translation": "Ông chủ ơi, chúng tôi lấy 2 bát cơm gà tây, rưới nhiều mỡ gà một chút, và thêm một đĩa thịt gà tây chặt nhé."
+    },
+    "usage": "Dùng khi đến thành phố Gia Nghĩa (嘉義) để thưởng thức món cơm gà tây 火雞肉飯 (huǒjīròufàn) trứ danh của ẩm thực Đài Loan.",
+    "note": "Cơm gà tây Gia Nghĩa có hai loại: 肉絲飯 (ròusī fàn - thịt xé sợi) và 肉片飯 (ròupiàn fàn - thịt đùi thái lát mọng nước). Điểm nhấn là nước sốt mỡ gà hành phi 雞油 (jīyóu). Người ăn sành điệu luôn gọi kèm trứng ốp lòng đào 半熟荷包蛋 (bànshóu hébāodàn) và canh lòng gà 下水湯 (xiàshuǐtāng).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，兩位內用！請問肉絲飯跟肉片飯有什麼不一樣呢？",
+        "pinyin": "Lǎobǎn, liǎng wèi nèiyòng! Qǐngwèn ròusī fàn gēn ròupiàn fàn yǒu shénme bù yíyàng ne?",
+        "translation": "Ông chủ ơi, hai người ăn tại chỗ! Cho hỏi cơm gà xé và cơm gà thái miếng khác nhau thế nào ạ?"
+      },
+      {
+        "speaker": "B (Chủ quán cơm gà Gia Nghĩa)",
+        "sentence": "肉片飯是用整塊火雞腿肉切片，口感更軟嫩多汁！今天運氣好，肉片飯剛好剩最後兩碗喔！",
+        "pinyin": "Ròupiàn fàn shì yòng zhěng kuài huǒjī tuǐròu qiēpiàn, kǒugǎn gèng ruǎnnèn duōzhī! Jīntiān yùnqì hǎo, ròupiàn fàn gānghǎo shèng zuìhòu liǎng wǎn o!",
+        "translation": "Cơm gà thái miếng dùng nguyên phần thịt đùi gà tây thái lát, thịt mềm mọng nước hơn! Hôm nay bạn may mắn đấy, cơm thái miếng vừa khéo còn đúng 2 bát cuối cùng thôi!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太幸運了！那給我們兩碗肉片飯，雞油幫我淋多一點，每碗再加一顆半熟荷包蛋。",
+        "pinyin": "Tài xìngyùn le! Nà gěi wǒmen liǎng wǎn ròupiàn fàn, jīyóu bāng wǒ lín duō yìdiǎn, měi wǎn zài jiā yí kē bànshóu hébāodàn.",
+        "translation": "May mắn quá! Vậy lấy cho chúng tôi 2 bát cơm gà thái lát, rưới nhiều mỡ gà một chút, mỗi bát thêm một quả trứng ốp la lòng đào nhé."
+      },
+      {
+        "speaker": "B (Chủ quán cơm gà Gia Nghĩa)",
+        "sentence": "沒問題！把蛋黃戳破拌著雞油飯吃最美味！要不要再來碗熱騰騰的下水湯？",
+        "pinyin": "Méi wèntí! Bǎ dànhuáng chuōpò bànzhe jīyóufàn chī zuì měiwèi! Yào bu yào zài lái wǎn rèténgténg de xiàshuǐtāng?",
+        "translation": "Không vấn đề gì! Chọc thủng lòng đỏ trứng trộn đều với cơm mỡ gà ăn là ngon tuyệt đỉnh! Có muốn thêm một tô canh lòng gà nấu gừng nóng hổi không?"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好啊，再來一碗下水湯，謝謝老闆！",
+        "pinyin": "Hǎo a, zài lái yì wǎn xiàshuǐtāng, xièxie lǎobǎn!",
+        "translation": "Vâng ạ, cho thêm một bát canh lòng gà nữa nhé, cảm ơn ông chủ!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "火雞肉飯",
+        "meaning": "Cơm gà tây đặc sản Gia Nghĩa"
+      },
+      {
+        "word": "雞油",
+        "meaning": "Mỡ gà phi hành thơm"
+      },
+      {
+        "word": "肉片飯",
+        "meaning": "Cơm gà tây thái lát thịt đùi"
+      },
+      {
+        "word": "半熟",
+        "meaning": "Tái chín / Lòng đào"
+      },
+      {
+        "word": "荷包蛋",
+        "meaning": "Trứng ốp la"
+      },
+      {
+        "word": "下水湯",
+        "meaning": "Canh lòng gà nấu gừng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-47",
+    "title": "Thuê trang phục Yukata dạo Làng cổ Hinoki Village",
+    "category": "Tiện ích & Mua sắm",
+    "mainSentence": {
+      "sentence": "你好，我們想體驗日式浴衣，請問租金包含盤髮造型和木屐配件嗎？",
+      "pinyin": "Nǐ hǎo, wǒmen xiǎng tǐyàn Rìshì yùyī, qǐngwèn zūjīn bāohán pánfà zàoxíng hàn mùjī pèijiàn ma?",
+      "translation": "Xin chào, chúng tôi muốn trải nghiệm trang phục Yukata Nhật Bản, cho hỏi giá thuê có bao gồm làm tóc búi và phụ kiện guốc gỗ không ạ?"
+    },
+    "usage": "Dùng khi ghé thăm Làng cổ Hinoki Village (檜意森活村) ở Gia Nghĩa để thuê trang phục truyền thống Nhật Bản Yukata/Kimono chụp ảnh kỷ niệm.",
+    "note": "Làng cổ Hinoki Village 檜意森活村 (Hòuyì Sēnhuócūn) là quần thể nhà gỗ bách Nhật Bản lớn nhất Đài Loan. Dịch vụ thuê 浴衣 (yùyī - áo Yukata) thường bao gồm dịch vụ búi tóc 盤髮 (pánfà), guốc gỗ 木屐 (mùjī), ô dù giấy 油紙傘 và túi xách vải. Thời gian thuê tiêu chuẩn thường là 2 tiếng.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "你好，我們兩位想租日式浴衣拍照，請問現在需要排隊等候嗎？",
+        "pinyin": "Nǐ hǎo, wǒmen liǎng wèi xiǎng zū Rìshì yùyī pāizhào, qǐngwèn xiànzài xūyào páiduì děnghòu ma?",
+        "translation": "Xin chào, hai người chúng tôi muốn thuê trang phục Yukata Nhật Bản để chụp ảnh, cho hỏi bây giờ có cần xếp hàng đợi không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên tiệm trang phục)",
+        "sentence": "現在可以直接挑選花色喔！體驗時間是兩小時，費用包含浴衣、配件、木屐和專業的盤髮設計。",
+        "pinyin": "Xiànzài kěyǐ zhíjiē tiāoxuǎn huāsè o! Tǐyàn shíjiān shì liǎng xiǎoshí, fèiyòng bāohán yùyī, pèijiàn, mùjī hàn zhuānyè de pánfà shèjì.",
+        "translation": "Bây giờ có thể vào chọn màu sắc và hoa văn luôn nhé! Thời gian trải nghiệm là 2 tiếng, chi phí bao gồm trang phục Yukata, phụ kiện, guốc gỗ và làm tóc búi chuyên nghiệp."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太棒了！請問村子裡有哪些推薦的打卡拍照景點呢？",
+        "pinyin": "Tài bàng le! Qǐngwèn cūnzi lǐ yǒu nǎxiē tuījiàn de dǎkǎ pāizhào jǐngdiǎn ne?",
+        "translation": "Tuyệt quá! Cho hỏi trong làng có những điểm check-in chụp ảnh nào đẹp được gợi ý không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên tiệm trang phục)",
+        "sentence": "推薦到「眠月廬」日式庭園拍紅色紙傘，還有日式鳥居和小橋流水，穿木屐踩在碎石路上非常有氛圍喔！",
+        "pinyin": "Tuījiàn dào \"Miányuèlú\" Rìshì tíngyuán pāi hóngsè zhǐsǎn, hái yǒu Rìshì niǎojū hàn xiǎoqiáo liúshuǐ, chuān mùjī cǎi zài suìshí lù shàng fēicháng yǒu fēnwéi o!",
+        "translation": "Gợi ý bạn đến khu vườn Nhật \"Miên Nguyệt Lư\" chụp với dù giấy đỏ, ngoài ra còn có cổng Torii Nhật Bản và cầu nhỏ suối reo, đi guốc gỗ bước trên đường sỏi đá rất có không khí đấy!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "聽起來好浪漫！那我們先去挑衣服，謝謝你的推薦！",
+        "pinyin": "Tīng qǐlái hǎo làngmàn! Nà wǒmen xiān qù tiāo yīfú, xièxie nǐ de tuījiàn!",
+        "translation": "Nghe lãng mạn quá! Vậy chúng tôi đi chọn trang phục trước nhé, cảm ơn gợi ý của bạn!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "檜意森活村",
+        "meaning": "Làng cổ Hinoki Village (Gia Nghĩa, Đài Loan)"
+      },
+      {
+        "word": "浴衣",
+        "meaning": "Áo Yukata (trang phục truyền thống Nhật Bản)"
+      },
+      {
+        "word": "盤髮",
+        "meaning": "Búi tóc nghệ thuật"
+      },
+      {
+        "word": "木屐",
+        "meaning": "Guốc gỗ Nhật Bản"
+      },
+      {
+        "word": "氛圍",
+        "meaning": "Bầu không khí / Cảm giác không gian"
+      },
+      {
+        "word": "鳥居",
+        "meaning": "Cổng Torii (kiến trúc cổng đền Nhật Bản)"
+      }
+    ]
+  },
+  {
+    "id": "lesson-48",
+    "title": "Đi phà sang đảo Kỳ Tân tại Cao Hùng",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問搭渡輪去旗津可以直接刷悠遊卡或一卡通嗎？單車可以一起推上船嗎？",
+      "pinyin": "Qǐngwèn dā dùlún qù Cíjīn kěyǐ zhíjiē shuā Yōuyóukǎ huò Yīkǎtōng ma? Dānchē kěyǐ yìqǐ tuī shàng chuán ma?",
+      "translation": "Cho hỏi đi phà sang đảo Kỳ Tân có thể quẹt trực tiếp thẻ EasyCard hoặc iPASS không? Xe đạp có được đẩy cùng lên phà không ạ?"
+    },
+    "usage": "Dùng khi đến bến phà Cổ Sơn (鼓山輪渡站) ở Cao Hùng để đi phà biển sang đảo Kỳ Tân (旗津) tham quan và hỏi quy định mang xe đạp lên phà.",
+    "note": "Ở Cao Hùng, phà biển gọi là 渡輪 (dùlún). Bạn có thể quẹt trực tiếp thẻ 悠遊卡 (EasyCard) hoặc 一卡通 (iPASS). Phà cho phép mang theo xe đạp và xe máy ở tầng 1. Tầng 2 là boong tàu 甲板 (jiǎbǎn) ngắm cảnh cảng biển. Món ăn nổi tiếng tại Kỳ Tân là mực nướng 烤小卷 (kǎo xiǎojuǎn) và cà chua chấm sốt gừng.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "站務員你好，請問我們推著自行車搭渡輪去旗津，可以直接刷悠遊卡嗎？",
+        "pinyin": "Zhànwùyuán nǐ hǎo, qǐngwèn wǒmen tuīzhe zìxíngchē dā dùlún qù Cíjīn, kěyǐ zhíjiē shuā Yōuyóukǎ ma?",
+        "translation": "Chào nhân viên bến phà, cho hỏi chúng tôi dắt xe đạp đi phà sang Kỳ Tân thì có thể quẹt trực tiếp thẻ EasyCard không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên bến phà Cổ Sơn)",
+        "sentence": "可以直接感應悠遊卡或一卡通喔！人和自行車走旁邊的專用通道，直接感應扣款就可以了。",
+        "pinyin": "Kěyǐ zhíjiē gǎnyìng Yōuyóukǎ huò Yīkǎtōng o! Rén hàn zìxíngchē zǒu pángbiān de zhuānyòng tōngdào, zhíjiē gǎnyìng kòukuǎn jiù kěyǐ le.",
+        "translation": "Có thể chạm thẻ EasyCard hoặc iPASS trực tiếp nhé! Người và xe đạp đi qua lối đi chuyên dụng bên cạnh, chạm thẻ trừ tiền là qua cổng được luôn."
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "請問渡輪大概幾分鐘會有一班呢？航行時間要多久？",
+        "pinyin": "Qǐngwèn dùlún dàgài jǐ fēnzhōng huì yǒu yì bān ne? Hángxíng shíjiān yào duōjiǔ?",
+        "translation": "Cho hỏi phà khoảng mấy phút có một chuyến vậy ạ? Thời gian đi mất bao lâu?"
+      },
+      {
+        "speaker": "B (Nhân viên bến phà Cổ Sơn)",
+        "sentence": "白天五到七分鐘就有一班船，航程只要五分鐘左右，上船後可以到二樓甲板看海景喔！",
+        "pinyin": "Báitiān wǔ dào qī fēnzhōng jiù yǒu yì bān chuán, hángchéng zhǐ yào wǔ fēnzhōng zuǒyòu, shàngchuán hòu kěyǐ dào èr lóu jiǎbǎn kàn hǎijǐng o!",
+        "translation": "Ban ngày cứ 5 đến 7 phút là có một chuyến phà, thời gian đi chỉ tầm 5 phút thôi, lên phà bạn có thể lên boong tầng 2 ngắm cảnh biển nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太棒了，到了旗津島上有推薦的美食嗎？",
+        "pinyin": "Tài bàng le, dào le Cíjīn dǎo shàng yǒu tuījiàn de měishí ma?",
+        "translation": "Tuyệt quá, sang đến đảo Kỳ Tân có món ngon nào gợi ý không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên bến phà Cổ Sơn)",
+        "sentence": "出站就是老街，推薦一定要吃現烤小卷和番茄切盤沾薑汁醬油膏，超道地喔！",
+        "pinyin": "Chūzhàn jiù shì lǎojiē, tuījiàn yídìng yào chī xiànkǎo xiǎojuǎn hàn fānqié qiēpán zhān jiāngzhī jiàngyóugāo, chāo dàodì o!",
+        "translation": "Bước ra khỏi bến là phố cổ, khuyên bạn nhất định phải ăn mực tươi nướng than và đĩa cà chua chấm nước sốt gừng xì dầu ngọt, cực kỳ chuẩn vị địa phương nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "旗津",
+        "meaning": "Đảo Kỳ Tân (thắng cảnh biển nổi tiếng ở Cao Hùng)"
+      },
+      {
+        "word": "渡輪",
+        "meaning": "Phà biển chở khách"
+      },
+      {
+        "word": "一卡通",
+        "meaning": "Thẻ giao thông iPASS (phổ biến tại Cao Hùng)"
+      },
+      {
+        "word": "甲板",
+        "meaning": "Boong tàu"
+      },
+      {
+        "word": "烤小卷",
+        "meaning": "Mực ống tươi nướng than hoa"
+      },
+      {
+        "word": "道地",
+        "meaning": "Chuẩn vị / Đậm chất bản xứ"
+      }
+    ]
+  },
+  {
+    "id": "lesson-49",
+    "title": "Bắt xe buýt tham quan Đường mòn Mũi Bích Đầu",
+    "category": "Giao thông",
+    "mainSentence": {
+      "sentence": "請問去鼻頭角步道的公車在幾號月台候車？來回可以用悠遊卡刷卡嗎？",
+      "pinyin": "Qǐngwèn qù Bítóujiǎo bùdào de gōngchē zài jǐ hào yuètái hòuchē? Láihuí kěyǐ yòng Yōuyóukǎ shuākǎ ma?",
+      "translation": "Cho hỏi xe buýt đi đường mòn Mũi Bích Đầu đợi ở sân đón số mấy? Đi khứ hồi có thể quẹt thẻ EasyCard không ạ?"
+    },
+    "usage": "Dùng khi đón xe buýt từ ga Thụy Phương (瑞芳) đi tham quan Đường mòn Mũi Bích Đầu (鼻頭角步道) ven biển Đông Bắc Đài Loan.",
+    "note": "Đường mòn Mũi Bích Đầu 鼻頭角步道 (Bítóujiǎo bùdào) được ví như Vạn Lý Trường Thành ven biển. Từ ga Thụy Phương có thể đón xe buýt du lịch 台灣好行 (Táiwān Hǎoxíng) tuyến 856 hoặc 886 và quẹt thẻ EasyCard 上下車 (lên và xuống xe). Đường đi lát cầu gỗ 木棧道 (mùzhàndào), cần chuẩn bị nước uống và đồ chống nắng 防曬 (fángshài).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "站務人員你好，我想去鼻頭角步道看海，請問要在哪裡搭公車呢？",
+        "pinyin": "Zhànwù rényuán nǐ hǎo, wǒ xiǎng qù Bítóujiǎo bùdào kàn hǎi, qǐngwèn yào zài nǎlǐ dā gōngchē ne?",
+        "translation": "Chào nhân viên nhà ga, tôi muốn đi đường mòn Mũi Bích Đầu ngắm biển, cho hỏi đón xe buýt ở đâu vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên trung tâm du khách ga Thụy Phương)",
+        "sentence": "請出站到區民廣場前的公車站牌，搭乘「台灣好行856」或「886公車」，在「鼻頭角站」下車喔！",
+        "pinyin": "Qǐng chūzhàn dào Qūmín Guǎngchǎng qián de gōngchē zhànpái, dāchéng \"Táiwān Hǎoxíng bā-wǔ-liù\" huò \"bā-bā-liù gōngchē\", zài \"Bítóujiǎo zhàn\" xiàchē o!",
+        "translation": "Mời bạn ra khỏi ga đến biển đón xe buýt trước quảng trường Khu Dân, đón xe buýt \"Đài Loan Hảo Hành 856\" hoặc \"xe buýt 886\", xuống ở trạm \"Mũi Bích Đầu\" nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的！請問上下車都可以直接刷悠遊卡扣款嗎？",
+        "pinyin": "Hǎo de! Qǐngwèn shàngxiàchē dōu kěyǐ zhíjiē shuā Yōuyóukǎ kòukuǎn ma?",
+        "translation": "Vâng ạ! Cho hỏi lên và xuống xe đều có thể quẹt trực tiếp thẻ EasyCard để trừ tiền đúng không ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên trung tâm du khách ga Thụy Phương)",
+        "sentence": "對，上下車都要感應刷卡！下車後順著步道走，有一家彩虹般的「聽濤Café」，風景超漂亮！",
+        "pinyin": "Duì, shàngxiàchē dōu yào gǎnyìng shuākǎ! Xiàchē hòu shùnzhe bùdào zǒu, yǒu yì jiā cǎihóng bān de \"Tīngtāo Café\", fēngjǐng chāo piàoliang!",
+        "translation": "Đúng rồi, lên và xuống xe đều phải quẹt thẻ cảm ứng nhé! Xuống xe xong men theo đường mòn đi lên có quán \"Thính Đào Café\" rực rỡ như cầu vồng, phong cảnh đẹp mê ly!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "走完全程大概需要多久時間呢？步道好走嗎？",
+        "pinyin": "Zǒu wán quánchéng dàgài xūyào duōjiǔ shíjiān ne? Bùdào hǎozǒu ma?",
+        "translation": "Đi hết cả tuyến đường mòn mất khoảng bao lâu vậy ạ? Đường có dễ đi không?"
+      },
+      {
+        "speaker": "B (Nhân viên trung tâm du khách ga Thụy Phương)",
+        "sentence": "全程來回大約兩個小時，都是木棧道和石階，很好走！記得帶水和防曬喔！",
+        "pinyin": "Quánchéng láihuí dàyuē liǎng ge xiǎoshí, dōu shì mùzhàndào hàn shíjiē, hěn hǎozǒu! Jìde dài shuǐ hàn fángshài o!",
+        "translation": "Cả đi lẫn về mất khoảng 2 tiếng, toàn bộ là cầu gỗ và bậc đá nên rất dễ đi! Bạn nhớ mang theo nước uống và đồ chống nắng nhé!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "步道",
+        "meaning": "Đường mòn đi bộ ngắm cảnh (Trail)"
+      },
+      {
+        "word": "鼻頭角",
+        "meaning": "Mũi Bích Đầu (thắng cảnh biển Đông Bắc Đài Loan)"
+      },
+      {
+        "word": "台灣好行",
+        "meaning": "Tuyến xe buýt du lịch Đài Loan Hảo Hành"
+      },
+      {
+        "word": "站牌",
+        "meaning": "Biển đón xe buýt / Điểm dừng xe buýt"
+      },
+      {
+        "word": "木棧道",
+        "meaning": "Đường lát ván gỗ / Cầu gỗ"
+      },
+      {
+        "word": "防曬",
+        "meaning": "Chống nắng / Đồ chống nắng"
+      }
+    ]
   }
 ]
