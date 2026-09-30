@@ -3299,5 +3299,151 @@
         "meaning": "Chống nắng / Đồ chống nắng"
       }
     ]
+  },
+  {
+    "id": "lesson-50",
+    "title": "Thưởng thức kem và mua bánh mặt trời tại Cung Nguyên Nhãn Khoa",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "請問冰淇淋可以選幾種配料？台中最有名的原味太陽餅在哪裡結帳？",
+      "pinyin": "Qǐngwèn bīngqílín kěyǐ xuǎn jǐ zhǒng pèiliào? Táizhōng zuì yǒumíng de yuánwèi tàiyángbǐng zài nǎlǐ jiézhàng?",
+      "translation": "Cho hỏi phần kem được chọn mấy loại topping ăn kèm? Bánh mặt trời vị truyền thống nổi tiếng nhất của Đài Trung thanh toán ở quầy nào vậy ạ?"
+    },
+    "usage": "Dùng khi ghé thăm Cung Nguyên Nhãn Khoa (宮原眼科 - Miyahara) tại Đài Trung để thưởng thức kem thủ công nhiều vị kèm topping đặc sản và mua bánh mặt trời (太陽餅) làm quà.",
+    "note": "Cung Nguyên Nhãn Khoa 宮原眼科 (Gōngyuán yǎnkē) là điểm đến nổi tiếng ở Đài Trung với kiến trúc như trường phép thuật Hogwarts. Khi mua kem 冰淇淋 (bīngqílín) sẽ được chọn miễn phí các loại 配料 (pèiliào - topping) như bánh dứa 鳳梨酥 và bánh phô mai 乳酪蛋糕. Bánh mặt trời 太陽餅 (tàiyángbǐng) là đặc sản quà tặng số 1 của Đài Trung.",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "店員你好，我們想點三球冰淇淋，請問可以免費挑選幾種配料呢？",
+        "pinyin": "Diànyuán nǐ hǎo, wǒmen xiǎng diǎn sān qiú bīngqílín, qǐngwèn kěyǐ miǎnfèi tiāoxuǎn jǐ zhǒng pèiliào ne?",
+        "translation": "Chào bạn nhân viên, chúng tôi muốn gọi 3 viên kem, cho hỏi được chọn miễn phí mấy loại topping vậy ạ?"
+      },
+      {
+        "speaker": "B (Nhân viên Cung Nguyên Nhãn Khoa)",
+        "sentence": "點三球可以免費升級餅乾甜筒，並且任選四種配料喔！推薦加招牌土鳳梨酥和重乳酪蛋糕！",
+        "pinyin": "Diǎn sān qiú kěyǐ miǎnfèi shēngjí bǐnggān tiántǒng, bìngqiě rènxuǎn sì zhǒng pèiliào o! Tuījiàn jiā zhāopái tǔ fènglísū hàn zhòng rǔlào dàngāo!",
+        "translation": "Gọi 3 viên kem bạn được nâng cấp miễn phí ốc quế bánh quy waffle và chọn tự do 4 loại topping nhé! Gợi ý bạn chọn bánh dứa chua và bánh cheesecake phô mai béo ngậy đặc trưng!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "太豐富了！那我們選東方美人茶、愛文芒果和80%煙燻烏干達巧克力這三種口味。",
+        "pinyin": "Tài fēngfù le! Nà wǒmen xuǎn Dōngfāng Měirénchá, Àiwén mángguǒ hàn bāshí bǎi-fēn-zhī yānxūn Wūgǎndá qiǎokèlì zhè sān zhǒng kǒuwèi.",
+        "translation": "Phong phú quá! Vậy chúng tôi chọn 3 vị: trà Đông Phương Mỹ Nhân, xoài Irwin và sô cô la hun khói Uganda 80%."
+      },
+      {
+        "speaker": "B (Nhân viên Cung Nguyên Nhãn Khoa)",
+        "sentence": "好的，吃完冰淇淋後，可以進去大廳選購太陽餅禮盒，包裝成復古精裝書非常漂亮喔！",
+        "pinyin": "Hǎo de, chī wán bīngqílín hòu, kěyǐ jìnqù dàtīng xuǎngòu tàiyángbǐng lǐhé, bāozhuāng chéng fùgǔ jīngzhuāng shū fēicháng piàoliang o!",
+        "translation": "Vâng ạ, ăn kem xong mời các bạn vào sảnh chính chọn mua hộp quà bánh mặt trời, đóng gói như những cuốn sách cổ bìa cứng rất đẹp mắt nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "好的，我們正想買太陽餅送朋友，謝謝你的推薦！",
+        "pinyin": "Hǎo de, wǒmen zhèng xiǎng mǎi tàiyángbǐng sòng péngyǒu, xièxie nǐ de tuījiàn!",
+        "translation": "Vâng, chúng tôi cũng đang muốn mua bánh mặt trời tặng bạn bè, cảm ơn bạn đã gợi ý!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "宮原眼科",
+        "meaning": "Cung Nguyên Nhãn Khoa (điểm du lịch nổi tiếng ở Đài Trung)"
+      },
+      {
+        "word": "太陽餅",
+        "meaning": "Bánh mặt trời (đặc sản bánh ngọt của Đài Trung)"
+      },
+      {
+        "word": "冰淇淋",
+        "meaning": "Kem"
+      },
+      {
+        "word": "配料",
+        "meaning": "Topping / Đồ ăn kèm"
+      },
+      {
+        "word": "甜筒",
+        "meaning": "Vỏ bánh ốc quế"
+      },
+      {
+        "word": "禮盒",
+        "meaning": "Hộp quà biếu trang trọng"
+      }
+    ]
+  },
+  {
+    "id": "lesson-51",
+    "title": "Thưởng thức xúc xích kẹp cơm nếp Đại Trường Bao Tiểu Trường",
+    "category": "Ẩm thực & Chợ đêm",
+    "mainSentence": {
+      "sentence": "老闆，我要一份大腸包小腸，選黑胡椒口味，要蒜頭、酸菜和小辣。",
+      "pinyin": "Lǎobǎn, wǒ yào yí fèn dàcháng bāo xiǎocháng, xuǎn hēihújiāo kǒuwèi, yào suàntóu, suāncài hàn xiǎo là.",
+      "translation": "Ông chủ ơi, cho tôi một phần xúc xích kẹp xôi nếp (đại tràng bọc tiểu tràng), chọn vị tiêu đen, cho thêm tỏi, dưa cải chua và cay ít nhé."
+    },
+    "usage": "Dùng khi mua món xúc xích nếp kẹp xúc xích nướng Đại Trường Bao Tiểu Trường (大腸包小腸) tại các khu chợ đêm Đài Loan và chọn khẩu vị, gia vị đi kèm.",
+    "note": "Đại Trường Bao Tiểu Trường 大腸包小腸 (dàcháng bāo xiǎocháng) gồm xúc xích nếp nướng 糯米腸 (nuòmǐcháng) kẹp xúc xích thịt nướng 香腸 (xiāngcháng). Hương vị phổ biến nhất là sốt tiêu đen 黑胡椒 (hēihújiāo). Nét độc đáo của người Đài Loan là ăn kèm tép tỏi tươi sống 蒜頭 (suàntóu) và dưa cải chua 酸菜 (suāncài).",
+    "dialogues": [
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "老闆，請問大腸包小腸一份多少錢？裡面包的是什麼呢？",
+        "pinyin": "Lǎobǎn, qǐngwèn dàcháng bāo xiǎocháng yí fèn duōshao qián? Lǐmiàn bāo de shì shénme ne?",
+        "translation": "Ông chủ ơi, cho hỏi một phần đại tràng bọc tiểu tràng bao nhiêu tiền? Bên trong kẹp những nguyên liệu gì vậy ạ?"
+      },
+      {
+        "speaker": "B (Chủ quầy nướng chợ đêm)",
+        "sentence": "一份七十元！外面是烤糯米腸，裡面夾手工高粱酒香腸，再加上酸菜和小黃瓜喔！",
+        "pinyin": "Yí fèn qīshí yuán! Wàimiàn shì kǎo nuòmǐcháng, lǐmiàn jiá shǒugōng gāoliángjiǔ xiāngcháng, zài jiā shàng suāncài hàn xiǎohuángguā o!",
+        "translation": "Một phần 70 tệ! Bên ngoài là xúc xích nếp nướng, bên trong kẹp xúc xích thịt heo nướng ướp rượu cao lương, thêm dưa cải chua và dưa chuột nhé!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "聽起來太好吃了！請問有哪些口味推薦呢？",
+        "pinyin": "Tīng qǐlái tài hǎochī le! Qǐngwèn yǒu nǎxiē kǒuwèi tuījiàn ne?",
+        "translation": "Nghe ngon quá chừng! Cho hỏi có những hương vị nào được gợi ý ạ?"
+      },
+      {
+        "speaker": "B (Chủ quầy nướng chợ đêm)",
+        "sentence": "推薦招牌黑胡椒和蒜味！敢不敢吃生大蒜？一口香腸配一口蒜頭最道地喔！",
+        "pinyin": "Tuījiàn zhāopái hēihújiāo hàn suànwèi! Gǎn bu gǎn chī shēng dàsuàn? Yì kǒu xiāngcháng pèi yì kǒu suàntóu zuì dàodì o!",
+        "translation": "Gợi ý bạn vị tiêu đen đặc trưng và vị tỏi nhé! Bạn có dám ăn tỏi sống không? Một miếng xúc xích cắn kèm một tép tỏi là chuẩn vị bản xứ nhất đấy!"
+      },
+      {
+        "speaker": "A (Bạn)",
+        "sentence": "我敢吃！那我要一份黑胡椒口味，請幫我放兩顆蒜頭、酸菜，小辣，謝謝老闆！",
+        "pinyin": "Wǒ gǎn chī! Nà wǒ yào yí fèn hēihújiāo kǒuwèi, qǐng bāng wǒ fàng liǎng kē suàntóu, suāncài, xiǎo là, xièxie lǎobǎn!",
+        "translation": "Tôi ăn được! Vậy cho tôi một phần vị tiêu đen, phiền cho tôi 2 nhánh tỏi, dưa cải chua và cay ít nhé, cảm ơn ông chủ!"
+      },
+      {
+        "speaker": "B (Chủ quầy nướng chợ đêm)",
+        "sentence": "好勒！用紙袋裝好旋轉推上來吃，小心燙喔！",
+        "pinyin": "Hǎo lei! Yòng zhǐdài zhuāng hǎo xuánzhuǎn tuī shànglái chī, xiǎoxīn tàng o!",
+        "translation": "Được ngay! Bọc trong túi giấy rồi bạn cứ xoay tròn đáy túi đẩy dần lên ăn nhé, cẩn thận kẻo nóng!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "大腸包小腸",
+        "meaning": "Món xúc xích nếp kẹp xúc xích nướng than hoa"
+      },
+      {
+        "word": "糯米腸",
+        "meaning": "Xúc xích nếp nướng"
+      },
+      {
+        "word": "香腸",
+        "meaning": "Xúc xích thịt nướng Đài Loan"
+      },
+      {
+        "word": "蒜頭",
+        "meaning": "Nhánh tỏi / Tép tỏi sống"
+      },
+      {
+        "word": "黑胡椒",
+        "meaning": "Hạt tiêu đen / Sốt tiêu đen"
+      },
+      {
+        "word": "酸菜",
+        "meaning": "Dưa cải chua"
+      }
+    ]
   }
 ]
